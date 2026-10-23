@@ -1,0 +1,95 @@
+{
+  "action_changing_exploit_authority": false,
+  "action_timing_layer_included": false,
+  "assistant_consumption_after_qualification": "byte_bound_diagnostics_adapter_only",
+  "assistant_diagnostic_outputs": [
+    "prediction",
+    "confidence",
+    "surprise",
+    "support",
+    "abstention"
+  ],
+  "assistant_installation_allowed_before_fresh_qualification": false,
+  "assistant_live_action_authority": false,
+  "assistant_recommendation_authority": false,
+  "authority": [
+    "prediction",
+    "confidence",
+    "abstention",
+    "review"
+  ],
+  "broad_shard_count_per_layer": 2,
+  "broad_train_end_utc_exclusive": "2026-08-01T00:00:00.000Z",
+  "broad_validation_end_utc_exclusive": "2026-08-16T00:00:00.000Z",
+  "candidate_count_per_layer": 256,
+  "candidate_count_per_shard": 128,
+  "candidate_internal_threads": 1,
+  "cfr_or_dcfr_dependency": false,
+  "checkpoint_rule": "publish_exact_self_hashed_result_immediately_after_each_candidate_stage",
+  "decision_utc_model_feature": false,
+  "decision_utc_use": [
+    "causal_ordering",
+    "temporal_partition_assignment"
+  ],
+  "development_cutoff_utc_exclusive": "2026-08-21T00:00:00.000Z",
+  "finalist_calibration": "freeze_on_reserved_retrospective_calibration_slice_after_refit",
+  "fresh_adjudication_requirement": "never_opened_labeled_rows_at_or_after_development_cutoff",
+  "fresh_claim_multiplicity_control": "holm_two_sided_two_claim_family",
+  "fresh_inference_cluster_unit": "game_id",
+  "layers": {
+    "hero_opponent_interaction": {
+      "eligibility": "exactly_one_visible_active_counterpart",
+      "history_cutoff": "strictly_prior_completed_hands_only",
+      "matched_main_effects_control_required": true,
+      "multiway_behavior": "abstain_without_one_exact_counterpart",
+      "qualification_strata": [
+        "known_directed_dyad",
+        "unseen_directed_dyad_with_known_players"
+      ],
+      "raw_identity_as_model_feature": false
+    },
+    "within_hand_line_surprise": {
+      "eligibility": "public_ordered_action_prefix_available",
+      "history_cutoff": "strictly_before_current_decision",
+      "observed_current_action_as_model_feature": false
+    }
+  },
+  "live_candidate_workers": "resource_aware_auto_bounded_by_logical_cpu_ram_and_unfinished_candidates",
+  "logical_lane_count": 48,
+  "minimum_independent_game_clusters_per_claim": 20,
+  "pinned_runtime_distributions": {
+    "catboost": "1.2.10",
+    "joblib": "1.5.2",
+    "lightgbm": "4.6.0",
+    "numpy": "2.2.6",
+    "pandas": "2.3.3",
+    "psutil": "7.0.0",
+    "pyarrow": "21.0.0",
+    "scikit-learn": "1.7.2",
+    "threadpoolctl": "3.6.0",
+    "xgboost": "3.3.0"
+  },
+  "prohibited_information_feature_tokens": [
+    "private_card",
+    "future_",
+    "showdown",
+    "hand_outcome",
+    "financial_",
+    "profit",
+    "net_won"
+  ],
+  "prohibited_timing_feature_tokens": [
+    "action_timing",
+    "decision_duration",
+    "decision_latency",
+    "elapsed_seconds",
+    "inter_action_time",
+    "think_time",
+    "time_to_act"
+  ],
+  "schema_version": "stage6_expanded_predictive_layers_contract_v1",
+  "self_sha256": "1fed5059bc7fb6217a73b2af025ccf124212add0f9ad628469a658f5ab3eb00f",
+  "shard_comparability": "identical_nested_hand_time_rung_row_roots_and_seeds",
+  "status": "USER_APPROVED_DEVELOPMENT_CONTRACT__FRESH_QUALIFICATION_REQUIRED",
+  "temporal_partition_unit": "whole_game_hand_by_max_decision_utc_later_role_wins"
+}

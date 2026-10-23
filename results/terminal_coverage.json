@@ -1,0 +1,15 @@
+{
+  "disposition": "HELD_NO_SUPPORTED_VALUE_SUBSET",
+  "held": 465,
+  "supported": 0,
+  "records": 465,
+  "reasons": {
+    "ambiguous_live_or_dead_missed_blind": 12,
+    "game_not_uninspected_range_holdout": 348,
+    "independent_payoff_contract_missing": 419,
+    "terminal_action_closure_unproved": 403,
+    "upstream_public_ledger_not_ready": 9,
+    "visible_active_or_dealt_count_disagreement": 11,
+    "visible_roster_stack_or_fold_disagreement": 14
+  }
+}

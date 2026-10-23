@@ -1,0 +1,268 @@
+{
+  "schema": "paper_layer_metrics_v1",
+  "evaluation": "locked retrospective unseen games",
+  "rows": 313672,
+  "game_clusters": 60,
+  "cohort_rows": {
+    "confirmation": 106318,
+    "historical_development": 198448,
+    "training_overlap": 8906
+  },
+  "minimum_decision_utc": "2026-08-21T00:00:00.580Z",
+  "maximum_decision_utc": "2026-09-03T22:13:20.852Z",
+  "layers": [
+    {
+      "layer": "joint_action_size_surprise",
+      "family": "lightgbm",
+      "candidate_id": "lightgbm-059-952c898b4f4a",
+      "iterations": 112,
+      "features": 16,
+      "fit_rows": 2220233,
+      "calibration_rows": 113228,
+      "confirmation_rows": 105924,
+      "games": 23,
+      "accuracy": 0.6281296023564065,
+      "log_loss": 0.8695095772552037,
+      "prior_log_loss": 0.8978869354490886,
+      "improvement_prior": 0.02837735819388486,
+      "interval_prior": [
+        0.019256963053522553,
+        0.036975403787553845
+      ],
+      "improvement_postflop": -0.17453556167642076,
+      "interval_postflop": [
+        -0.19202167575172485,
+        -0.16007048683367198
+      ],
+      "interval_alpha": 0.005555555555555556,
+      "brier": 0.5100800169532034,
+      "ece": 0.02398954651623962,
+      "disposition": "PREDICTION_QUALIFIED_STRATEGY_UNEVALUATED"
+    },
+    {
+      "layer": "latent_player_archetype_shrinkage",
+      "family": "xgboost",
+      "candidate_id": "xgboost-004-3ddf9836e441",
+      "iterations": 171,
+      "features": 15,
+      "fit_rows": 2220233,
+      "calibration_rows": 113228,
+      "confirmation_rows": 106175,
+      "games": 23,
+      "accuracy": 0.6282552389922298,
+      "log_loss": 0.8697962847543911,
+      "prior_log_loss": 0.8980299679980936,
+      "improvement_prior": 0.02823368324370239,
+      "interval_prior": [
+        0.019022751069570073,
+        0.03655835480518549
+      ],
+      "improvement_postflop": -0.17603663439730433,
+      "interval_postflop": [
+        -0.19363731918437826,
+        -0.16188342184314414
+      ],
+      "interval_alpha": 0.005555555555555556,
+      "brier": 0.5102478688477902,
+      "ece": 0.026891891521159856,
+      "disposition": "PREDICTION_QUALIFIED_STRATEGY_UNEVALUATED"
+    },
+    {
+      "layer": "multiway_target_response",
+      "family": "catboost",
+      "candidate_id": "catboost-022-d53e0c902ef0",
+      "iterations": 357,
+      "features": 11,
+      "fit_rows": 2220233,
+      "calibration_rows": 113228,
+      "confirmation_rows": 36358,
+      "games": 23,
+      "accuracy": 0.6572693767533968,
+      "log_loss": 0.8584455964826723,
+      "prior_log_loss": 0.8861192194225377,
+      "improvement_prior": 0.027673622939865403,
+      "interval_prior": [
+        0.022932856056735486,
+        0.03374209093435835
+      ],
+      "improvement_postflop": -0.11286105067936124,
+      "interval_postflop": [
+        -0.13293201927319725,
+        -0.0940516119801125
+      ],
+      "interval_alpha": 0.005555555555555556,
+      "brier": 0.4937638616616806,
+      "ece": 0.0192855979433713,
+      "disposition": "PREDICTION_QUALIFIED_STRATEGY_UNEVALUATED"
+    },
+    {
+      "layer": "opponent_bluff_likelihood",
+      "family": "xgboost",
+      "candidate_id": "xgboost-058-2b3071105630",
+      "iterations": 133,
+      "features": 21,
+      "fit_rows": 2220233,
+      "calibration_rows": 113228,
+      "confirmation_rows": 53794,
+      "games": 23,
+      "accuracy": 0.5940067665538907,
+      "log_loss": 0.8986390791798978,
+      "prior_log_loss": 0.9200355024190734,
+      "improvement_prior": 0.02139642323917539,
+      "interval_prior": [
+        0.012576424826921874,
+        0.030546389032820538
+      ],
+      "improvement_postflop": -0.16753424032315964,
+      "interval_postflop": [
+        -0.1814142391166178,
+        -0.15518004132209182
+      ],
+      "interval_alpha": 0.005555555555555556,
+      "brier": 0.5346549324298854,
+      "ece": 0.01071017224139409,
+      "disposition": "RETAIN_SHADOW"
+    },
+    {
+      "layer": "player_strategy_drift",
+      "family": "catboost",
+      "candidate_id": "catboost-046-51ff86504734",
+      "iterations": 252,
+      "features": 24,
+      "fit_rows": 2220233,
+      "calibration_rows": 113228,
+      "confirmation_rows": 105227,
+      "games": 23,
+      "accuracy": 0.6280802455643514,
+      "log_loss": 0.86921543447132,
+      "prior_log_loss": 0.8977227638892301,
+      "improvement_prior": 0.028507329417909903,
+      "interval_prior": [
+        0.02079741535971578,
+        0.03656084323053172
+      ],
+      "improvement_postflop": -0.17377958336971253,
+      "interval_postflop": [
+        -0.19003193586409392,
+        -0.1599055238361827
+      ],
+      "interval_alpha": 0.005555555555555556,
+      "brier": 0.5090645643750173,
+      "ece": 0.01008940222982185,
+      "disposition": "PREDICTION_QUALIFIED_STRATEGY_UNEVALUATED"
+    },
+    {
+      "layer": "postflop_behavior",
+      "family": "lightgbm",
+      "candidate_id": "postflop_behavior--lightgbm-044-260330195a5f",
+      "iterations": 453,
+      "features": 61,
+      "fit_rows": 886821,
+      "calibration_rows": 47426,
+      "confirmation_rows": 42451,
+      "games": 23,
+      "accuracy": 0.6737179336175826,
+      "log_loss": 0.6506777245425515,
+      "prior_log_loss": 0.7954735327291134,
+      "improvement_prior": 0.14479580818656193,
+      "interval_prior": [
+        0.13523706997393145,
+        0.15548234673742375
+      ],
+      "improvement_postflop": 0.0,
+      "interval_postflop": [
+        0.0,
+        0.0
+      ],
+      "interval_alpha": 0.005555555555555556,
+      "brier": 0.4135116346084728,
+      "ece": 0.010358856750502566,
+      "disposition": "PREDICTION_QUALIFIED_STRATEGY_UNEVALUATED"
+    },
+    {
+      "layer": "showdown_aware_range_calibration",
+      "family": "catboost",
+      "candidate_id": "catboost-018-a4850b7abfb7",
+      "iterations": 480,
+      "features": 9,
+      "fit_rows": 2220233,
+      "calibration_rows": 113228,
+      "confirmation_rows": 53794,
+      "games": 23,
+      "accuracy": 0.5940067665538907,
+      "log_loss": 0.9001064920445843,
+      "prior_log_loss": 0.9200355024190734,
+      "improvement_prior": 0.019929010374489096,
+      "interval_prior": [
+        0.011002338442962395,
+        0.02847351412829819
+      ],
+      "improvement_postflop": -0.17065165512400232,
+      "interval_postflop": [
+        -0.18419196585883038,
+        -0.1586243542290041
+      ],
+      "interval_alpha": 0.005555555555555556,
+      "brier": 0.5352988781270225,
+      "ece": 0.015626794503331452,
+      "disposition": "RETAIN_SHADOW"
+    },
+    {
+      "layer": "supported_fold_response_bluff_opportunity",
+      "family": "extra_trees",
+      "candidate_id": "extra_trees-013-d0acf877bfb3",
+      "iterations": 192,
+      "features": 9,
+      "fit_rows": 2220233,
+      "calibration_rows": 113228,
+      "confirmation_rows": 61241,
+      "games": 23,
+      "accuracy": 0.5940954589245767,
+      "log_loss": 0.8706035829436294,
+      "prior_log_loss": 0.9157836371899661,
+      "improvement_prior": 0.04518005424633682,
+      "interval_prior": [
+        0.03489369803172519,
+        0.05530247556882893
+      ],
+      "improvement_postflop": -0.12254960145110816,
+      "interval_postflop": [
+        -0.13301978551342014,
+        -0.112300106605051
+      ],
+      "interval_alpha": 0.005555555555555556,
+      "brier": 0.5197703270231504,
+      "ece": 0.010115319483995537,
+      "disposition": "PREDICTION_QUALIFIED_STRATEGY_UNEVALUATED"
+    },
+    {
+      "layer": "within_hand_line_surprise",
+      "family": "catboost",
+      "candidate_id": "catboost-024-16406dfd7ce2",
+      "iterations": 4181,
+      "features": 124,
+      "fit_rows": 2220233,
+      "calibration_rows": 113228,
+      "confirmation_rows": 97808,
+      "games": 23,
+      "accuracy": 0.6674709635203664,
+      "log_loss": 0.7508164788923812,
+      "prior_log_loss": 0.8950211446425348,
+      "improvement_prior": 0.14420466575015362,
+      "interval_prior": [
+        0.13029676977822913,
+        0.15727201041735892
+      ],
+      "improvement_postflop": -0.0013427401004412812,
+      "interval_postflop": [
+        -0.00450118861922046,
+        0.0029411420395734347
+      ],
+      "interval_alpha": 0.005555555555555556,
+      "brier": 0.4499496651033731,
+      "ece": 0.037915954186733686,
+      "disposition": "PREDICTION_QUALIFIED_STRATEGY_UNEVALUATED"
+    }
+  ],
+  "interpretation": "Observed-actor prediction, not Hero policy value. Support differs by comparison."
+}

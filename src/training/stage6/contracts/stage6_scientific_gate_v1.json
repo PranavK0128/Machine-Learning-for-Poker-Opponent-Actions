@@ -1,0 +1,68 @@
+{
+  "schema_version": "stage6_scientific_gate_v1",
+  "status": "PREREGISTERED_NO_CANDIDATE",
+  "promotion_default": "hold",
+  "required_panels": [
+    "future_known_player",
+    "unseen_player_cold_start",
+    "unseen_game",
+    "final_private_lockbox"
+  ],
+  "required_baselines": [
+    "class_frequency",
+    "current_qualified_artifact",
+    "deterministic_chart_or_heuristic",
+    "legal_random_or_uniform_where_semantically_valid"
+  ],
+  "required_metrics": [
+    "row_count",
+    "class_support",
+    "log_loss",
+    "multiclass_brier_score",
+    "expected_calibration_error",
+    "macro_f1",
+    "balanced_accuracy",
+    "illegal_preprojection_rate",
+    "illegal_postprojection_rate",
+    "abstention_rate",
+    "selective_risk_by_coverage",
+    "per_street_metrics",
+    "per_table_size_metrics",
+    "per_support_bucket_metrics"
+  ],
+  "hard_gates": {
+    "illegal_postprojection_count": 0,
+    "future_reveal_violation_count": 0,
+    "split_overlap_violation_count": 0,
+    "test_selection_event_count": 0,
+    "missing_input_hash_count": 0,
+    "missing_output_hash_count": 0,
+    "runtime_schema_fill_allowed": false,
+    "unknown_bet_size_bounds_must_abstain": true,
+    "independent_code_audit_pass_required": true,
+    "two_identical_candidate_inventories_required": true
+  },
+  "statistical_rule": {
+    "point_estimate_only_promotion_allowed": false,
+    "paired_identical_row_comparison_required": true,
+    "confidence_intervals_required": true,
+    "multiple_comparison_control_required_when_screening_multiple_candidates": true,
+    "test_panel_reuse_after_failed_promotion": false,
+    "confidence_interval_method": "paired_nonparametric_cluster_bootstrap_percentile",
+    "confidence_interval_cluster_identity": "game_id_plus_hand_id_or_stricter_preregistered_group",
+    "multiple_comparison_method": "holm_bonferroni"
+  },
+  "metric_definitions": {
+    "log_loss": "registered_label_order_natural_log_probability_clip_epsilon_1e-15",
+    "multiclass_brier_score": "mean_row_sum_of_squared_probability_error",
+    "expected_calibration_error": "top_label_fixed_width_15_bins",
+    "selective_risk": "classification_error_among_highest_confidence_accepted_rows",
+    "selective_risk_tie_breaker": "original_row_order",
+    "balanced_accuracy_scope": "observed_truth_classes",
+    "paired_difference_direction": "candidate_minus_baseline_lower_is_better",
+    "numeric_input_coercion_allowed": false,
+    "class_and_cluster_identity_aliases_allowed": false,
+    "balanced_accuracy_implementation": "mean_recall_over_observed_truth_classes_without_warning_based_fallback"
+  },
+  "self_sha256": "PENDING_CANDIDATE_FREEZE"
+}

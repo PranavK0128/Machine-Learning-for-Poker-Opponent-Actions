@@ -1,0 +1,165 @@
+{
+  "schema": "paper_solver_methods_v1",
+  "registry_semantic_sha256": "25e1106c4c00e9e3172abfec2426b1f0b54f930a9e21a3587693ce064006cc00",
+  "full_registry": {
+    "root_kind": {
+      "approximate": 104,
+      "forced": 8,
+      "restricted_exact": 16
+    },
+    "range_family": {
+      "uncapped": 18,
+      "bluff_heavy": 18,
+      "polarized": 15,
+      "linear": 15,
+      "equilibrium_like": 15,
+      "capped": 15,
+      "merged": 16,
+      "value_heavy": 16
+    },
+    "opponent_range_family": {
+      "equilibrium_like": 128
+    },
+    "stack_anchor_bb": {
+      "20": 32,
+      "60": 32,
+      "100": 32,
+      "150": 32
+    },
+    "action_size_family": {
+      "small_25_33pct": 18,
+      "jam": 37,
+      "overbet_125_200pct": 17,
+      "geometric": 13,
+      "pot_100pct": 28,
+      "medium_50_75pct": 15
+    }
+  },
+  "selected_corrected_roots": {
+    "root_kind": {
+      "approximate": 56,
+      "restricted_exact": 11
+    },
+    "range_family": {
+      "uncapped": 10,
+      "linear": 6,
+      "equilibrium_like": 7,
+      "capped": 13,
+      "merged": 7,
+      "polarized": 11,
+      "value_heavy": 8,
+      "bluff_heavy": 5
+    },
+    "opponent_range_family": {
+      "equilibrium_like": 67
+    },
+    "stack_anchor_bb": {
+      "20": 17,
+      "150": 18,
+      "60": 18,
+      "100": 14
+    },
+    "action_size_family": {
+      "small_25_33pct": 8,
+      "jam": 16,
+      "overbet_125_200pct": 13,
+      "geometric": 7,
+      "pot_100pct": 16,
+      "medium_50_75pct": 7
+    }
+  },
+  "planned_execution": {
+    "science_seeds": [
+      1729,
+      3253,
+      4933
+    ],
+    "approximate_base_iterations_per_tier": 60000,
+    "allowed_approximate_tiers": [
+      16,
+      32,
+      48,
+      64,
+      80,
+      96,
+      112,
+      128
+    ],
+    "default_approximate_tier": 64,
+    "checkpoint_interval_iterations": 250000,
+    "checkpoint_generations_retained_per_lane": 1,
+    "evaluation_deals_per_family_role": 1024,
+    "evaluation_panel_count": 4,
+    "crossplay_deals_per_assignment": 1024,
+    "restricted_exact_combos_per_player": 4,
+    "restricted_exact_terminal_iterations_per_lane": 256
+  },
+  "case_study": {
+    "root_id": "S1-RV-0001",
+    "selection": "illustrative completed root, not a representative sample or total compute estimate",
+    "lanes": [
+      {
+        "lane_id": "S1-RV-0001__cfr_plus__seed_1729",
+        "algorithm": "cfr_plus",
+        "seed": 1729,
+        "requested_iterations": 3840000,
+        "actual_iterations": 960000,
+        "node_count": 298152,
+        "qualified": true,
+        "stopped_early_after_qualification": true,
+        "checkpoint_interval_iterations": 250000,
+        "solver_contract_sha256": "e64b5e587adba3c7143496fa50102bcabe5286d60dd78d03cfb74f73dc73ad80",
+        "source_member": "lanes/S1-RV-0001__cfr_plus__seed_1729.json",
+        "source_member_sha256": "9c637e9e9cb24dfbba3f6bb6bfa719d0bce002192e22d54f047a37f8c1949b00"
+      },
+      {
+        "lane_id": "S1-RV-0001__cfr_plus__seed_3253",
+        "algorithm": "cfr_plus",
+        "seed": 3253,
+        "requested_iterations": 3840000,
+        "actual_iterations": 960000,
+        "node_count": 298125,
+        "qualified": true,
+        "stopped_early_after_qualification": true,
+        "checkpoint_interval_iterations": 250000,
+        "solver_contract_sha256": "e64b5e587adba3c7143496fa50102bcabe5286d60dd78d03cfb74f73dc73ad80",
+        "source_member": "lanes/S1-RV-0001__cfr_plus__seed_3253.json",
+        "source_member_sha256": "e41450aea39772b80d52900fec1f8487f60081ba3d70160e669f4ae6b44683d8"
+      },
+      {
+        "lane_id": "S1-RV-0001__dcfr__seed_1729",
+        "algorithm": "dcfr",
+        "seed": 1729,
+        "requested_iterations": 3840000,
+        "actual_iterations": 960000,
+        "node_count": 298167,
+        "qualified": true,
+        "stopped_early_after_qualification": true,
+        "checkpoint_interval_iterations": 250000,
+        "solver_contract_sha256": "e64b5e587adba3c7143496fa50102bcabe5286d60dd78d03cfb74f73dc73ad80",
+        "source_member": "lanes/S1-RV-0001__dcfr__seed_1729.json",
+        "source_member_sha256": "f531281985e91c46a588c7a74bf3375963657a93de5f6263a7eb1ab3c1bd65fa"
+      },
+      {
+        "lane_id": "S1-RV-0001__dcfr__seed_3253",
+        "algorithm": "dcfr",
+        "seed": 3253,
+        "requested_iterations": 3840000,
+        "actual_iterations": 960000,
+        "node_count": 298163,
+        "qualified": true,
+        "stopped_early_after_qualification": true,
+        "checkpoint_interval_iterations": 250000,
+        "solver_contract_sha256": "e64b5e587adba3c7143496fa50102bcabe5286d60dd78d03cfb74f73dc73ad80",
+        "source_member": "lanes/S1-RV-0001__dcfr__seed_3253.json",
+        "source_member_sha256": "7f982159eb59af87be5734adf97872b6df0b403b471657cffdde59b23dc63719"
+      }
+    ],
+    "archive_sha256": "4123492206598f07db44c4e78e0cde8154c85fb547869071d9799f6fae2cd160"
+  },
+  "limitations": [
+    "Root budgets are configured limits, not measured total compute.",
+    "Numeric labels in restricted-exact runs encode deterministic accumulation-order checks rather than independent random replications.",
+    "No verified project-wide wall-time, GPU-hour or monetary-cost total is available."
+  ]
+}

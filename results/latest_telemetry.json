@@ -1,0 +1,46 @@
+{
+  "selection": "three latest retained comparison sessions by encoded start date",
+  "sessions": [
+    {
+      "session_date": "20260927",
+      "records": 1853,
+      "assessment_status_counts": {
+        "ABSTAIN": 1853
+      },
+      "min_strategy_weight": 0,
+      "max_strategy_weight": 0,
+      "version_counts": {
+        "stage6_empirical_v2_mechanics_and_diagnostics": 1853
+      },
+      "source_sha256": "9c214a330721f55f5a124c7e19c40d8e4d0eea8c44aef375f2fc49f2883d86d4"
+    },
+    {
+      "session_date": "20261008",
+      "records": 2267,
+      "assessment_status_counts": {
+        "ABSTAIN": 2267
+      },
+      "min_strategy_weight": 0,
+      "max_strategy_weight": 0,
+      "version_counts": {
+        "stage6_empirical_v2_mechanics_and_diagnostics": 2267
+      },
+      "source_sha256": "3d634bfeacd81075defbcb3bf7edee846d56fc951294ba22ca90ba6a9f0fe30d"
+    },
+    {
+      "session_date": "20261010",
+      "records": 2719,
+      "assessment_status_counts": {
+        "ABSTAIN": 2719
+      },
+      "min_strategy_weight": 0,
+      "max_strategy_weight": 0,
+      "version_counts": {
+        "stage6_empirical_v2_mechanics_and_diagnostics": 2719
+      },
+      "source_sha256": "5c04884104e9b63aa84430df12e76f274776a616a219f3ed29091877445485b9"
+    }
+  ],
+  "total_records": 6839,
+  "interpretation": "Diagnostic telemetry; repeated records are not independent hands."
+}

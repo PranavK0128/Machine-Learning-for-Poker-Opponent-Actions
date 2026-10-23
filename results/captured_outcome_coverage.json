@@ -1,0 +1,31 @@
+{
+  "candidate_id_bound_hands": 4198,
+  "reconciled_hands": 3472,
+  "reconciled_games": 30,
+  "excluded_hands": 726,
+  "hold_reasons": {
+    "unparsed_money_event": 303,
+    "ambiguous_missed_blind": 101,
+    "table_cashflow_not_conserved": 505,
+    "missing_next_hero_stack": 58,
+    "missing_big_blind": 31,
+    "next_stack_mismatch": 88,
+    "missing_consecutive_next_hand": 27,
+    "negative_street_delta": 2,
+    "missing_hand_end": 340
+  },
+  "net_bb_reconciled_subset": 2667.165,
+  "net_chips_reconciled_subset": 2249.76,
+  "positive_hands": 398,
+  "negative_hands": 1660,
+  "zero_hands": 1414,
+  "observed_consecutive_hand_hours": 54.32561333378156,
+  "overall_bb_per_hour": null,
+  "causal_assistant_lift": null,
+  "limitations": [
+    "Selected reconciled subset; exclusions and missing exposure prevent a full-session win-rate estimate.",
+    "Hand interval includes between-hand time but excludes missing hands; not wall-clock Assistant exposure.",
+    "Recorded actions are human actions; recommendation adherence and baseline control are not established.",
+    "Bounties are included only when explicitly recorded; external payments are not observed."
+  ]
+}

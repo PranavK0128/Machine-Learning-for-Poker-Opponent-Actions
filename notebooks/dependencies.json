@@ -1,0 +1,1463 @@
+{
+  "dependencies": [
+    {
+      "notebook": "notebooks/stage6/12_Stage6_Expanded_Layer_Causal_Feature_Freeze_R5.ipynb",
+      "archive_name": "POKERNOW_ASSISTANT_STAGE6_EXPANDED_FEATURE_FREEZE_INPUTS_R5.zip",
+      "local_candidate_count": 1,
+      "distribution": "included_code_bundle",
+      "path": "notebooks/packages/POKERNOW_ASSISTANT_STAGE6_EXPANDED_FEATURE_FREEZE_INPUTS_R5.zip",
+      "sha256": "3c47557099eedee0e958e2b95edc2b131e91128db6a7e2820e2a3f6ff1ab240f",
+      "bytes": 130674
+    },
+    {
+      "notebook": "notebooks/stage6/36_Stage6_Retrospective_Nested_within_hand_line_surprise_Fold_0_R1.ipynb",
+      "archive_name": "POKERNOW_ASSISTANT_STAGE6_ADDITIONAL_EXPLOITATION_RELEASE_R21.zip",
+      "local_candidate_count": 1,
+      "distribution": "included_code_bundle",
+      "path": "notebooks/packages/POKERNOW_ASSISTANT_STAGE6_ADDITIONAL_EXPLOITATION_RELEASE_R21.zip",
+      "sha256": "c4e74aa7842d58fdd5b127be9dffff0c5b021a1b843ca7ef92cebd3dcf9c4888",
+      "bytes": 79218
+    },
+    {
+      "notebook": "notebooks/stage6/36_Stage6_Retrospective_Nested_within_hand_line_surprise_Fold_0_R1.ipynb",
+      "archive_name": "POKERNOW_ASSISTANT_STAGE6_BEHAVIOR_CHALLENGER_V2_SCIENCE_R14.zip",
+      "local_candidate_count": 1,
+      "distribution": "included_code_bundle",
+      "path": "notebooks/packages/POKERNOW_ASSISTANT_STAGE6_BEHAVIOR_CHALLENGER_V2_SCIENCE_R14.zip",
+      "sha256": "624f8a4623307b49eee4a0e2331df33485709c94a3aad2c5a731ee894a633971",
+      "bytes": 386673
+    },
+    {
+      "notebook": "notebooks/stage6/36_Stage6_Retrospective_Nested_within_hand_line_surprise_Fold_0_R1.ipynb",
+      "archive_name": "POKERNOW_ASSISTANT_STAGE6_RETROSPECTIVE_NESTED_SEARCH_R2.zip",
+      "local_candidate_count": 1,
+      "distribution": "included_code_bundle",
+      "path": "notebooks/packages/POKERNOW_ASSISTANT_STAGE6_RETROSPECTIVE_NESTED_SEARCH_R2.zip",
+      "sha256": "2c118ff3fb9dab7401851e87c2e793b32c9dd1086be2c50055cded0739fc933d",
+      "bytes": 26502
+    },
+    {
+      "notebook": "notebooks/stage6/37_Stage6_Retrospective_Nested_within_hand_line_surprise_Fold_1_R1.ipynb",
+      "archive_name": "POKERNOW_ASSISTANT_STAGE6_ADDITIONAL_EXPLOITATION_RELEASE_R21.zip",
+      "local_candidate_count": 1,
+      "distribution": "included_code_bundle",
+      "path": "notebooks/packages/POKERNOW_ASSISTANT_STAGE6_ADDITIONAL_EXPLOITATION_RELEASE_R21.zip",
+      "sha256": "c4e74aa7842d58fdd5b127be9dffff0c5b021a1b843ca7ef92cebd3dcf9c4888",
+      "bytes": 79218
+    },
+    {
+      "notebook": "notebooks/stage6/37_Stage6_Retrospective_Nested_within_hand_line_surprise_Fold_1_R1.ipynb",
+      "archive_name": "POKERNOW_ASSISTANT_STAGE6_BEHAVIOR_CHALLENGER_V2_SCIENCE_R14.zip",
+      "local_candidate_count": 1,
+      "distribution": "included_code_bundle",
+      "path": "notebooks/packages/POKERNOW_ASSISTANT_STAGE6_BEHAVIOR_CHALLENGER_V2_SCIENCE_R14.zip",
+      "sha256": "624f8a4623307b49eee4a0e2331df33485709c94a3aad2c5a731ee894a633971",
+      "bytes": 386673
+    },
+    {
+      "notebook": "notebooks/stage6/37_Stage6_Retrospective_Nested_within_hand_line_surprise_Fold_1_R1.ipynb",
+      "archive_name": "POKERNOW_ASSISTANT_STAGE6_RETROSPECTIVE_NESTED_SEARCH_R2.zip",
+      "local_candidate_count": 1,
+      "distribution": "included_code_bundle",
+      "path": "notebooks/packages/POKERNOW_ASSISTANT_STAGE6_RETROSPECTIVE_NESTED_SEARCH_R2.zip",
+      "sha256": "2c118ff3fb9dab7401851e87c2e793b32c9dd1086be2c50055cded0739fc933d",
+      "bytes": 26502
+    },
+    {
+      "notebook": "notebooks/stage6/38_Stage6_Retrospective_Nested_within_hand_line_surprise_Fold_2_R1.ipynb",
+      "archive_name": "POKERNOW_ASSISTANT_STAGE6_ADDITIONAL_EXPLOITATION_RELEASE_R21.zip",
+      "local_candidate_count": 1,
+      "distribution": "included_code_bundle",
+      "path": "notebooks/packages/POKERNOW_ASSISTANT_STAGE6_ADDITIONAL_EXPLOITATION_RELEASE_R21.zip",
+      "sha256": "c4e74aa7842d58fdd5b127be9dffff0c5b021a1b843ca7ef92cebd3dcf9c4888",
+      "bytes": 79218
+    },
+    {
+      "notebook": "notebooks/stage6/38_Stage6_Retrospective_Nested_within_hand_line_surprise_Fold_2_R1.ipynb",
+      "archive_name": "POKERNOW_ASSISTANT_STAGE6_BEHAVIOR_CHALLENGER_V2_SCIENCE_R14.zip",
+      "local_candidate_count": 1,
+      "distribution": "included_code_bundle",
+      "path": "notebooks/packages/POKERNOW_ASSISTANT_STAGE6_BEHAVIOR_CHALLENGER_V2_SCIENCE_R14.zip",
+      "sha256": "624f8a4623307b49eee4a0e2331df33485709c94a3aad2c5a731ee894a633971",
+      "bytes": 386673
+    },
+    {
+      "notebook": "notebooks/stage6/38_Stage6_Retrospective_Nested_within_hand_line_surprise_Fold_2_R1.ipynb",
+      "archive_name": "POKERNOW_ASSISTANT_STAGE6_RETROSPECTIVE_NESTED_SEARCH_R2.zip",
+      "local_candidate_count": 1,
+      "distribution": "included_code_bundle",
+      "path": "notebooks/packages/POKERNOW_ASSISTANT_STAGE6_RETROSPECTIVE_NESTED_SEARCH_R2.zip",
+      "sha256": "2c118ff3fb9dab7401851e87c2e793b32c9dd1086be2c50055cded0739fc933d",
+      "bytes": 26502
+    },
+    {
+      "notebook": "notebooks/stage6/39_Stage6_Retrospective_Nested_within_hand_line_surprise_Fold_3_R1.ipynb",
+      "archive_name": "POKERNOW_ASSISTANT_STAGE6_ADDITIONAL_EXPLOITATION_RELEASE_R21.zip",
+      "local_candidate_count": 1,
+      "distribution": "included_code_bundle",
+      "path": "notebooks/packages/POKERNOW_ASSISTANT_STAGE6_ADDITIONAL_EXPLOITATION_RELEASE_R21.zip",
+      "sha256": "c4e74aa7842d58fdd5b127be9dffff0c5b021a1b843ca7ef92cebd3dcf9c4888",
+      "bytes": 79218
+    },
+    {
+      "notebook": "notebooks/stage6/39_Stage6_Retrospective_Nested_within_hand_line_surprise_Fold_3_R1.ipynb",
+      "archive_name": "POKERNOW_ASSISTANT_STAGE6_BEHAVIOR_CHALLENGER_V2_SCIENCE_R14.zip",
+      "local_candidate_count": 1,
+      "distribution": "included_code_bundle",
+      "path": "notebooks/packages/POKERNOW_ASSISTANT_STAGE6_BEHAVIOR_CHALLENGER_V2_SCIENCE_R14.zip",
+      "sha256": "624f8a4623307b49eee4a0e2331df33485709c94a3aad2c5a731ee894a633971",
+      "bytes": 386673
+    },
+    {
+      "notebook": "notebooks/stage6/39_Stage6_Retrospective_Nested_within_hand_line_surprise_Fold_3_R1.ipynb",
+      "archive_name": "POKERNOW_ASSISTANT_STAGE6_RETROSPECTIVE_NESTED_SEARCH_R2.zip",
+      "local_candidate_count": 1,
+      "distribution": "included_code_bundle",
+      "path": "notebooks/packages/POKERNOW_ASSISTANT_STAGE6_RETROSPECTIVE_NESTED_SEARCH_R2.zip",
+      "sha256": "2c118ff3fb9dab7401851e87c2e793b32c9dd1086be2c50055cded0739fc933d",
+      "bytes": 26502
+    },
+    {
+      "notebook": "notebooks/stage6/40_Stage6_Retrospective_Nested_within_hand_line_surprise_Fold_4_Runtime_Resume_R3.ipynb",
+      "archive_name": "POKERNOW_ASSISTANT_STAGE6_ADDITIONAL_EXPLOITATION_RELEASE_R21.zip",
+      "local_candidate_count": 1,
+      "distribution": "included_code_bundle",
+      "path": "notebooks/packages/POKERNOW_ASSISTANT_STAGE6_ADDITIONAL_EXPLOITATION_RELEASE_R21.zip",
+      "sha256": "c4e74aa7842d58fdd5b127be9dffff0c5b021a1b843ca7ef92cebd3dcf9c4888",
+      "bytes": 79218
+    },
+    {
+      "notebook": "notebooks/stage6/40_Stage6_Retrospective_Nested_within_hand_line_surprise_Fold_4_Runtime_Resume_R3.ipynb",
+      "archive_name": "POKERNOW_ASSISTANT_STAGE6_BEHAVIOR_CHALLENGER_V2_SCIENCE_R14.zip",
+      "local_candidate_count": 1,
+      "distribution": "included_code_bundle",
+      "path": "notebooks/packages/POKERNOW_ASSISTANT_STAGE6_BEHAVIOR_CHALLENGER_V2_SCIENCE_R14.zip",
+      "sha256": "624f8a4623307b49eee4a0e2331df33485709c94a3aad2c5a731ee894a633971",
+      "bytes": 386673
+    },
+    {
+      "notebook": "notebooks/stage6/40_Stage6_Retrospective_Nested_within_hand_line_surprise_Fold_4_Runtime_Resume_R3.ipynb",
+      "archive_name": "POKERNOW_ASSISTANT_STAGE6_RETROSPECTIVE_NESTED_SEARCH_R3.zip",
+      "local_candidate_count": 1,
+      "distribution": "included_code_bundle",
+      "path": "notebooks/packages/POKERNOW_ASSISTANT_STAGE6_RETROSPECTIVE_NESTED_SEARCH_R3.zip",
+      "sha256": "acead4834b62011fc45d1285c7d21628d0a4ca96872afad995f9f4d4149ea0fa",
+      "bytes": 28395
+    },
+    {
+      "notebook": "notebooks/stage6/46_Stage6_Retrospective_Nested_postflop_behavior_Fold_0_R1.ipynb",
+      "archive_name": "POKERNOW_ASSISTANT_STAGE6_ADDITIONAL_EXPLOITATION_RELEASE_R21.zip",
+      "local_candidate_count": 1,
+      "distribution": "included_code_bundle",
+      "path": "notebooks/packages/POKERNOW_ASSISTANT_STAGE6_ADDITIONAL_EXPLOITATION_RELEASE_R21.zip",
+      "sha256": "c4e74aa7842d58fdd5b127be9dffff0c5b021a1b843ca7ef92cebd3dcf9c4888",
+      "bytes": 79218
+    },
+    {
+      "notebook": "notebooks/stage6/46_Stage6_Retrospective_Nested_postflop_behavior_Fold_0_R1.ipynb",
+      "archive_name": "POKERNOW_ASSISTANT_STAGE6_BEHAVIOR_CHALLENGER_V2_SCIENCE_R14.zip",
+      "local_candidate_count": 1,
+      "distribution": "included_code_bundle",
+      "path": "notebooks/packages/POKERNOW_ASSISTANT_STAGE6_BEHAVIOR_CHALLENGER_V2_SCIENCE_R14.zip",
+      "sha256": "624f8a4623307b49eee4a0e2331df33485709c94a3aad2c5a731ee894a633971",
+      "bytes": 386673
+    },
+    {
+      "notebook": "notebooks/stage6/46_Stage6_Retrospective_Nested_postflop_behavior_Fold_0_R1.ipynb",
+      "archive_name": "POKERNOW_ASSISTANT_STAGE6_RETROSPECTIVE_NESTED_SEARCH_R2.zip",
+      "local_candidate_count": 1,
+      "distribution": "included_code_bundle",
+      "path": "notebooks/packages/POKERNOW_ASSISTANT_STAGE6_RETROSPECTIVE_NESTED_SEARCH_R2.zip",
+      "sha256": "2c118ff3fb9dab7401851e87c2e793b32c9dd1086be2c50055cded0739fc933d",
+      "bytes": 26502
+    },
+    {
+      "notebook": "notebooks/stage6/47_Stage6_Retrospective_Nested_postflop_behavior_Fold_1_R1.ipynb",
+      "archive_name": "POKERNOW_ASSISTANT_STAGE6_ADDITIONAL_EXPLOITATION_RELEASE_R21.zip",
+      "local_candidate_count": 1,
+      "distribution": "included_code_bundle",
+      "path": "notebooks/packages/POKERNOW_ASSISTANT_STAGE6_ADDITIONAL_EXPLOITATION_RELEASE_R21.zip",
+      "sha256": "c4e74aa7842d58fdd5b127be9dffff0c5b021a1b843ca7ef92cebd3dcf9c4888",
+      "bytes": 79218
+    },
+    {
+      "notebook": "notebooks/stage6/47_Stage6_Retrospective_Nested_postflop_behavior_Fold_1_R1.ipynb",
+      "archive_name": "POKERNOW_ASSISTANT_STAGE6_BEHAVIOR_CHALLENGER_V2_SCIENCE_R14.zip",
+      "local_candidate_count": 1,
+      "distribution": "included_code_bundle",
+      "path": "notebooks/packages/POKERNOW_ASSISTANT_STAGE6_BEHAVIOR_CHALLENGER_V2_SCIENCE_R14.zip",
+      "sha256": "624f8a4623307b49eee4a0e2331df33485709c94a3aad2c5a731ee894a633971",
+      "bytes": 386673
+    },
+    {
+      "notebook": "notebooks/stage6/47_Stage6_Retrospective_Nested_postflop_behavior_Fold_1_R1.ipynb",
+      "archive_name": "POKERNOW_ASSISTANT_STAGE6_RETROSPECTIVE_NESTED_SEARCH_R2.zip",
+      "local_candidate_count": 1,
+      "distribution": "included_code_bundle",
+      "path": "notebooks/packages/POKERNOW_ASSISTANT_STAGE6_RETROSPECTIVE_NESTED_SEARCH_R2.zip",
+      "sha256": "2c118ff3fb9dab7401851e87c2e793b32c9dd1086be2c50055cded0739fc933d",
+      "bytes": 26502
+    },
+    {
+      "notebook": "notebooks/stage6/48_Stage6_Retrospective_Nested_postflop_behavior_Fold_2_R1.ipynb",
+      "archive_name": "POKERNOW_ASSISTANT_STAGE6_ADDITIONAL_EXPLOITATION_RELEASE_R21.zip",
+      "local_candidate_count": 1,
+      "distribution": "included_code_bundle",
+      "path": "notebooks/packages/POKERNOW_ASSISTANT_STAGE6_ADDITIONAL_EXPLOITATION_RELEASE_R21.zip",
+      "sha256": "c4e74aa7842d58fdd5b127be9dffff0c5b021a1b843ca7ef92cebd3dcf9c4888",
+      "bytes": 79218
+    },
+    {
+      "notebook": "notebooks/stage6/48_Stage6_Retrospective_Nested_postflop_behavior_Fold_2_R1.ipynb",
+      "archive_name": "POKERNOW_ASSISTANT_STAGE6_BEHAVIOR_CHALLENGER_V2_SCIENCE_R14.zip",
+      "local_candidate_count": 1,
+      "distribution": "included_code_bundle",
+      "path": "notebooks/packages/POKERNOW_ASSISTANT_STAGE6_BEHAVIOR_CHALLENGER_V2_SCIENCE_R14.zip",
+      "sha256": "624f8a4623307b49eee4a0e2331df33485709c94a3aad2c5a731ee894a633971",
+      "bytes": 386673
+    },
+    {
+      "notebook": "notebooks/stage6/48_Stage6_Retrospective_Nested_postflop_behavior_Fold_2_R1.ipynb",
+      "archive_name": "POKERNOW_ASSISTANT_STAGE6_RETROSPECTIVE_NESTED_SEARCH_R2.zip",
+      "local_candidate_count": 1,
+      "distribution": "included_code_bundle",
+      "path": "notebooks/packages/POKERNOW_ASSISTANT_STAGE6_RETROSPECTIVE_NESTED_SEARCH_R2.zip",
+      "sha256": "2c118ff3fb9dab7401851e87c2e793b32c9dd1086be2c50055cded0739fc933d",
+      "bytes": 26502
+    },
+    {
+      "notebook": "notebooks/stage6/49_Stage6_Retrospective_Nested_postflop_behavior_Fold_3_R1.ipynb",
+      "archive_name": "POKERNOW_ASSISTANT_STAGE6_ADDITIONAL_EXPLOITATION_RELEASE_R21.zip",
+      "local_candidate_count": 1,
+      "distribution": "included_code_bundle",
+      "path": "notebooks/packages/POKERNOW_ASSISTANT_STAGE6_ADDITIONAL_EXPLOITATION_RELEASE_R21.zip",
+      "sha256": "c4e74aa7842d58fdd5b127be9dffff0c5b021a1b843ca7ef92cebd3dcf9c4888",
+      "bytes": 79218
+    },
+    {
+      "notebook": "notebooks/stage6/49_Stage6_Retrospective_Nested_postflop_behavior_Fold_3_R1.ipynb",
+      "archive_name": "POKERNOW_ASSISTANT_STAGE6_BEHAVIOR_CHALLENGER_V2_SCIENCE_R14.zip",
+      "local_candidate_count": 1,
+      "distribution": "included_code_bundle",
+      "path": "notebooks/packages/POKERNOW_ASSISTANT_STAGE6_BEHAVIOR_CHALLENGER_V2_SCIENCE_R14.zip",
+      "sha256": "624f8a4623307b49eee4a0e2331df33485709c94a3aad2c5a731ee894a633971",
+      "bytes": 386673
+    },
+    {
+      "notebook": "notebooks/stage6/49_Stage6_Retrospective_Nested_postflop_behavior_Fold_3_R1.ipynb",
+      "archive_name": "POKERNOW_ASSISTANT_STAGE6_RETROSPECTIVE_NESTED_SEARCH_R2.zip",
+      "local_candidate_count": 1,
+      "distribution": "included_code_bundle",
+      "path": "notebooks/packages/POKERNOW_ASSISTANT_STAGE6_RETROSPECTIVE_NESTED_SEARCH_R2.zip",
+      "sha256": "2c118ff3fb9dab7401851e87c2e793b32c9dd1086be2c50055cded0739fc933d",
+      "bytes": 26502
+    },
+    {
+      "notebook": "notebooks/stage6/50_Stage6_Retrospective_Nested_postflop_behavior_Fold_4_R1.ipynb",
+      "archive_name": "POKERNOW_ASSISTANT_STAGE6_ADDITIONAL_EXPLOITATION_RELEASE_R21.zip",
+      "local_candidate_count": 1,
+      "distribution": "included_code_bundle",
+      "path": "notebooks/packages/POKERNOW_ASSISTANT_STAGE6_ADDITIONAL_EXPLOITATION_RELEASE_R21.zip",
+      "sha256": "c4e74aa7842d58fdd5b127be9dffff0c5b021a1b843ca7ef92cebd3dcf9c4888",
+      "bytes": 79218
+    },
+    {
+      "notebook": "notebooks/stage6/50_Stage6_Retrospective_Nested_postflop_behavior_Fold_4_R1.ipynb",
+      "archive_name": "POKERNOW_ASSISTANT_STAGE6_BEHAVIOR_CHALLENGER_V2_SCIENCE_R14.zip",
+      "local_candidate_count": 1,
+      "distribution": "included_code_bundle",
+      "path": "notebooks/packages/POKERNOW_ASSISTANT_STAGE6_BEHAVIOR_CHALLENGER_V2_SCIENCE_R14.zip",
+      "sha256": "624f8a4623307b49eee4a0e2331df33485709c94a3aad2c5a731ee894a633971",
+      "bytes": 386673
+    },
+    {
+      "notebook": "notebooks/stage6/50_Stage6_Retrospective_Nested_postflop_behavior_Fold_4_R1.ipynb",
+      "archive_name": "POKERNOW_ASSISTANT_STAGE6_RETROSPECTIVE_NESTED_SEARCH_R2.zip",
+      "local_candidate_count": 1,
+      "distribution": "included_code_bundle",
+      "path": "notebooks/packages/POKERNOW_ASSISTANT_STAGE6_RETROSPECTIVE_NESTED_SEARCH_R2.zip",
+      "sha256": "2c118ff3fb9dab7401851e87c2e793b32c9dd1086be2c50055cded0739fc933d",
+      "bytes": 26502
+    },
+    {
+      "notebook": "notebooks/stage6/51_Stage6_Retrospective_Nested_joint_action_size_surprise_Fold_0_Runtime_Resume_R3.ipynb",
+      "archive_name": "POKERNOW_ASSISTANT_STAGE6_ADDITIONAL_EXPLOITATION_RELEASE_R21.zip",
+      "local_candidate_count": 1,
+      "distribution": "included_code_bundle",
+      "path": "notebooks/packages/POKERNOW_ASSISTANT_STAGE6_ADDITIONAL_EXPLOITATION_RELEASE_R21.zip",
+      "sha256": "c4e74aa7842d58fdd5b127be9dffff0c5b021a1b843ca7ef92cebd3dcf9c4888",
+      "bytes": 79218
+    },
+    {
+      "notebook": "notebooks/stage6/51_Stage6_Retrospective_Nested_joint_action_size_surprise_Fold_0_Runtime_Resume_R3.ipynb",
+      "archive_name": "POKERNOW_ASSISTANT_STAGE6_BEHAVIOR_CHALLENGER_V2_SCIENCE_R14.zip",
+      "local_candidate_count": 1,
+      "distribution": "included_code_bundle",
+      "path": "notebooks/packages/POKERNOW_ASSISTANT_STAGE6_BEHAVIOR_CHALLENGER_V2_SCIENCE_R14.zip",
+      "sha256": "624f8a4623307b49eee4a0e2331df33485709c94a3aad2c5a731ee894a633971",
+      "bytes": 386673
+    },
+    {
+      "notebook": "notebooks/stage6/51_Stage6_Retrospective_Nested_joint_action_size_surprise_Fold_0_Runtime_Resume_R3.ipynb",
+      "archive_name": "POKERNOW_ASSISTANT_STAGE6_RETROSPECTIVE_NESTED_SEARCH_R3.zip",
+      "local_candidate_count": 1,
+      "distribution": "included_code_bundle",
+      "path": "notebooks/packages/POKERNOW_ASSISTANT_STAGE6_RETROSPECTIVE_NESTED_SEARCH_R3.zip",
+      "sha256": "acead4834b62011fc45d1285c7d21628d0a4ca96872afad995f9f4d4149ea0fa",
+      "bytes": 28395
+    },
+    {
+      "notebook": "notebooks/stage6/52_Stage6_Retrospective_Nested_joint_action_size_surprise_Fold_1_R1.ipynb",
+      "archive_name": "POKERNOW_ASSISTANT_STAGE6_ADDITIONAL_EXPLOITATION_RELEASE_R21.zip",
+      "local_candidate_count": 1,
+      "distribution": "included_code_bundle",
+      "path": "notebooks/packages/POKERNOW_ASSISTANT_STAGE6_ADDITIONAL_EXPLOITATION_RELEASE_R21.zip",
+      "sha256": "c4e74aa7842d58fdd5b127be9dffff0c5b021a1b843ca7ef92cebd3dcf9c4888",
+      "bytes": 79218
+    },
+    {
+      "notebook": "notebooks/stage6/52_Stage6_Retrospective_Nested_joint_action_size_surprise_Fold_1_R1.ipynb",
+      "archive_name": "POKERNOW_ASSISTANT_STAGE6_BEHAVIOR_CHALLENGER_V2_SCIENCE_R14.zip",
+      "local_candidate_count": 1,
+      "distribution": "included_code_bundle",
+      "path": "notebooks/packages/POKERNOW_ASSISTANT_STAGE6_BEHAVIOR_CHALLENGER_V2_SCIENCE_R14.zip",
+      "sha256": "624f8a4623307b49eee4a0e2331df33485709c94a3aad2c5a731ee894a633971",
+      "bytes": 386673
+    },
+    {
+      "notebook": "notebooks/stage6/52_Stage6_Retrospective_Nested_joint_action_size_surprise_Fold_1_R1.ipynb",
+      "archive_name": "POKERNOW_ASSISTANT_STAGE6_RETROSPECTIVE_NESTED_SEARCH_R2.zip",
+      "local_candidate_count": 1,
+      "distribution": "included_code_bundle",
+      "path": "notebooks/packages/POKERNOW_ASSISTANT_STAGE6_RETROSPECTIVE_NESTED_SEARCH_R2.zip",
+      "sha256": "2c118ff3fb9dab7401851e87c2e793b32c9dd1086be2c50055cded0739fc933d",
+      "bytes": 26502
+    },
+    {
+      "notebook": "notebooks/stage6/53_Stage6_Retrospective_Nested_joint_action_size_surprise_Fold_2_R1.ipynb",
+      "archive_name": "POKERNOW_ASSISTANT_STAGE6_ADDITIONAL_EXPLOITATION_RELEASE_R21.zip",
+      "local_candidate_count": 1,
+      "distribution": "included_code_bundle",
+      "path": "notebooks/packages/POKERNOW_ASSISTANT_STAGE6_ADDITIONAL_EXPLOITATION_RELEASE_R21.zip",
+      "sha256": "c4e74aa7842d58fdd5b127be9dffff0c5b021a1b843ca7ef92cebd3dcf9c4888",
+      "bytes": 79218
+    },
+    {
+      "notebook": "notebooks/stage6/53_Stage6_Retrospective_Nested_joint_action_size_surprise_Fold_2_R1.ipynb",
+      "archive_name": "POKERNOW_ASSISTANT_STAGE6_BEHAVIOR_CHALLENGER_V2_SCIENCE_R14.zip",
+      "local_candidate_count": 1,
+      "distribution": "included_code_bundle",
+      "path": "notebooks/packages/POKERNOW_ASSISTANT_STAGE6_BEHAVIOR_CHALLENGER_V2_SCIENCE_R14.zip",
+      "sha256": "624f8a4623307b49eee4a0e2331df33485709c94a3aad2c5a731ee894a633971",
+      "bytes": 386673
+    },
+    {
+      "notebook": "notebooks/stage6/53_Stage6_Retrospective_Nested_joint_action_size_surprise_Fold_2_R1.ipynb",
+      "archive_name": "POKERNOW_ASSISTANT_STAGE6_RETROSPECTIVE_NESTED_SEARCH_R2.zip",
+      "local_candidate_count": 1,
+      "distribution": "included_code_bundle",
+      "path": "notebooks/packages/POKERNOW_ASSISTANT_STAGE6_RETROSPECTIVE_NESTED_SEARCH_R2.zip",
+      "sha256": "2c118ff3fb9dab7401851e87c2e793b32c9dd1086be2c50055cded0739fc933d",
+      "bytes": 26502
+    },
+    {
+      "notebook": "notebooks/stage6/54_Stage6_Retrospective_Nested_joint_action_size_surprise_Fold_3_R1.ipynb",
+      "archive_name": "POKERNOW_ASSISTANT_STAGE6_ADDITIONAL_EXPLOITATION_RELEASE_R21.zip",
+      "local_candidate_count": 1,
+      "distribution": "included_code_bundle",
+      "path": "notebooks/packages/POKERNOW_ASSISTANT_STAGE6_ADDITIONAL_EXPLOITATION_RELEASE_R21.zip",
+      "sha256": "c4e74aa7842d58fdd5b127be9dffff0c5b021a1b843ca7ef92cebd3dcf9c4888",
+      "bytes": 79218
+    },
+    {
+      "notebook": "notebooks/stage6/54_Stage6_Retrospective_Nested_joint_action_size_surprise_Fold_3_R1.ipynb",
+      "archive_name": "POKERNOW_ASSISTANT_STAGE6_BEHAVIOR_CHALLENGER_V2_SCIENCE_R14.zip",
+      "local_candidate_count": 1,
+      "distribution": "included_code_bundle",
+      "path": "notebooks/packages/POKERNOW_ASSISTANT_STAGE6_BEHAVIOR_CHALLENGER_V2_SCIENCE_R14.zip",
+      "sha256": "624f8a4623307b49eee4a0e2331df33485709c94a3aad2c5a731ee894a633971",
+      "bytes": 386673
+    },
+    {
+      "notebook": "notebooks/stage6/54_Stage6_Retrospective_Nested_joint_action_size_surprise_Fold_3_R1.ipynb",
+      "archive_name": "POKERNOW_ASSISTANT_STAGE6_RETROSPECTIVE_NESTED_SEARCH_R2.zip",
+      "local_candidate_count": 1,
+      "distribution": "included_code_bundle",
+      "path": "notebooks/packages/POKERNOW_ASSISTANT_STAGE6_RETROSPECTIVE_NESTED_SEARCH_R2.zip",
+      "sha256": "2c118ff3fb9dab7401851e87c2e793b32c9dd1086be2c50055cded0739fc933d",
+      "bytes": 26502
+    },
+    {
+      "notebook": "notebooks/stage6/55_Stage6_Retrospective_Nested_joint_action_size_surprise_Fold_4_R1.ipynb",
+      "archive_name": "POKERNOW_ASSISTANT_STAGE6_ADDITIONAL_EXPLOITATION_RELEASE_R21.zip",
+      "local_candidate_count": 1,
+      "distribution": "included_code_bundle",
+      "path": "notebooks/packages/POKERNOW_ASSISTANT_STAGE6_ADDITIONAL_EXPLOITATION_RELEASE_R21.zip",
+      "sha256": "c4e74aa7842d58fdd5b127be9dffff0c5b021a1b843ca7ef92cebd3dcf9c4888",
+      "bytes": 79218
+    },
+    {
+      "notebook": "notebooks/stage6/55_Stage6_Retrospective_Nested_joint_action_size_surprise_Fold_4_R1.ipynb",
+      "archive_name": "POKERNOW_ASSISTANT_STAGE6_BEHAVIOR_CHALLENGER_V2_SCIENCE_R14.zip",
+      "local_candidate_count": 1,
+      "distribution": "included_code_bundle",
+      "path": "notebooks/packages/POKERNOW_ASSISTANT_STAGE6_BEHAVIOR_CHALLENGER_V2_SCIENCE_R14.zip",
+      "sha256": "624f8a4623307b49eee4a0e2331df33485709c94a3aad2c5a731ee894a633971",
+      "bytes": 386673
+    },
+    {
+      "notebook": "notebooks/stage6/55_Stage6_Retrospective_Nested_joint_action_size_surprise_Fold_4_R1.ipynb",
+      "archive_name": "POKERNOW_ASSISTANT_STAGE6_RETROSPECTIVE_NESTED_SEARCH_R2.zip",
+      "local_candidate_count": 1,
+      "distribution": "included_code_bundle",
+      "path": "notebooks/packages/POKERNOW_ASSISTANT_STAGE6_RETROSPECTIVE_NESTED_SEARCH_R2.zip",
+      "sha256": "2c118ff3fb9dab7401851e87c2e793b32c9dd1086be2c50055cded0739fc933d",
+      "bytes": 26502
+    },
+    {
+      "notebook": "notebooks/stage6/56_Stage6_Retrospective_Nested_latent_player_archetype_shrinkage_Fold_0_R1.ipynb",
+      "archive_name": "POKERNOW_ASSISTANT_STAGE6_ADDITIONAL_EXPLOITATION_RELEASE_R21.zip",
+      "local_candidate_count": 1,
+      "distribution": "included_code_bundle",
+      "path": "notebooks/packages/POKERNOW_ASSISTANT_STAGE6_ADDITIONAL_EXPLOITATION_RELEASE_R21.zip",
+      "sha256": "c4e74aa7842d58fdd5b127be9dffff0c5b021a1b843ca7ef92cebd3dcf9c4888",
+      "bytes": 79218
+    },
+    {
+      "notebook": "notebooks/stage6/56_Stage6_Retrospective_Nested_latent_player_archetype_shrinkage_Fold_0_R1.ipynb",
+      "archive_name": "POKERNOW_ASSISTANT_STAGE6_BEHAVIOR_CHALLENGER_V2_SCIENCE_R14.zip",
+      "local_candidate_count": 1,
+      "distribution": "included_code_bundle",
+      "path": "notebooks/packages/POKERNOW_ASSISTANT_STAGE6_BEHAVIOR_CHALLENGER_V2_SCIENCE_R14.zip",
+      "sha256": "624f8a4623307b49eee4a0e2331df33485709c94a3aad2c5a731ee894a633971",
+      "bytes": 386673
+    },
+    {
+      "notebook": "notebooks/stage6/56_Stage6_Retrospective_Nested_latent_player_archetype_shrinkage_Fold_0_R1.ipynb",
+      "archive_name": "POKERNOW_ASSISTANT_STAGE6_RETROSPECTIVE_NESTED_SEARCH_R2.zip",
+      "local_candidate_count": 1,
+      "distribution": "included_code_bundle",
+      "path": "notebooks/packages/POKERNOW_ASSISTANT_STAGE6_RETROSPECTIVE_NESTED_SEARCH_R2.zip",
+      "sha256": "2c118ff3fb9dab7401851e87c2e793b32c9dd1086be2c50055cded0739fc933d",
+      "bytes": 26502
+    },
+    {
+      "notebook": "notebooks/stage6/57_Stage6_Retrospective_Nested_latent_player_archetype_shrinkage_Fold_1_R1.ipynb",
+      "archive_name": "POKERNOW_ASSISTANT_STAGE6_ADDITIONAL_EXPLOITATION_RELEASE_R21.zip",
+      "local_candidate_count": 1,
+      "distribution": "included_code_bundle",
+      "path": "notebooks/packages/POKERNOW_ASSISTANT_STAGE6_ADDITIONAL_EXPLOITATION_RELEASE_R21.zip",
+      "sha256": "c4e74aa7842d58fdd5b127be9dffff0c5b021a1b843ca7ef92cebd3dcf9c4888",
+      "bytes": 79218
+    },
+    {
+      "notebook": "notebooks/stage6/57_Stage6_Retrospective_Nested_latent_player_archetype_shrinkage_Fold_1_R1.ipynb",
+      "archive_name": "POKERNOW_ASSISTANT_STAGE6_BEHAVIOR_CHALLENGER_V2_SCIENCE_R14.zip",
+      "local_candidate_count": 1,
+      "distribution": "included_code_bundle",
+      "path": "notebooks/packages/POKERNOW_ASSISTANT_STAGE6_BEHAVIOR_CHALLENGER_V2_SCIENCE_R14.zip",
+      "sha256": "624f8a4623307b49eee4a0e2331df33485709c94a3aad2c5a731ee894a633971",
+      "bytes": 386673
+    },
+    {
+      "notebook": "notebooks/stage6/57_Stage6_Retrospective_Nested_latent_player_archetype_shrinkage_Fold_1_R1.ipynb",
+      "archive_name": "POKERNOW_ASSISTANT_STAGE6_RETROSPECTIVE_NESTED_SEARCH_R2.zip",
+      "local_candidate_count": 1,
+      "distribution": "included_code_bundle",
+      "path": "notebooks/packages/POKERNOW_ASSISTANT_STAGE6_RETROSPECTIVE_NESTED_SEARCH_R2.zip",
+      "sha256": "2c118ff3fb9dab7401851e87c2e793b32c9dd1086be2c50055cded0739fc933d",
+      "bytes": 26502
+    },
+    {
+      "notebook": "notebooks/stage6/58_Stage6_Retrospective_Nested_latent_player_archetype_shrinkage_Fold_2_R1.ipynb",
+      "archive_name": "POKERNOW_ASSISTANT_STAGE6_ADDITIONAL_EXPLOITATION_RELEASE_R21.zip",
+      "local_candidate_count": 1,
+      "distribution": "included_code_bundle",
+      "path": "notebooks/packages/POKERNOW_ASSISTANT_STAGE6_ADDITIONAL_EXPLOITATION_RELEASE_R21.zip",
+      "sha256": "c4e74aa7842d58fdd5b127be9dffff0c5b021a1b843ca7ef92cebd3dcf9c4888",
+      "bytes": 79218
+    },
+    {
+      "notebook": "notebooks/stage6/58_Stage6_Retrospective_Nested_latent_player_archetype_shrinkage_Fold_2_R1.ipynb",
+      "archive_name": "POKERNOW_ASSISTANT_STAGE6_BEHAVIOR_CHALLENGER_V2_SCIENCE_R14.zip",
+      "local_candidate_count": 1,
+      "distribution": "included_code_bundle",
+      "path": "notebooks/packages/POKERNOW_ASSISTANT_STAGE6_BEHAVIOR_CHALLENGER_V2_SCIENCE_R14.zip",
+      "sha256": "624f8a4623307b49eee4a0e2331df33485709c94a3aad2c5a731ee894a633971",
+      "bytes": 386673
+    },
+    {
+      "notebook": "notebooks/stage6/58_Stage6_Retrospective_Nested_latent_player_archetype_shrinkage_Fold_2_R1.ipynb",
+      "archive_name": "POKERNOW_ASSISTANT_STAGE6_RETROSPECTIVE_NESTED_SEARCH_R2.zip",
+      "local_candidate_count": 1,
+      "distribution": "included_code_bundle",
+      "path": "notebooks/packages/POKERNOW_ASSISTANT_STAGE6_RETROSPECTIVE_NESTED_SEARCH_R2.zip",
+      "sha256": "2c118ff3fb9dab7401851e87c2e793b32c9dd1086be2c50055cded0739fc933d",
+      "bytes": 26502
+    },
+    {
+      "notebook": "notebooks/stage6/59_Stage6_Retrospective_Nested_latent_player_archetype_shrinkage_Fold_3_R1.ipynb",
+      "archive_name": "POKERNOW_ASSISTANT_STAGE6_ADDITIONAL_EXPLOITATION_RELEASE_R21.zip",
+      "local_candidate_count": 1,
+      "distribution": "included_code_bundle",
+      "path": "notebooks/packages/POKERNOW_ASSISTANT_STAGE6_ADDITIONAL_EXPLOITATION_RELEASE_R21.zip",
+      "sha256": "c4e74aa7842d58fdd5b127be9dffff0c5b021a1b843ca7ef92cebd3dcf9c4888",
+      "bytes": 79218
+    },
+    {
+      "notebook": "notebooks/stage6/59_Stage6_Retrospective_Nested_latent_player_archetype_shrinkage_Fold_3_R1.ipynb",
+      "archive_name": "POKERNOW_ASSISTANT_STAGE6_BEHAVIOR_CHALLENGER_V2_SCIENCE_R14.zip",
+      "local_candidate_count": 1,
+      "distribution": "included_code_bundle",
+      "path": "notebooks/packages/POKERNOW_ASSISTANT_STAGE6_BEHAVIOR_CHALLENGER_V2_SCIENCE_R14.zip",
+      "sha256": "624f8a4623307b49eee4a0e2331df33485709c94a3aad2c5a731ee894a633971",
+      "bytes": 386673
+    },
+    {
+      "notebook": "notebooks/stage6/59_Stage6_Retrospective_Nested_latent_player_archetype_shrinkage_Fold_3_R1.ipynb",
+      "archive_name": "POKERNOW_ASSISTANT_STAGE6_RETROSPECTIVE_NESTED_SEARCH_R2.zip",
+      "local_candidate_count": 1,
+      "distribution": "included_code_bundle",
+      "path": "notebooks/packages/POKERNOW_ASSISTANT_STAGE6_RETROSPECTIVE_NESTED_SEARCH_R2.zip",
+      "sha256": "2c118ff3fb9dab7401851e87c2e793b32c9dd1086be2c50055cded0739fc933d",
+      "bytes": 26502
+    },
+    {
+      "notebook": "notebooks/stage6/60_Stage6_Retrospective_Nested_latent_player_archetype_shrinkage_Fold_4_R1.ipynb",
+      "archive_name": "POKERNOW_ASSISTANT_STAGE6_ADDITIONAL_EXPLOITATION_RELEASE_R21.zip",
+      "local_candidate_count": 1,
+      "distribution": "included_code_bundle",
+      "path": "notebooks/packages/POKERNOW_ASSISTANT_STAGE6_ADDITIONAL_EXPLOITATION_RELEASE_R21.zip",
+      "sha256": "c4e74aa7842d58fdd5b127be9dffff0c5b021a1b843ca7ef92cebd3dcf9c4888",
+      "bytes": 79218
+    },
+    {
+      "notebook": "notebooks/stage6/60_Stage6_Retrospective_Nested_latent_player_archetype_shrinkage_Fold_4_R1.ipynb",
+      "archive_name": "POKERNOW_ASSISTANT_STAGE6_BEHAVIOR_CHALLENGER_V2_SCIENCE_R14.zip",
+      "local_candidate_count": 1,
+      "distribution": "included_code_bundle",
+      "path": "notebooks/packages/POKERNOW_ASSISTANT_STAGE6_BEHAVIOR_CHALLENGER_V2_SCIENCE_R14.zip",
+      "sha256": "624f8a4623307b49eee4a0e2331df33485709c94a3aad2c5a731ee894a633971",
+      "bytes": 386673
+    },
+    {
+      "notebook": "notebooks/stage6/60_Stage6_Retrospective_Nested_latent_player_archetype_shrinkage_Fold_4_R1.ipynb",
+      "archive_name": "POKERNOW_ASSISTANT_STAGE6_RETROSPECTIVE_NESTED_SEARCH_R2.zip",
+      "local_candidate_count": 1,
+      "distribution": "included_code_bundle",
+      "path": "notebooks/packages/POKERNOW_ASSISTANT_STAGE6_RETROSPECTIVE_NESTED_SEARCH_R2.zip",
+      "sha256": "2c118ff3fb9dab7401851e87c2e793b32c9dd1086be2c50055cded0739fc933d",
+      "bytes": 26502
+    },
+    {
+      "notebook": "notebooks/stage6/61_Stage6_Retrospective_Nested_multiway_target_response_Fold_0_Runtime_Resume_R3.ipynb",
+      "archive_name": "POKERNOW_ASSISTANT_STAGE6_ADDITIONAL_EXPLOITATION_RELEASE_R21.zip",
+      "local_candidate_count": 1,
+      "distribution": "included_code_bundle",
+      "path": "notebooks/packages/POKERNOW_ASSISTANT_STAGE6_ADDITIONAL_EXPLOITATION_RELEASE_R21.zip",
+      "sha256": "c4e74aa7842d58fdd5b127be9dffff0c5b021a1b843ca7ef92cebd3dcf9c4888",
+      "bytes": 79218
+    },
+    {
+      "notebook": "notebooks/stage6/61_Stage6_Retrospective_Nested_multiway_target_response_Fold_0_Runtime_Resume_R3.ipynb",
+      "archive_name": "POKERNOW_ASSISTANT_STAGE6_BEHAVIOR_CHALLENGER_V2_SCIENCE_R14.zip",
+      "local_candidate_count": 1,
+      "distribution": "included_code_bundle",
+      "path": "notebooks/packages/POKERNOW_ASSISTANT_STAGE6_BEHAVIOR_CHALLENGER_V2_SCIENCE_R14.zip",
+      "sha256": "624f8a4623307b49eee4a0e2331df33485709c94a3aad2c5a731ee894a633971",
+      "bytes": 386673
+    },
+    {
+      "notebook": "notebooks/stage6/61_Stage6_Retrospective_Nested_multiway_target_response_Fold_0_Runtime_Resume_R3.ipynb",
+      "archive_name": "POKERNOW_ASSISTANT_STAGE6_RETROSPECTIVE_NESTED_SEARCH_R3.zip",
+      "local_candidate_count": 1,
+      "distribution": "included_code_bundle",
+      "path": "notebooks/packages/POKERNOW_ASSISTANT_STAGE6_RETROSPECTIVE_NESTED_SEARCH_R3.zip",
+      "sha256": "acead4834b62011fc45d1285c7d21628d0a4ca96872afad995f9f4d4149ea0fa",
+      "bytes": 28395
+    },
+    {
+      "notebook": "notebooks/stage6/62_Stage6_Retrospective_Nested_multiway_target_response_Fold_1_R1.ipynb",
+      "archive_name": "POKERNOW_ASSISTANT_STAGE6_ADDITIONAL_EXPLOITATION_RELEASE_R21.zip",
+      "local_candidate_count": 1,
+      "distribution": "included_code_bundle",
+      "path": "notebooks/packages/POKERNOW_ASSISTANT_STAGE6_ADDITIONAL_EXPLOITATION_RELEASE_R21.zip",
+      "sha256": "c4e74aa7842d58fdd5b127be9dffff0c5b021a1b843ca7ef92cebd3dcf9c4888",
+      "bytes": 79218
+    },
+    {
+      "notebook": "notebooks/stage6/62_Stage6_Retrospective_Nested_multiway_target_response_Fold_1_R1.ipynb",
+      "archive_name": "POKERNOW_ASSISTANT_STAGE6_BEHAVIOR_CHALLENGER_V2_SCIENCE_R14.zip",
+      "local_candidate_count": 1,
+      "distribution": "included_code_bundle",
+      "path": "notebooks/packages/POKERNOW_ASSISTANT_STAGE6_BEHAVIOR_CHALLENGER_V2_SCIENCE_R14.zip",
+      "sha256": "624f8a4623307b49eee4a0e2331df33485709c94a3aad2c5a731ee894a633971",
+      "bytes": 386673
+    },
+    {
+      "notebook": "notebooks/stage6/62_Stage6_Retrospective_Nested_multiway_target_response_Fold_1_R1.ipynb",
+      "archive_name": "POKERNOW_ASSISTANT_STAGE6_RETROSPECTIVE_NESTED_SEARCH_R2.zip",
+      "local_candidate_count": 1,
+      "distribution": "included_code_bundle",
+      "path": "notebooks/packages/POKERNOW_ASSISTANT_STAGE6_RETROSPECTIVE_NESTED_SEARCH_R2.zip",
+      "sha256": "2c118ff3fb9dab7401851e87c2e793b32c9dd1086be2c50055cded0739fc933d",
+      "bytes": 26502
+    },
+    {
+      "notebook": "notebooks/stage6/63_Stage6_Retrospective_Nested_multiway_target_response_Fold_2_R1.ipynb",
+      "archive_name": "POKERNOW_ASSISTANT_STAGE6_ADDITIONAL_EXPLOITATION_RELEASE_R21.zip",
+      "local_candidate_count": 1,
+      "distribution": "included_code_bundle",
+      "path": "notebooks/packages/POKERNOW_ASSISTANT_STAGE6_ADDITIONAL_EXPLOITATION_RELEASE_R21.zip",
+      "sha256": "c4e74aa7842d58fdd5b127be9dffff0c5b021a1b843ca7ef92cebd3dcf9c4888",
+      "bytes": 79218
+    },
+    {
+      "notebook": "notebooks/stage6/63_Stage6_Retrospective_Nested_multiway_target_response_Fold_2_R1.ipynb",
+      "archive_name": "POKERNOW_ASSISTANT_STAGE6_BEHAVIOR_CHALLENGER_V2_SCIENCE_R14.zip",
+      "local_candidate_count": 1,
+      "distribution": "included_code_bundle",
+      "path": "notebooks/packages/POKERNOW_ASSISTANT_STAGE6_BEHAVIOR_CHALLENGER_V2_SCIENCE_R14.zip",
+      "sha256": "624f8a4623307b49eee4a0e2331df33485709c94a3aad2c5a731ee894a633971",
+      "bytes": 386673
+    },
+    {
+      "notebook": "notebooks/stage6/63_Stage6_Retrospective_Nested_multiway_target_response_Fold_2_R1.ipynb",
+      "archive_name": "POKERNOW_ASSISTANT_STAGE6_RETROSPECTIVE_NESTED_SEARCH_R2.zip",
+      "local_candidate_count": 1,
+      "distribution": "included_code_bundle",
+      "path": "notebooks/packages/POKERNOW_ASSISTANT_STAGE6_RETROSPECTIVE_NESTED_SEARCH_R2.zip",
+      "sha256": "2c118ff3fb9dab7401851e87c2e793b32c9dd1086be2c50055cded0739fc933d",
+      "bytes": 26502
+    },
+    {
+      "notebook": "notebooks/stage6/64_Stage6_Retrospective_Nested_multiway_target_response_Fold_3_Runtime_Resume_R3.ipynb",
+      "archive_name": "POKERNOW_ASSISTANT_STAGE6_ADDITIONAL_EXPLOITATION_RELEASE_R21.zip",
+      "local_candidate_count": 1,
+      "distribution": "included_code_bundle",
+      "path": "notebooks/packages/POKERNOW_ASSISTANT_STAGE6_ADDITIONAL_EXPLOITATION_RELEASE_R21.zip",
+      "sha256": "c4e74aa7842d58fdd5b127be9dffff0c5b021a1b843ca7ef92cebd3dcf9c4888",
+      "bytes": 79218
+    },
+    {
+      "notebook": "notebooks/stage6/64_Stage6_Retrospective_Nested_multiway_target_response_Fold_3_Runtime_Resume_R3.ipynb",
+      "archive_name": "POKERNOW_ASSISTANT_STAGE6_BEHAVIOR_CHALLENGER_V2_SCIENCE_R14.zip",
+      "local_candidate_count": 1,
+      "distribution": "included_code_bundle",
+      "path": "notebooks/packages/POKERNOW_ASSISTANT_STAGE6_BEHAVIOR_CHALLENGER_V2_SCIENCE_R14.zip",
+      "sha256": "624f8a4623307b49eee4a0e2331df33485709c94a3aad2c5a731ee894a633971",
+      "bytes": 386673
+    },
+    {
+      "notebook": "notebooks/stage6/64_Stage6_Retrospective_Nested_multiway_target_response_Fold_3_Runtime_Resume_R3.ipynb",
+      "archive_name": "POKERNOW_ASSISTANT_STAGE6_RETROSPECTIVE_NESTED_SEARCH_R3.zip",
+      "local_candidate_count": 1,
+      "distribution": "included_code_bundle",
+      "path": "notebooks/packages/POKERNOW_ASSISTANT_STAGE6_RETROSPECTIVE_NESTED_SEARCH_R3.zip",
+      "sha256": "acead4834b62011fc45d1285c7d21628d0a4ca96872afad995f9f4d4149ea0fa",
+      "bytes": 28395
+    },
+    {
+      "notebook": "notebooks/stage6/65_Stage6_Retrospective_Nested_multiway_target_response_Fold_4_R1.ipynb",
+      "archive_name": "POKERNOW_ASSISTANT_STAGE6_ADDITIONAL_EXPLOITATION_RELEASE_R21.zip",
+      "local_candidate_count": 1,
+      "distribution": "included_code_bundle",
+      "path": "notebooks/packages/POKERNOW_ASSISTANT_STAGE6_ADDITIONAL_EXPLOITATION_RELEASE_R21.zip",
+      "sha256": "c4e74aa7842d58fdd5b127be9dffff0c5b021a1b843ca7ef92cebd3dcf9c4888",
+      "bytes": 79218
+    },
+    {
+      "notebook": "notebooks/stage6/65_Stage6_Retrospective_Nested_multiway_target_response_Fold_4_R1.ipynb",
+      "archive_name": "POKERNOW_ASSISTANT_STAGE6_BEHAVIOR_CHALLENGER_V2_SCIENCE_R14.zip",
+      "local_candidate_count": 1,
+      "distribution": "included_code_bundle",
+      "path": "notebooks/packages/POKERNOW_ASSISTANT_STAGE6_BEHAVIOR_CHALLENGER_V2_SCIENCE_R14.zip",
+      "sha256": "624f8a4623307b49eee4a0e2331df33485709c94a3aad2c5a731ee894a633971",
+      "bytes": 386673
+    },
+    {
+      "notebook": "notebooks/stage6/65_Stage6_Retrospective_Nested_multiway_target_response_Fold_4_R1.ipynb",
+      "archive_name": "POKERNOW_ASSISTANT_STAGE6_RETROSPECTIVE_NESTED_SEARCH_R2.zip",
+      "local_candidate_count": 1,
+      "distribution": "included_code_bundle",
+      "path": "notebooks/packages/POKERNOW_ASSISTANT_STAGE6_RETROSPECTIVE_NESTED_SEARCH_R2.zip",
+      "sha256": "2c118ff3fb9dab7401851e87c2e793b32c9dd1086be2c50055cded0739fc933d",
+      "bytes": 26502
+    },
+    {
+      "notebook": "notebooks/stage6/66_Stage6_Retrospective_Nested_opponent_bluff_likelihood_Fold_0_R1.ipynb",
+      "archive_name": "POKERNOW_ASSISTANT_STAGE6_ADDITIONAL_EXPLOITATION_RELEASE_R21.zip",
+      "local_candidate_count": 1,
+      "distribution": "included_code_bundle",
+      "path": "notebooks/packages/POKERNOW_ASSISTANT_STAGE6_ADDITIONAL_EXPLOITATION_RELEASE_R21.zip",
+      "sha256": "c4e74aa7842d58fdd5b127be9dffff0c5b021a1b843ca7ef92cebd3dcf9c4888",
+      "bytes": 79218
+    },
+    {
+      "notebook": "notebooks/stage6/66_Stage6_Retrospective_Nested_opponent_bluff_likelihood_Fold_0_R1.ipynb",
+      "archive_name": "POKERNOW_ASSISTANT_STAGE6_BEHAVIOR_CHALLENGER_V2_SCIENCE_R14.zip",
+      "local_candidate_count": 1,
+      "distribution": "included_code_bundle",
+      "path": "notebooks/packages/POKERNOW_ASSISTANT_STAGE6_BEHAVIOR_CHALLENGER_V2_SCIENCE_R14.zip",
+      "sha256": "624f8a4623307b49eee4a0e2331df33485709c94a3aad2c5a731ee894a633971",
+      "bytes": 386673
+    },
+    {
+      "notebook": "notebooks/stage6/66_Stage6_Retrospective_Nested_opponent_bluff_likelihood_Fold_0_R1.ipynb",
+      "archive_name": "POKERNOW_ASSISTANT_STAGE6_RETROSPECTIVE_NESTED_SEARCH_R2.zip",
+      "local_candidate_count": 1,
+      "distribution": "included_code_bundle",
+      "path": "notebooks/packages/POKERNOW_ASSISTANT_STAGE6_RETROSPECTIVE_NESTED_SEARCH_R2.zip",
+      "sha256": "2c118ff3fb9dab7401851e87c2e793b32c9dd1086be2c50055cded0739fc933d",
+      "bytes": 26502
+    },
+    {
+      "notebook": "notebooks/stage6/67_Stage6_Retrospective_Nested_opponent_bluff_likelihood_Fold_1_R1.ipynb",
+      "archive_name": "POKERNOW_ASSISTANT_STAGE6_ADDITIONAL_EXPLOITATION_RELEASE_R21.zip",
+      "local_candidate_count": 1,
+      "distribution": "included_code_bundle",
+      "path": "notebooks/packages/POKERNOW_ASSISTANT_STAGE6_ADDITIONAL_EXPLOITATION_RELEASE_R21.zip",
+      "sha256": "c4e74aa7842d58fdd5b127be9dffff0c5b021a1b843ca7ef92cebd3dcf9c4888",
+      "bytes": 79218
+    },
+    {
+      "notebook": "notebooks/stage6/67_Stage6_Retrospective_Nested_opponent_bluff_likelihood_Fold_1_R1.ipynb",
+      "archive_name": "POKERNOW_ASSISTANT_STAGE6_BEHAVIOR_CHALLENGER_V2_SCIENCE_R14.zip",
+      "local_candidate_count": 1,
+      "distribution": "included_code_bundle",
+      "path": "notebooks/packages/POKERNOW_ASSISTANT_STAGE6_BEHAVIOR_CHALLENGER_V2_SCIENCE_R14.zip",
+      "sha256": "624f8a4623307b49eee4a0e2331df33485709c94a3aad2c5a731ee894a633971",
+      "bytes": 386673
+    },
+    {
+      "notebook": "notebooks/stage6/67_Stage6_Retrospective_Nested_opponent_bluff_likelihood_Fold_1_R1.ipynb",
+      "archive_name": "POKERNOW_ASSISTANT_STAGE6_RETROSPECTIVE_NESTED_SEARCH_R2.zip",
+      "local_candidate_count": 1,
+      "distribution": "included_code_bundle",
+      "path": "notebooks/packages/POKERNOW_ASSISTANT_STAGE6_RETROSPECTIVE_NESTED_SEARCH_R2.zip",
+      "sha256": "2c118ff3fb9dab7401851e87c2e793b32c9dd1086be2c50055cded0739fc933d",
+      "bytes": 26502
+    },
+    {
+      "notebook": "notebooks/stage6/68_Stage6_Retrospective_Nested_opponent_bluff_likelihood_Fold_2_R1.ipynb",
+      "archive_name": "POKERNOW_ASSISTANT_STAGE6_ADDITIONAL_EXPLOITATION_RELEASE_R21.zip",
+      "local_candidate_count": 1,
+      "distribution": "included_code_bundle",
+      "path": "notebooks/packages/POKERNOW_ASSISTANT_STAGE6_ADDITIONAL_EXPLOITATION_RELEASE_R21.zip",
+      "sha256": "c4e74aa7842d58fdd5b127be9dffff0c5b021a1b843ca7ef92cebd3dcf9c4888",
+      "bytes": 79218
+    },
+    {
+      "notebook": "notebooks/stage6/68_Stage6_Retrospective_Nested_opponent_bluff_likelihood_Fold_2_R1.ipynb",
+      "archive_name": "POKERNOW_ASSISTANT_STAGE6_BEHAVIOR_CHALLENGER_V2_SCIENCE_R14.zip",
+      "local_candidate_count": 1,
+      "distribution": "included_code_bundle",
+      "path": "notebooks/packages/POKERNOW_ASSISTANT_STAGE6_BEHAVIOR_CHALLENGER_V2_SCIENCE_R14.zip",
+      "sha256": "624f8a4623307b49eee4a0e2331df33485709c94a3aad2c5a731ee894a633971",
+      "bytes": 386673
+    },
+    {
+      "notebook": "notebooks/stage6/68_Stage6_Retrospective_Nested_opponent_bluff_likelihood_Fold_2_R1.ipynb",
+      "archive_name": "POKERNOW_ASSISTANT_STAGE6_RETROSPECTIVE_NESTED_SEARCH_R2.zip",
+      "local_candidate_count": 1,
+      "distribution": "included_code_bundle",
+      "path": "notebooks/packages/POKERNOW_ASSISTANT_STAGE6_RETROSPECTIVE_NESTED_SEARCH_R2.zip",
+      "sha256": "2c118ff3fb9dab7401851e87c2e793b32c9dd1086be2c50055cded0739fc933d",
+      "bytes": 26502
+    },
+    {
+      "notebook": "notebooks/stage6/69_Stage6_Retrospective_Nested_opponent_bluff_likelihood_Fold_3_R1.ipynb",
+      "archive_name": "POKERNOW_ASSISTANT_STAGE6_ADDITIONAL_EXPLOITATION_RELEASE_R21.zip",
+      "local_candidate_count": 1,
+      "distribution": "included_code_bundle",
+      "path": "notebooks/packages/POKERNOW_ASSISTANT_STAGE6_ADDITIONAL_EXPLOITATION_RELEASE_R21.zip",
+      "sha256": "c4e74aa7842d58fdd5b127be9dffff0c5b021a1b843ca7ef92cebd3dcf9c4888",
+      "bytes": 79218
+    },
+    {
+      "notebook": "notebooks/stage6/69_Stage6_Retrospective_Nested_opponent_bluff_likelihood_Fold_3_R1.ipynb",
+      "archive_name": "POKERNOW_ASSISTANT_STAGE6_BEHAVIOR_CHALLENGER_V2_SCIENCE_R14.zip",
+      "local_candidate_count": 1,
+      "distribution": "included_code_bundle",
+      "path": "notebooks/packages/POKERNOW_ASSISTANT_STAGE6_BEHAVIOR_CHALLENGER_V2_SCIENCE_R14.zip",
+      "sha256": "624f8a4623307b49eee4a0e2331df33485709c94a3aad2c5a731ee894a633971",
+      "bytes": 386673
+    },
+    {
+      "notebook": "notebooks/stage6/69_Stage6_Retrospective_Nested_opponent_bluff_likelihood_Fold_3_R1.ipynb",
+      "archive_name": "POKERNOW_ASSISTANT_STAGE6_RETROSPECTIVE_NESTED_SEARCH_R2.zip",
+      "local_candidate_count": 1,
+      "distribution": "included_code_bundle",
+      "path": "notebooks/packages/POKERNOW_ASSISTANT_STAGE6_RETROSPECTIVE_NESTED_SEARCH_R2.zip",
+      "sha256": "2c118ff3fb9dab7401851e87c2e793b32c9dd1086be2c50055cded0739fc933d",
+      "bytes": 26502
+    },
+    {
+      "notebook": "notebooks/stage6/70_Stage6_Retrospective_Nested_opponent_bluff_likelihood_Fold_4_R1.ipynb",
+      "archive_name": "POKERNOW_ASSISTANT_STAGE6_ADDITIONAL_EXPLOITATION_RELEASE_R21.zip",
+      "local_candidate_count": 1,
+      "distribution": "included_code_bundle",
+      "path": "notebooks/packages/POKERNOW_ASSISTANT_STAGE6_ADDITIONAL_EXPLOITATION_RELEASE_R21.zip",
+      "sha256": "c4e74aa7842d58fdd5b127be9dffff0c5b021a1b843ca7ef92cebd3dcf9c4888",
+      "bytes": 79218
+    },
+    {
+      "notebook": "notebooks/stage6/70_Stage6_Retrospective_Nested_opponent_bluff_likelihood_Fold_4_R1.ipynb",
+      "archive_name": "POKERNOW_ASSISTANT_STAGE6_BEHAVIOR_CHALLENGER_V2_SCIENCE_R14.zip",
+      "local_candidate_count": 1,
+      "distribution": "included_code_bundle",
+      "path": "notebooks/packages/POKERNOW_ASSISTANT_STAGE6_BEHAVIOR_CHALLENGER_V2_SCIENCE_R14.zip",
+      "sha256": "624f8a4623307b49eee4a0e2331df33485709c94a3aad2c5a731ee894a633971",
+      "bytes": 386673
+    },
+    {
+      "notebook": "notebooks/stage6/70_Stage6_Retrospective_Nested_opponent_bluff_likelihood_Fold_4_R1.ipynb",
+      "archive_name": "POKERNOW_ASSISTANT_STAGE6_RETROSPECTIVE_NESTED_SEARCH_R2.zip",
+      "local_candidate_count": 1,
+      "distribution": "included_code_bundle",
+      "path": "notebooks/packages/POKERNOW_ASSISTANT_STAGE6_RETROSPECTIVE_NESTED_SEARCH_R2.zip",
+      "sha256": "2c118ff3fb9dab7401851e87c2e793b32c9dd1086be2c50055cded0739fc933d",
+      "bytes": 26502
+    },
+    {
+      "notebook": "notebooks/stage6/71_Stage6_Retrospective_Nested_player_strategy_drift_Fold_0_R1.ipynb",
+      "archive_name": "POKERNOW_ASSISTANT_STAGE6_ADDITIONAL_EXPLOITATION_RELEASE_R21.zip",
+      "local_candidate_count": 1,
+      "distribution": "included_code_bundle",
+      "path": "notebooks/packages/POKERNOW_ASSISTANT_STAGE6_ADDITIONAL_EXPLOITATION_RELEASE_R21.zip",
+      "sha256": "c4e74aa7842d58fdd5b127be9dffff0c5b021a1b843ca7ef92cebd3dcf9c4888",
+      "bytes": 79218
+    },
+    {
+      "notebook": "notebooks/stage6/71_Stage6_Retrospective_Nested_player_strategy_drift_Fold_0_R1.ipynb",
+      "archive_name": "POKERNOW_ASSISTANT_STAGE6_BEHAVIOR_CHALLENGER_V2_SCIENCE_R14.zip",
+      "local_candidate_count": 1,
+      "distribution": "included_code_bundle",
+      "path": "notebooks/packages/POKERNOW_ASSISTANT_STAGE6_BEHAVIOR_CHALLENGER_V2_SCIENCE_R14.zip",
+      "sha256": "624f8a4623307b49eee4a0e2331df33485709c94a3aad2c5a731ee894a633971",
+      "bytes": 386673
+    },
+    {
+      "notebook": "notebooks/stage6/71_Stage6_Retrospective_Nested_player_strategy_drift_Fold_0_R1.ipynb",
+      "archive_name": "POKERNOW_ASSISTANT_STAGE6_RETROSPECTIVE_NESTED_SEARCH_R2.zip",
+      "local_candidate_count": 1,
+      "distribution": "included_code_bundle",
+      "path": "notebooks/packages/POKERNOW_ASSISTANT_STAGE6_RETROSPECTIVE_NESTED_SEARCH_R2.zip",
+      "sha256": "2c118ff3fb9dab7401851e87c2e793b32c9dd1086be2c50055cded0739fc933d",
+      "bytes": 26502
+    },
+    {
+      "notebook": "notebooks/stage6/72_Stage6_Retrospective_Nested_player_strategy_drift_Fold_1_R1.ipynb",
+      "archive_name": "POKERNOW_ASSISTANT_STAGE6_ADDITIONAL_EXPLOITATION_RELEASE_R21.zip",
+      "local_candidate_count": 1,
+      "distribution": "included_code_bundle",
+      "path": "notebooks/packages/POKERNOW_ASSISTANT_STAGE6_ADDITIONAL_EXPLOITATION_RELEASE_R21.zip",
+      "sha256": "c4e74aa7842d58fdd5b127be9dffff0c5b021a1b843ca7ef92cebd3dcf9c4888",
+      "bytes": 79218
+    },
+    {
+      "notebook": "notebooks/stage6/72_Stage6_Retrospective_Nested_player_strategy_drift_Fold_1_R1.ipynb",
+      "archive_name": "POKERNOW_ASSISTANT_STAGE6_BEHAVIOR_CHALLENGER_V2_SCIENCE_R14.zip",
+      "local_candidate_count": 1,
+      "distribution": "included_code_bundle",
+      "path": "notebooks/packages/POKERNOW_ASSISTANT_STAGE6_BEHAVIOR_CHALLENGER_V2_SCIENCE_R14.zip",
+      "sha256": "624f8a4623307b49eee4a0e2331df33485709c94a3aad2c5a731ee894a633971",
+      "bytes": 386673
+    },
+    {
+      "notebook": "notebooks/stage6/72_Stage6_Retrospective_Nested_player_strategy_drift_Fold_1_R1.ipynb",
+      "archive_name": "POKERNOW_ASSISTANT_STAGE6_RETROSPECTIVE_NESTED_SEARCH_R2.zip",
+      "local_candidate_count": 1,
+      "distribution": "included_code_bundle",
+      "path": "notebooks/packages/POKERNOW_ASSISTANT_STAGE6_RETROSPECTIVE_NESTED_SEARCH_R2.zip",
+      "sha256": "2c118ff3fb9dab7401851e87c2e793b32c9dd1086be2c50055cded0739fc933d",
+      "bytes": 26502
+    },
+    {
+      "notebook": "notebooks/stage6/73_Stage6_Retrospective_Nested_player_strategy_drift_Fold_2_R1.ipynb",
+      "archive_name": "POKERNOW_ASSISTANT_STAGE6_ADDITIONAL_EXPLOITATION_RELEASE_R21.zip",
+      "local_candidate_count": 1,
+      "distribution": "included_code_bundle",
+      "path": "notebooks/packages/POKERNOW_ASSISTANT_STAGE6_ADDITIONAL_EXPLOITATION_RELEASE_R21.zip",
+      "sha256": "c4e74aa7842d58fdd5b127be9dffff0c5b021a1b843ca7ef92cebd3dcf9c4888",
+      "bytes": 79218
+    },
+    {
+      "notebook": "notebooks/stage6/73_Stage6_Retrospective_Nested_player_strategy_drift_Fold_2_R1.ipynb",
+      "archive_name": "POKERNOW_ASSISTANT_STAGE6_BEHAVIOR_CHALLENGER_V2_SCIENCE_R14.zip",
+      "local_candidate_count": 1,
+      "distribution": "included_code_bundle",
+      "path": "notebooks/packages/POKERNOW_ASSISTANT_STAGE6_BEHAVIOR_CHALLENGER_V2_SCIENCE_R14.zip",
+      "sha256": "624f8a4623307b49eee4a0e2331df33485709c94a3aad2c5a731ee894a633971",
+      "bytes": 386673
+    },
+    {
+      "notebook": "notebooks/stage6/73_Stage6_Retrospective_Nested_player_strategy_drift_Fold_2_R1.ipynb",
+      "archive_name": "POKERNOW_ASSISTANT_STAGE6_RETROSPECTIVE_NESTED_SEARCH_R2.zip",
+      "local_candidate_count": 1,
+      "distribution": "included_code_bundle",
+      "path": "notebooks/packages/POKERNOW_ASSISTANT_STAGE6_RETROSPECTIVE_NESTED_SEARCH_R2.zip",
+      "sha256": "2c118ff3fb9dab7401851e87c2e793b32c9dd1086be2c50055cded0739fc933d",
+      "bytes": 26502
+    },
+    {
+      "notebook": "notebooks/stage6/74_Stage6_Retrospective_Nested_player_strategy_drift_Fold_3_R1.ipynb",
+      "archive_name": "POKERNOW_ASSISTANT_STAGE6_ADDITIONAL_EXPLOITATION_RELEASE_R21.zip",
+      "local_candidate_count": 1,
+      "distribution": "included_code_bundle",
+      "path": "notebooks/packages/POKERNOW_ASSISTANT_STAGE6_ADDITIONAL_EXPLOITATION_RELEASE_R21.zip",
+      "sha256": "c4e74aa7842d58fdd5b127be9dffff0c5b021a1b843ca7ef92cebd3dcf9c4888",
+      "bytes": 79218
+    },
+    {
+      "notebook": "notebooks/stage6/74_Stage6_Retrospective_Nested_player_strategy_drift_Fold_3_R1.ipynb",
+      "archive_name": "POKERNOW_ASSISTANT_STAGE6_BEHAVIOR_CHALLENGER_V2_SCIENCE_R14.zip",
+      "local_candidate_count": 1,
+      "distribution": "included_code_bundle",
+      "path": "notebooks/packages/POKERNOW_ASSISTANT_STAGE6_BEHAVIOR_CHALLENGER_V2_SCIENCE_R14.zip",
+      "sha256": "624f8a4623307b49eee4a0e2331df33485709c94a3aad2c5a731ee894a633971",
+      "bytes": 386673
+    },
+    {
+      "notebook": "notebooks/stage6/74_Stage6_Retrospective_Nested_player_strategy_drift_Fold_3_R1.ipynb",
+      "archive_name": "POKERNOW_ASSISTANT_STAGE6_RETROSPECTIVE_NESTED_SEARCH_R2.zip",
+      "local_candidate_count": 1,
+      "distribution": "included_code_bundle",
+      "path": "notebooks/packages/POKERNOW_ASSISTANT_STAGE6_RETROSPECTIVE_NESTED_SEARCH_R2.zip",
+      "sha256": "2c118ff3fb9dab7401851e87c2e793b32c9dd1086be2c50055cded0739fc933d",
+      "bytes": 26502
+    },
+    {
+      "notebook": "notebooks/stage6/75_Stage6_Retrospective_Nested_player_strategy_drift_Fold_4_R1.ipynb",
+      "archive_name": "POKERNOW_ASSISTANT_STAGE6_ADDITIONAL_EXPLOITATION_RELEASE_R21.zip",
+      "local_candidate_count": 1,
+      "distribution": "included_code_bundle",
+      "path": "notebooks/packages/POKERNOW_ASSISTANT_STAGE6_ADDITIONAL_EXPLOITATION_RELEASE_R21.zip",
+      "sha256": "c4e74aa7842d58fdd5b127be9dffff0c5b021a1b843ca7ef92cebd3dcf9c4888",
+      "bytes": 79218
+    },
+    {
+      "notebook": "notebooks/stage6/75_Stage6_Retrospective_Nested_player_strategy_drift_Fold_4_R1.ipynb",
+      "archive_name": "POKERNOW_ASSISTANT_STAGE6_BEHAVIOR_CHALLENGER_V2_SCIENCE_R14.zip",
+      "local_candidate_count": 1,
+      "distribution": "included_code_bundle",
+      "path": "notebooks/packages/POKERNOW_ASSISTANT_STAGE6_BEHAVIOR_CHALLENGER_V2_SCIENCE_R14.zip",
+      "sha256": "624f8a4623307b49eee4a0e2331df33485709c94a3aad2c5a731ee894a633971",
+      "bytes": 386673
+    },
+    {
+      "notebook": "notebooks/stage6/75_Stage6_Retrospective_Nested_player_strategy_drift_Fold_4_R1.ipynb",
+      "archive_name": "POKERNOW_ASSISTANT_STAGE6_RETROSPECTIVE_NESTED_SEARCH_R2.zip",
+      "local_candidate_count": 1,
+      "distribution": "included_code_bundle",
+      "path": "notebooks/packages/POKERNOW_ASSISTANT_STAGE6_RETROSPECTIVE_NESTED_SEARCH_R2.zip",
+      "sha256": "2c118ff3fb9dab7401851e87c2e793b32c9dd1086be2c50055cded0739fc933d",
+      "bytes": 26502
+    },
+    {
+      "notebook": "notebooks/stage6/76_Stage6_Retrospective_Nested_showdown_aware_range_calibration_Fold_0_R1.ipynb",
+      "archive_name": "POKERNOW_ASSISTANT_STAGE6_ADDITIONAL_EXPLOITATION_RELEASE_R21.zip",
+      "local_candidate_count": 1,
+      "distribution": "included_code_bundle",
+      "path": "notebooks/packages/POKERNOW_ASSISTANT_STAGE6_ADDITIONAL_EXPLOITATION_RELEASE_R21.zip",
+      "sha256": "c4e74aa7842d58fdd5b127be9dffff0c5b021a1b843ca7ef92cebd3dcf9c4888",
+      "bytes": 79218
+    },
+    {
+      "notebook": "notebooks/stage6/76_Stage6_Retrospective_Nested_showdown_aware_range_calibration_Fold_0_R1.ipynb",
+      "archive_name": "POKERNOW_ASSISTANT_STAGE6_BEHAVIOR_CHALLENGER_V2_SCIENCE_R14.zip",
+      "local_candidate_count": 1,
+      "distribution": "included_code_bundle",
+      "path": "notebooks/packages/POKERNOW_ASSISTANT_STAGE6_BEHAVIOR_CHALLENGER_V2_SCIENCE_R14.zip",
+      "sha256": "624f8a4623307b49eee4a0e2331df33485709c94a3aad2c5a731ee894a633971",
+      "bytes": 386673
+    },
+    {
+      "notebook": "notebooks/stage6/76_Stage6_Retrospective_Nested_showdown_aware_range_calibration_Fold_0_R1.ipynb",
+      "archive_name": "POKERNOW_ASSISTANT_STAGE6_RETROSPECTIVE_NESTED_SEARCH_R2.zip",
+      "local_candidate_count": 1,
+      "distribution": "included_code_bundle",
+      "path": "notebooks/packages/POKERNOW_ASSISTANT_STAGE6_RETROSPECTIVE_NESTED_SEARCH_R2.zip",
+      "sha256": "2c118ff3fb9dab7401851e87c2e793b32c9dd1086be2c50055cded0739fc933d",
+      "bytes": 26502
+    },
+    {
+      "notebook": "notebooks/stage6/77_Stage6_Retrospective_Nested_showdown_aware_range_calibration_Fold_1_R1.ipynb",
+      "archive_name": "POKERNOW_ASSISTANT_STAGE6_ADDITIONAL_EXPLOITATION_RELEASE_R21.zip",
+      "local_candidate_count": 1,
+      "distribution": "included_code_bundle",
+      "path": "notebooks/packages/POKERNOW_ASSISTANT_STAGE6_ADDITIONAL_EXPLOITATION_RELEASE_R21.zip",
+      "sha256": "c4e74aa7842d58fdd5b127be9dffff0c5b021a1b843ca7ef92cebd3dcf9c4888",
+      "bytes": 79218
+    },
+    {
+      "notebook": "notebooks/stage6/77_Stage6_Retrospective_Nested_showdown_aware_range_calibration_Fold_1_R1.ipynb",
+      "archive_name": "POKERNOW_ASSISTANT_STAGE6_BEHAVIOR_CHALLENGER_V2_SCIENCE_R14.zip",
+      "local_candidate_count": 1,
+      "distribution": "included_code_bundle",
+      "path": "notebooks/packages/POKERNOW_ASSISTANT_STAGE6_BEHAVIOR_CHALLENGER_V2_SCIENCE_R14.zip",
+      "sha256": "624f8a4623307b49eee4a0e2331df33485709c94a3aad2c5a731ee894a633971",
+      "bytes": 386673
+    },
+    {
+      "notebook": "notebooks/stage6/77_Stage6_Retrospective_Nested_showdown_aware_range_calibration_Fold_1_R1.ipynb",
+      "archive_name": "POKERNOW_ASSISTANT_STAGE6_RETROSPECTIVE_NESTED_SEARCH_R2.zip",
+      "local_candidate_count": 1,
+      "distribution": "included_code_bundle",
+      "path": "notebooks/packages/POKERNOW_ASSISTANT_STAGE6_RETROSPECTIVE_NESTED_SEARCH_R2.zip",
+      "sha256": "2c118ff3fb9dab7401851e87c2e793b32c9dd1086be2c50055cded0739fc933d",
+      "bytes": 26502
+    },
+    {
+      "notebook": "notebooks/stage6/78_Stage6_Retrospective_Nested_showdown_aware_range_calibration_Fold_2_R1.ipynb",
+      "archive_name": "POKERNOW_ASSISTANT_STAGE6_ADDITIONAL_EXPLOITATION_RELEASE_R21.zip",
+      "local_candidate_count": 1,
+      "distribution": "included_code_bundle",
+      "path": "notebooks/packages/POKERNOW_ASSISTANT_STAGE6_ADDITIONAL_EXPLOITATION_RELEASE_R21.zip",
+      "sha256": "c4e74aa7842d58fdd5b127be9dffff0c5b021a1b843ca7ef92cebd3dcf9c4888",
+      "bytes": 79218
+    },
+    {
+      "notebook": "notebooks/stage6/78_Stage6_Retrospective_Nested_showdown_aware_range_calibration_Fold_2_R1.ipynb",
+      "archive_name": "POKERNOW_ASSISTANT_STAGE6_BEHAVIOR_CHALLENGER_V2_SCIENCE_R14.zip",
+      "local_candidate_count": 1,
+      "distribution": "included_code_bundle",
+      "path": "notebooks/packages/POKERNOW_ASSISTANT_STAGE6_BEHAVIOR_CHALLENGER_V2_SCIENCE_R14.zip",
+      "sha256": "624f8a4623307b49eee4a0e2331df33485709c94a3aad2c5a731ee894a633971",
+      "bytes": 386673
+    },
+    {
+      "notebook": "notebooks/stage6/78_Stage6_Retrospective_Nested_showdown_aware_range_calibration_Fold_2_R1.ipynb",
+      "archive_name": "POKERNOW_ASSISTANT_STAGE6_RETROSPECTIVE_NESTED_SEARCH_R2.zip",
+      "local_candidate_count": 1,
+      "distribution": "included_code_bundle",
+      "path": "notebooks/packages/POKERNOW_ASSISTANT_STAGE6_RETROSPECTIVE_NESTED_SEARCH_R2.zip",
+      "sha256": "2c118ff3fb9dab7401851e87c2e793b32c9dd1086be2c50055cded0739fc933d",
+      "bytes": 26502
+    },
+    {
+      "notebook": "notebooks/stage6/79_Stage6_Retrospective_Nested_showdown_aware_range_calibration_Fold_3_R1.ipynb",
+      "archive_name": "POKERNOW_ASSISTANT_STAGE6_ADDITIONAL_EXPLOITATION_RELEASE_R21.zip",
+      "local_candidate_count": 1,
+      "distribution": "included_code_bundle",
+      "path": "notebooks/packages/POKERNOW_ASSISTANT_STAGE6_ADDITIONAL_EXPLOITATION_RELEASE_R21.zip",
+      "sha256": "c4e74aa7842d58fdd5b127be9dffff0c5b021a1b843ca7ef92cebd3dcf9c4888",
+      "bytes": 79218
+    },
+    {
+      "notebook": "notebooks/stage6/79_Stage6_Retrospective_Nested_showdown_aware_range_calibration_Fold_3_R1.ipynb",
+      "archive_name": "POKERNOW_ASSISTANT_STAGE6_BEHAVIOR_CHALLENGER_V2_SCIENCE_R14.zip",
+      "local_candidate_count": 1,
+      "distribution": "included_code_bundle",
+      "path": "notebooks/packages/POKERNOW_ASSISTANT_STAGE6_BEHAVIOR_CHALLENGER_V2_SCIENCE_R14.zip",
+      "sha256": "624f8a4623307b49eee4a0e2331df33485709c94a3aad2c5a731ee894a633971",
+      "bytes": 386673
+    },
+    {
+      "notebook": "notebooks/stage6/79_Stage6_Retrospective_Nested_showdown_aware_range_calibration_Fold_3_R1.ipynb",
+      "archive_name": "POKERNOW_ASSISTANT_STAGE6_RETROSPECTIVE_NESTED_SEARCH_R2.zip",
+      "local_candidate_count": 1,
+      "distribution": "included_code_bundle",
+      "path": "notebooks/packages/POKERNOW_ASSISTANT_STAGE6_RETROSPECTIVE_NESTED_SEARCH_R2.zip",
+      "sha256": "2c118ff3fb9dab7401851e87c2e793b32c9dd1086be2c50055cded0739fc933d",
+      "bytes": 26502
+    },
+    {
+      "notebook": "notebooks/stage6/80_Stage6_Retrospective_Nested_showdown_aware_range_calibration_Fold_4_R1.ipynb",
+      "archive_name": "POKERNOW_ASSISTANT_STAGE6_ADDITIONAL_EXPLOITATION_RELEASE_R21.zip",
+      "local_candidate_count": 1,
+      "distribution": "included_code_bundle",
+      "path": "notebooks/packages/POKERNOW_ASSISTANT_STAGE6_ADDITIONAL_EXPLOITATION_RELEASE_R21.zip",
+      "sha256": "c4e74aa7842d58fdd5b127be9dffff0c5b021a1b843ca7ef92cebd3dcf9c4888",
+      "bytes": 79218
+    },
+    {
+      "notebook": "notebooks/stage6/80_Stage6_Retrospective_Nested_showdown_aware_range_calibration_Fold_4_R1.ipynb",
+      "archive_name": "POKERNOW_ASSISTANT_STAGE6_BEHAVIOR_CHALLENGER_V2_SCIENCE_R14.zip",
+      "local_candidate_count": 1,
+      "distribution": "included_code_bundle",
+      "path": "notebooks/packages/POKERNOW_ASSISTANT_STAGE6_BEHAVIOR_CHALLENGER_V2_SCIENCE_R14.zip",
+      "sha256": "624f8a4623307b49eee4a0e2331df33485709c94a3aad2c5a731ee894a633971",
+      "bytes": 386673
+    },
+    {
+      "notebook": "notebooks/stage6/80_Stage6_Retrospective_Nested_showdown_aware_range_calibration_Fold_4_R1.ipynb",
+      "archive_name": "POKERNOW_ASSISTANT_STAGE6_RETROSPECTIVE_NESTED_SEARCH_R2.zip",
+      "local_candidate_count": 1,
+      "distribution": "included_code_bundle",
+      "path": "notebooks/packages/POKERNOW_ASSISTANT_STAGE6_RETROSPECTIVE_NESTED_SEARCH_R2.zip",
+      "sha256": "2c118ff3fb9dab7401851e87c2e793b32c9dd1086be2c50055cded0739fc933d",
+      "bytes": 26502
+    },
+    {
+      "notebook": "notebooks/stage6/81_Stage6_Retrospective_Nested_supported_fold_response_bluff_opportunity_Fold_0_R1.ipynb",
+      "archive_name": "POKERNOW_ASSISTANT_STAGE6_ADDITIONAL_EXPLOITATION_RELEASE_R21.zip",
+      "local_candidate_count": 1,
+      "distribution": "included_code_bundle",
+      "path": "notebooks/packages/POKERNOW_ASSISTANT_STAGE6_ADDITIONAL_EXPLOITATION_RELEASE_R21.zip",
+      "sha256": "c4e74aa7842d58fdd5b127be9dffff0c5b021a1b843ca7ef92cebd3dcf9c4888",
+      "bytes": 79218
+    },
+    {
+      "notebook": "notebooks/stage6/81_Stage6_Retrospective_Nested_supported_fold_response_bluff_opportunity_Fold_0_R1.ipynb",
+      "archive_name": "POKERNOW_ASSISTANT_STAGE6_BEHAVIOR_CHALLENGER_V2_SCIENCE_R14.zip",
+      "local_candidate_count": 1,
+      "distribution": "included_code_bundle",
+      "path": "notebooks/packages/POKERNOW_ASSISTANT_STAGE6_BEHAVIOR_CHALLENGER_V2_SCIENCE_R14.zip",
+      "sha256": "624f8a4623307b49eee4a0e2331df33485709c94a3aad2c5a731ee894a633971",
+      "bytes": 386673
+    },
+    {
+      "notebook": "notebooks/stage6/81_Stage6_Retrospective_Nested_supported_fold_response_bluff_opportunity_Fold_0_R1.ipynb",
+      "archive_name": "POKERNOW_ASSISTANT_STAGE6_RETROSPECTIVE_NESTED_SEARCH_R2.zip",
+      "local_candidate_count": 1,
+      "distribution": "included_code_bundle",
+      "path": "notebooks/packages/POKERNOW_ASSISTANT_STAGE6_RETROSPECTIVE_NESTED_SEARCH_R2.zip",
+      "sha256": "2c118ff3fb9dab7401851e87c2e793b32c9dd1086be2c50055cded0739fc933d",
+      "bytes": 26502
+    },
+    {
+      "notebook": "notebooks/stage6/82_Stage6_Retrospective_Nested_supported_fold_response_bluff_opportunity_Fold_1_R1.ipynb",
+      "archive_name": "POKERNOW_ASSISTANT_STAGE6_ADDITIONAL_EXPLOITATION_RELEASE_R21.zip",
+      "local_candidate_count": 1,
+      "distribution": "included_code_bundle",
+      "path": "notebooks/packages/POKERNOW_ASSISTANT_STAGE6_ADDITIONAL_EXPLOITATION_RELEASE_R21.zip",
+      "sha256": "c4e74aa7842d58fdd5b127be9dffff0c5b021a1b843ca7ef92cebd3dcf9c4888",
+      "bytes": 79218
+    },
+    {
+      "notebook": "notebooks/stage6/82_Stage6_Retrospective_Nested_supported_fold_response_bluff_opportunity_Fold_1_R1.ipynb",
+      "archive_name": "POKERNOW_ASSISTANT_STAGE6_BEHAVIOR_CHALLENGER_V2_SCIENCE_R14.zip",
+      "local_candidate_count": 1,
+      "distribution": "included_code_bundle",
+      "path": "notebooks/packages/POKERNOW_ASSISTANT_STAGE6_BEHAVIOR_CHALLENGER_V2_SCIENCE_R14.zip",
+      "sha256": "624f8a4623307b49eee4a0e2331df33485709c94a3aad2c5a731ee894a633971",
+      "bytes": 386673
+    },
+    {
+      "notebook": "notebooks/stage6/82_Stage6_Retrospective_Nested_supported_fold_response_bluff_opportunity_Fold_1_R1.ipynb",
+      "archive_name": "POKERNOW_ASSISTANT_STAGE6_RETROSPECTIVE_NESTED_SEARCH_R2.zip",
+      "local_candidate_count": 1,
+      "distribution": "included_code_bundle",
+      "path": "notebooks/packages/POKERNOW_ASSISTANT_STAGE6_RETROSPECTIVE_NESTED_SEARCH_R2.zip",
+      "sha256": "2c118ff3fb9dab7401851e87c2e793b32c9dd1086be2c50055cded0739fc933d",
+      "bytes": 26502
+    },
+    {
+      "notebook": "notebooks/stage6/83_Stage6_Retrospective_Nested_supported_fold_response_bluff_opportunity_Fold_2_R1.ipynb",
+      "archive_name": "POKERNOW_ASSISTANT_STAGE6_ADDITIONAL_EXPLOITATION_RELEASE_R21.zip",
+      "local_candidate_count": 1,
+      "distribution": "included_code_bundle",
+      "path": "notebooks/packages/POKERNOW_ASSISTANT_STAGE6_ADDITIONAL_EXPLOITATION_RELEASE_R21.zip",
+      "sha256": "c4e74aa7842d58fdd5b127be9dffff0c5b021a1b843ca7ef92cebd3dcf9c4888",
+      "bytes": 79218
+    },
+    {
+      "notebook": "notebooks/stage6/83_Stage6_Retrospective_Nested_supported_fold_response_bluff_opportunity_Fold_2_R1.ipynb",
+      "archive_name": "POKERNOW_ASSISTANT_STAGE6_BEHAVIOR_CHALLENGER_V2_SCIENCE_R14.zip",
+      "local_candidate_count": 1,
+      "distribution": "included_code_bundle",
+      "path": "notebooks/packages/POKERNOW_ASSISTANT_STAGE6_BEHAVIOR_CHALLENGER_V2_SCIENCE_R14.zip",
+      "sha256": "624f8a4623307b49eee4a0e2331df33485709c94a3aad2c5a731ee894a633971",
+      "bytes": 386673
+    },
+    {
+      "notebook": "notebooks/stage6/83_Stage6_Retrospective_Nested_supported_fold_response_bluff_opportunity_Fold_2_R1.ipynb",
+      "archive_name": "POKERNOW_ASSISTANT_STAGE6_RETROSPECTIVE_NESTED_SEARCH_R2.zip",
+      "local_candidate_count": 1,
+      "distribution": "included_code_bundle",
+      "path": "notebooks/packages/POKERNOW_ASSISTANT_STAGE6_RETROSPECTIVE_NESTED_SEARCH_R2.zip",
+      "sha256": "2c118ff3fb9dab7401851e87c2e793b32c9dd1086be2c50055cded0739fc933d",
+      "bytes": 26502
+    },
+    {
+      "notebook": "notebooks/stage6/84_Stage6_Retrospective_Nested_supported_fold_response_bluff_opportunity_Fold_3_R1.ipynb",
+      "archive_name": "POKERNOW_ASSISTANT_STAGE6_ADDITIONAL_EXPLOITATION_RELEASE_R21.zip",
+      "local_candidate_count": 1,
+      "distribution": "included_code_bundle",
+      "path": "notebooks/packages/POKERNOW_ASSISTANT_STAGE6_ADDITIONAL_EXPLOITATION_RELEASE_R21.zip",
+      "sha256": "c4e74aa7842d58fdd5b127be9dffff0c5b021a1b843ca7ef92cebd3dcf9c4888",
+      "bytes": 79218
+    },
+    {
+      "notebook": "notebooks/stage6/84_Stage6_Retrospective_Nested_supported_fold_response_bluff_opportunity_Fold_3_R1.ipynb",
+      "archive_name": "POKERNOW_ASSISTANT_STAGE6_BEHAVIOR_CHALLENGER_V2_SCIENCE_R14.zip",
+      "local_candidate_count": 1,
+      "distribution": "included_code_bundle",
+      "path": "notebooks/packages/POKERNOW_ASSISTANT_STAGE6_BEHAVIOR_CHALLENGER_V2_SCIENCE_R14.zip",
+      "sha256": "624f8a4623307b49eee4a0e2331df33485709c94a3aad2c5a731ee894a633971",
+      "bytes": 386673
+    },
+    {
+      "notebook": "notebooks/stage6/84_Stage6_Retrospective_Nested_supported_fold_response_bluff_opportunity_Fold_3_R1.ipynb",
+      "archive_name": "POKERNOW_ASSISTANT_STAGE6_RETROSPECTIVE_NESTED_SEARCH_R2.zip",
+      "local_candidate_count": 1,
+      "distribution": "included_code_bundle",
+      "path": "notebooks/packages/POKERNOW_ASSISTANT_STAGE6_RETROSPECTIVE_NESTED_SEARCH_R2.zip",
+      "sha256": "2c118ff3fb9dab7401851e87c2e793b32c9dd1086be2c50055cded0739fc933d",
+      "bytes": 26502
+    },
+    {
+      "notebook": "notebooks/stage6/85_Stage6_Retrospective_Nested_supported_fold_response_bluff_opportunity_Fold_4_R1.ipynb",
+      "archive_name": "POKERNOW_ASSISTANT_STAGE6_ADDITIONAL_EXPLOITATION_RELEASE_R21.zip",
+      "local_candidate_count": 1,
+      "distribution": "included_code_bundle",
+      "path": "notebooks/packages/POKERNOW_ASSISTANT_STAGE6_ADDITIONAL_EXPLOITATION_RELEASE_R21.zip",
+      "sha256": "c4e74aa7842d58fdd5b127be9dffff0c5b021a1b843ca7ef92cebd3dcf9c4888",
+      "bytes": 79218
+    },
+    {
+      "notebook": "notebooks/stage6/85_Stage6_Retrospective_Nested_supported_fold_response_bluff_opportunity_Fold_4_R1.ipynb",
+      "archive_name": "POKERNOW_ASSISTANT_STAGE6_BEHAVIOR_CHALLENGER_V2_SCIENCE_R14.zip",
+      "local_candidate_count": 1,
+      "distribution": "included_code_bundle",
+      "path": "notebooks/packages/POKERNOW_ASSISTANT_STAGE6_BEHAVIOR_CHALLENGER_V2_SCIENCE_R14.zip",
+      "sha256": "624f8a4623307b49eee4a0e2331df33485709c94a3aad2c5a731ee894a633971",
+      "bytes": 386673
+    },
+    {
+      "notebook": "notebooks/stage6/85_Stage6_Retrospective_Nested_supported_fold_response_bluff_opportunity_Fold_4_R1.ipynb",
+      "archive_name": "POKERNOW_ASSISTANT_STAGE6_RETROSPECTIVE_NESTED_SEARCH_R2.zip",
+      "local_candidate_count": 1,
+      "distribution": "included_code_bundle",
+      "path": "notebooks/packages/POKERNOW_ASSISTANT_STAGE6_RETROSPECTIVE_NESTED_SEARCH_R2.zip",
+      "sha256": "2c118ff3fb9dab7401851e87c2e793b32c9dd1086be2c50055cded0739fc933d",
+      "bytes": 26502
+    },
+    {
+      "notebook": "notebooks/stage6/86_Stage6_Retrospective_Nested_Out_Of_Fold_Aggregate_R4.ipynb",
+      "archive_name": "POKERNOW_ASSISTANT_STAGE6_ADDITIONAL_EXPLOITATION_RELEASE_R21.zip",
+      "local_candidate_count": 1,
+      "distribution": "included_code_bundle",
+      "path": "notebooks/packages/POKERNOW_ASSISTANT_STAGE6_ADDITIONAL_EXPLOITATION_RELEASE_R21.zip",
+      "sha256": "c4e74aa7842d58fdd5b127be9dffff0c5b021a1b843ca7ef92cebd3dcf9c4888",
+      "bytes": 79218
+    },
+    {
+      "notebook": "notebooks/stage6/86_Stage6_Retrospective_Nested_Out_Of_Fold_Aggregate_R4.ipynb",
+      "archive_name": "POKERNOW_ASSISTANT_STAGE6_BEHAVIOR_CHALLENGER_V2_SCIENCE_R14.zip",
+      "local_candidate_count": 1,
+      "distribution": "included_code_bundle",
+      "path": "notebooks/packages/POKERNOW_ASSISTANT_STAGE6_BEHAVIOR_CHALLENGER_V2_SCIENCE_R14.zip",
+      "sha256": "624f8a4623307b49eee4a0e2331df33485709c94a3aad2c5a731ee894a633971",
+      "bytes": 386673
+    },
+    {
+      "notebook": "notebooks/stage6/86_Stage6_Retrospective_Nested_Out_Of_Fold_Aggregate_R4.ipynb",
+      "archive_name": "POKERNOW_ASSISTANT_STAGE6_RETROSPECTIVE_NESTED_AGGREGATE_R4.zip",
+      "local_candidate_count": 1,
+      "distribution": "included_code_bundle",
+      "path": "notebooks/packages/POKERNOW_ASSISTANT_STAGE6_RETROSPECTIVE_NESTED_AGGREGATE_R4.zip",
+      "sha256": "cbb0aa48ca19b5a358d1163c9481605a7be8cae5afd49c4928e832b18f0dadbb",
+      "bytes": 56469
+    },
+    {
+      "notebook": "notebooks/stage7/01_Stage7_Completed_Data_Selected_Models_V2_r2.ipynb",
+      "archive_name": "input.zip",
+      "local_candidate_count": 0,
+      "distribution": "internal_temporary_filename"
+    },
+    {
+      "notebook": "notebooks/stage7/01_Stage7_Completed_Data_Selected_Models_V2_r2.ipynb",
+      "archive_name": "stage6_empirical_v2_completed_r3b.zip",
+      "local_candidate_count": 4,
+      "distribution": "external_private_or_unresolved"
+    },
+    {
+      "notebook": "notebooks/stage7/01_Stage7_Completed_Data_Selected_Models_V2_r2.ipynb",
+      "archive_name": "stage7_01_timestamp_code_plan_r2.zip",
+      "local_candidate_count": 3,
+      "distribution": "included_code_bundle",
+      "path": "notebooks/packages/stage7_01_timestamp_code_plan_r2.zip",
+      "sha256": "af93af7fd78fc171c9d7eb57f97cab9698ee9af14f0036cc58ba2a8ae12d94d6",
+      "bytes": 24959
+    },
+    {
+      "notebook": "notebooks/stage7/02_Stage7_Frozen_Capture_Comparison_V2_r3.ipynb",
+      "archive_name": "stage7_frozen_capture_comparison_v2_r3.zip",
+      "local_candidate_count": 3,
+      "distribution": "external_private_or_unresolved"
+    },
+    {
+      "notebook": "notebooks/stage7/03_Stage7_Empirical_Range_Response_V2_r2.ipynb",
+      "archive_name": "stage6_empirical_range_learning_v2_stage7_range_response_v2_r2.zip",
+      "local_candidate_count": 4,
+      "distribution": "included_code_bundle",
+      "path": "notebooks/packages/stage6_empirical_range_learning_v2_stage7_range_response_v2_r2.zip",
+      "sha256": "0d607e5c73b5756caef18e1ffb54a15119f2a9ef7904f158a2ca60396b7b8254",
+      "bytes": 93349
+    },
+    {
+      "notebook": "notebooks/stage7/04_Stage7_Terminal_Value_Retrospective_V2_r7.ipynb",
+      "archive_name": "stage7_terminal_replay_v2_code_r7.zip",
+      "local_candidate_count": 3,
+      "distribution": "included_code_bundle",
+      "path": "notebooks/packages/stage7_terminal_replay_v2_code_r7.zip",
+      "sha256": "84c613dcaf6987aee968d6b2adfeedc5527ef5c2166d8f46c7a189a5e2cccb52",
+      "bytes": 68665
+    },
+    {
+      "notebook": "notebooks/stage7/05_Stage7_Hierarchical_Response_R1.ipynb",
+      "archive_name": "stage7_05_code_r1.zip",
+      "local_candidate_count": 1,
+      "distribution": "included_code_bundle",
+      "path": "notebooks/packages/stage7_05_code_r1.zip",
+      "sha256": "4397d88529a308351036f8c08a404c5b20913208b897a1170785b45da81c8273",
+      "bytes": 149801
+    },
+    {
+      "notebook": "notebooks/solver/river_r22/A01_Stage1_River_Approximate_RV0001-RV0010_8ROOTS_48LANES.ipynb",
+      "archive_name": "POKERNOW_ASSISTANT_STAGE1_RIVER_INPUTS_R22.zip",
+      "distribution": "included_code_bundle",
+      "note": "Exact solver source and synthetic root-contract bundle; expensive execution and historical continuation/result inputs remain separate",
+      "path": "notebooks/packages/POKERNOW_ASSISTANT_STAGE1_RIVER_INPUTS_R22.zip",
+      "sha256": "03b0e44af8082b24fe166a849e625d390da06c47b5d7bc1cb0b58c6e64b017ef",
+      "bytes": 373244
+    },
+    {
+      "notebook": "notebooks/solver/river_r22/A02_Stage1_River_Approximate_RV0011-RV0018_8ROOTS_48LANES.ipynb",
+      "archive_name": "POKERNOW_ASSISTANT_STAGE1_RIVER_INPUTS_R22.zip",
+      "distribution": "included_code_bundle",
+      "note": "Exact solver source and synthetic root-contract bundle; expensive execution and historical continuation/result inputs remain separate",
+      "path": "notebooks/packages/POKERNOW_ASSISTANT_STAGE1_RIVER_INPUTS_R22.zip",
+      "sha256": "03b0e44af8082b24fe166a849e625d390da06c47b5d7bc1cb0b58c6e64b017ef",
+      "bytes": 373244
+    },
+    {
+      "notebook": "notebooks/solver/river_r22/A03_Stage1_River_Approximate_RV0019-RV0026_8ROOTS_48LANES.ipynb",
+      "archive_name": "POKERNOW_ASSISTANT_STAGE1_RIVER_INPUTS_R22.zip",
+      "distribution": "included_code_bundle",
+      "note": "Exact solver source and synthetic root-contract bundle; expensive execution and historical continuation/result inputs remain separate",
+      "path": "notebooks/packages/POKERNOW_ASSISTANT_STAGE1_RIVER_INPUTS_R22.zip",
+      "sha256": "03b0e44af8082b24fe166a849e625d390da06c47b5d7bc1cb0b58c6e64b017ef",
+      "bytes": 373244
+    },
+    {
+      "notebook": "notebooks/solver/river_r22/A04_Stage1_River_Approximate_RV0027-RV0035_8ROOTS_48LANES.ipynb",
+      "archive_name": "POKERNOW_ASSISTANT_STAGE1_RIVER_INPUTS_R22.zip",
+      "distribution": "included_code_bundle",
+      "note": "Exact solver source and synthetic root-contract bundle; expensive execution and historical continuation/result inputs remain separate",
+      "path": "notebooks/packages/POKERNOW_ASSISTANT_STAGE1_RIVER_INPUTS_R22.zip",
+      "sha256": "03b0e44af8082b24fe166a849e625d390da06c47b5d7bc1cb0b58c6e64b017ef",
+      "bytes": 373244
+    },
+    {
+      "notebook": "notebooks/solver/river_r22/A05_Stage1_River_Approximate_RV0036-RV0045_8ROOTS_48LANES.ipynb",
+      "archive_name": "POKERNOW_ASSISTANT_STAGE1_RIVER_INPUTS_R22.zip",
+      "distribution": "included_code_bundle",
+      "note": "Exact solver source and synthetic root-contract bundle; expensive execution and historical continuation/result inputs remain separate",
+      "path": "notebooks/packages/POKERNOW_ASSISTANT_STAGE1_RIVER_INPUTS_R22.zip",
+      "sha256": "03b0e44af8082b24fe166a849e625d390da06c47b5d7bc1cb0b58c6e64b017ef",
+      "bytes": 373244
+    },
+    {
+      "notebook": "notebooks/solver/river_r22/A06_Stage1_River_Approximate_RV0049-RV0056_8ROOTS_48LANES.ipynb",
+      "archive_name": "POKERNOW_ASSISTANT_STAGE1_RIVER_INPUTS_R22.zip",
+      "distribution": "included_code_bundle",
+      "note": "Exact solver source and synthetic root-contract bundle; expensive execution and historical continuation/result inputs remain separate",
+      "path": "notebooks/packages/POKERNOW_ASSISTANT_STAGE1_RIVER_INPUTS_R22.zip",
+      "sha256": "03b0e44af8082b24fe166a849e625d390da06c47b5d7bc1cb0b58c6e64b017ef",
+      "bytes": 373244
+    },
+    {
+      "notebook": "notebooks/solver/river_r22/A07_Stage1_River_Approximate_RV0057-RV0064_8ROOTS_48LANES.ipynb",
+      "archive_name": "POKERNOW_ASSISTANT_STAGE1_RIVER_INPUTS_R22.zip",
+      "distribution": "included_code_bundle",
+      "note": "Exact solver source and synthetic root-contract bundle; expensive execution and historical continuation/result inputs remain separate",
+      "path": "notebooks/packages/POKERNOW_ASSISTANT_STAGE1_RIVER_INPUTS_R22.zip",
+      "sha256": "03b0e44af8082b24fe166a849e625d390da06c47b5d7bc1cb0b58c6e64b017ef",
+      "bytes": 373244
+    },
+    {
+      "notebook": "notebooks/solver/river_r22/A08_Stage1_River_Approximate_RV0065-RV0072_8ROOTS_48LANES.ipynb",
+      "archive_name": "POKERNOW_ASSISTANT_STAGE1_RIVER_INPUTS_R22.zip",
+      "distribution": "included_code_bundle",
+      "note": "Exact solver source and synthetic root-contract bundle; expensive execution and historical continuation/result inputs remain separate",
+      "path": "notebooks/packages/POKERNOW_ASSISTANT_STAGE1_RIVER_INPUTS_R22.zip",
+      "sha256": "03b0e44af8082b24fe166a849e625d390da06c47b5d7bc1cb0b58c6e64b017ef",
+      "bytes": 373244
+    },
+    {
+      "notebook": "notebooks/solver/river_r22/A09_Stage1_River_Approximate_RV0073-RV0080_8ROOTS_48LANES.ipynb",
+      "archive_name": "POKERNOW_ASSISTANT_STAGE1_RIVER_INPUTS_R22.zip",
+      "distribution": "included_code_bundle",
+      "note": "Exact solver source and synthetic root-contract bundle; expensive execution and historical continuation/result inputs remain separate",
+      "path": "notebooks/packages/POKERNOW_ASSISTANT_STAGE1_RIVER_INPUTS_R22.zip",
+      "sha256": "03b0e44af8082b24fe166a849e625d390da06c47b5d7bc1cb0b58c6e64b017ef",
+      "bytes": 373244
+    },
+    {
+      "notebook": "notebooks/solver/river_r22/A10_Stage1_River_Approximate_RV0081-RV0088_8ROOTS_48LANES.ipynb",
+      "archive_name": "POKERNOW_ASSISTANT_STAGE1_RIVER_INPUTS_R22.zip",
+      "distribution": "included_code_bundle",
+      "note": "Exact solver source and synthetic root-contract bundle; expensive execution and historical continuation/result inputs remain separate",
+      "path": "notebooks/packages/POKERNOW_ASSISTANT_STAGE1_RIVER_INPUTS_R22.zip",
+      "sha256": "03b0e44af8082b24fe166a849e625d390da06c47b5d7bc1cb0b58c6e64b017ef",
+      "bytes": 373244
+    },
+    {
+      "notebook": "notebooks/solver/river_r22/A11_Stage1_River_Approximate_RV0089-RV0096_8ROOTS_48LANES.ipynb",
+      "archive_name": "POKERNOW_ASSISTANT_STAGE1_RIVER_INPUTS_R22.zip",
+      "distribution": "included_code_bundle",
+      "note": "Exact solver source and synthetic root-contract bundle; expensive execution and historical continuation/result inputs remain separate",
+      "path": "notebooks/packages/POKERNOW_ASSISTANT_STAGE1_RIVER_INPUTS_R22.zip",
+      "sha256": "03b0e44af8082b24fe166a849e625d390da06c47b5d7bc1cb0b58c6e64b017ef",
+      "bytes": 373244
+    },
+    {
+      "notebook": "notebooks/solver/river_r22/A12_Stage1_River_Approximate_RV0097-RV0104_8ROOTS_48LANES.ipynb",
+      "archive_name": "POKERNOW_ASSISTANT_STAGE1_RIVER_INPUTS_R22.zip",
+      "distribution": "included_code_bundle",
+      "note": "Exact solver source and synthetic root-contract bundle; expensive execution and historical continuation/result inputs remain separate",
+      "path": "notebooks/packages/POKERNOW_ASSISTANT_STAGE1_RIVER_INPUTS_R22.zip",
+      "sha256": "03b0e44af8082b24fe166a849e625d390da06c47b5d7bc1cb0b58c6e64b017ef",
+      "bytes": 373244
+    },
+    {
+      "notebook": "notebooks/solver/river_r22/A13_Stage1_River_Approximate_RV0105-RV0128_8ROOTS_48LANES.ipynb",
+      "archive_name": "POKERNOW_ASSISTANT_STAGE1_RIVER_INPUTS_R22.zip",
+      "distribution": "included_code_bundle",
+      "note": "Exact solver source and synthetic root-contract bundle; expensive execution and historical continuation/result inputs remain separate",
+      "path": "notebooks/packages/POKERNOW_ASSISTANT_STAGE1_RIVER_INPUTS_R22.zip",
+      "sha256": "03b0e44af8082b24fe166a849e625d390da06c47b5d7bc1cb0b58c6e64b017ef",
+      "bytes": 373244
+    },
+    {
+      "notebook": "notebooks/solver/river_r22/A14_Stage1_River_RestrictedExact_RV0110-RV0117_8ROOTS_48LANES.ipynb",
+      "archive_name": "POKERNOW_ASSISTANT_STAGE1_RIVER_INPUTS_R22.zip",
+      "distribution": "included_code_bundle",
+      "note": "Exact solver source and synthetic root-contract bundle; expensive execution and historical continuation/result inputs remain separate",
+      "path": "notebooks/packages/POKERNOW_ASSISTANT_STAGE1_RIVER_INPUTS_R22.zip",
+      "sha256": "03b0e44af8082b24fe166a849e625d390da06c47b5d7bc1cb0b58c6e64b017ef",
+      "bytes": 373244
+    },
+    {
+      "notebook": "notebooks/solver/river_r22/A15_Stage1_River_RestrictedExact_RV0118-RV0125_8ROOTS_48LANES.ipynb",
+      "archive_name": "POKERNOW_ASSISTANT_STAGE1_RIVER_INPUTS_R22.zip",
+      "distribution": "included_code_bundle",
+      "note": "Exact solver source and synthetic root-contract bundle; expensive execution and historical continuation/result inputs remain separate",
+      "path": "notebooks/packages/POKERNOW_ASSISTANT_STAGE1_RIVER_INPUTS_R22.zip",
+      "sha256": "03b0e44af8082b24fe166a849e625d390da06c47b5d7bc1cb0b58c6e64b017ef",
+      "bytes": 373244
+    },
+    {
+      "notebook": "notebooks/solver/river_r22/A16_Stage1_River_Forced_RV0002-RV0048_8ROOTS_48LANES.ipynb",
+      "archive_name": "POKERNOW_ASSISTANT_STAGE1_RIVER_INPUTS_R22.zip",
+      "distribution": "included_code_bundle",
+      "note": "Exact solver source and synthetic root-contract bundle; expensive execution and historical continuation/result inputs remain separate",
+      "path": "notebooks/packages/POKERNOW_ASSISTANT_STAGE1_RIVER_INPUTS_R22.zip",
+      "sha256": "03b0e44af8082b24fe166a849e625d390da06c47b5d7bc1cb0b58c6e64b017ef",
+      "bytes": 373244
+    },
+    {
+      "notebook": "notebooks/solver/river_r22/A17_Stage1_River_Strict_Aggregate_48_VALIDATION_LANES.ipynb",
+      "archive_name": "POKERNOW_ASSISTANT_STAGE1_RIVER_INPUTS_R22.zip",
+      "distribution": "included_code_bundle",
+      "note": "Exact solver source and synthetic root-contract bundle; expensive execution and historical continuation/result inputs remain separate",
+      "path": "notebooks/packages/POKERNOW_ASSISTANT_STAGE1_RIVER_INPUTS_R22.zip",
+      "sha256": "03b0e44af8082b24fe166a849e625d390da06c47b5d7bc1cb0b58c6e64b017ef",
+      "bytes": 373244
+    }
+  ],
+  "note": "Historical notebooks retain original Drive layout and exact identities. Missing private inputs are not fabricated."
+}

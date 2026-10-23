@@ -1,0 +1,20 @@
+\begin{table}[!htbp]
+\centering\small
+\caption{Installed refits. Steps are retained boosting iterations or trees for Extra Trees. Time is the receipt elapsed time for each job, not additive wall-time or total project compute.}
+\label{tab:training}
+\begin{tabular}{llrrrr}
+\toprule
+Layer & Family & Features & Steps & $T$ & Seconds \\
+\midrule
+Joint action/size & LightGBM & 16 & 112 & 0.9 & 108 \\
+Player archetype & XGBoost & 15 & 171 & 0.9 & 206 \\
+Multiway response & CatBoost & 11 & 357 & 1.0 & 488 \\
+Bluff likelihood & XGBoost & 21 & 133 & 1.0 & 189 \\
+Strategy drift & CatBoost & 24 & 252 & 1.0 & 433 \\
+Postflop behavior & LightGBM & 61 & 453 & 1.0 & 223 \\
+Showdown calibration & CatBoost & 9 & 480 & 1.0 & 1,193 \\
+Fold response & Extra Trees & 9 & 192 & 1.0 & 389 \\
+Within-hand line & CatBoost & 124 & 4,181 & 1.0 & 17,086 \\
+\bottomrule
+\end{tabular}
+\end{table}

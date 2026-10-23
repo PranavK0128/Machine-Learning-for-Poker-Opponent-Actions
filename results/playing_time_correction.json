@@ -1,0 +1,9 @@
+{
+  "playing_hours": 66.49,
+  "applies_to_included_games": 32,
+  "source": "Project author correction supplied in PDF annotation on October 23, 2026, then explicitly authorized for use without the other chat being available.",
+  "independently_verified": false,
+  "corrected_per_game_hours_available": false,
+  "cohort_assumption": "Apply the supplied aggregate to the existing 32-game, 4880-hand cohort and unchanged +486.37 BB ledger numerator.",
+  "uncertainty_policy": "Do not reuse or proportionally rescale the former game-bootstrap interval."
+}

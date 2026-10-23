@@ -1,0 +1,80 @@
+{
+  "schema_version": "stage6_player_profile_contract_v1",
+  "status": "LOCAL_CAUSAL_PROFILE_CANDIDATE_READY__FULL_RESULT_HELD",
+  "required_profile_columns": [
+    "canonical_player_id",
+    "profile_snapshot_id",
+    "profile_snapshot_cutoff_utc",
+    "profile_source_max_event_utc",
+    "identity_resolution_status",
+    "total_hands",
+    "games_played",
+    "authoritative_source_receipt",
+    "alias_resolution_receipt"
+  ],
+  "metric_registry_requirements": [
+    "metric_id",
+    "value_field",
+    "numerator_field",
+    "opportunity_denominator_field",
+    "unit",
+    "valid_min",
+    "valid_max",
+    "street_or_context_scope",
+    "missing_value_semantics",
+    "minimum_runtime_opportunity_support",
+    "shrinkage_or_interval_method",
+    "reconciliation_absolute_tolerance",
+    "uncertainty_lower_field",
+    "uncertainty_upper_field",
+    "uncertainty_confidence_level",
+    "uncertainty_required_for_runtime_support"
+  ],
+  "causal_invariants": {
+    "profile_source_max_event_strictly_before_decision": true,
+    "profile_source_max_event_not_after_snapshot_cutoff": true,
+    "historically_revealed_cards_allowed_only_when_public_before_snapshot_cutoff": true,
+    "current_or_future_private_cards_forbidden": true,
+    "post_decision_outcomes_forbidden": true,
+    "population_priors_fit_on_training_rows_only": true,
+    "profile_lookups_are_as_of_decision_time": true,
+    "unknown_profile_columns_forbidden_by_exact_metric_registry_schema": true
+  },
+  "statistical_invariants": {
+    "missing_is_distinct_from_observed_zero": true,
+    "numerator_must_not_exceed_opportunity_denominator": true,
+    "stored_percentage_must_reconcile_with_counts": true,
+    "total_hands_cannot_substitute_for_metric_specific_opportunities": true,
+    "raw_rate_below_minimum_support_cannot_enable_exploit": true,
+    "support_and_uncertainty_must_travel_with_every_metric": true,
+    "minimum_support_selected_on_locked_validation_only": true,
+    "calibration_required_before_runtime_use": true
+  },
+  "identity_and_source_invariants": {
+    "one_declared_authoritative_profile_source_per_snapshot": true,
+    "source_precedence_must_not_depend_on_object_field_order": true,
+    "conflicting_duplicate_sources_must_fail": true,
+    "alias_resolution_receipt_required": true,
+    "identity_collision_count": 0,
+    "whitespace_or_case_aliases_cannot_create_distinct_players": true
+  },
+  "runtime_targeting_invariants": {
+    "single_opponent_target_must_match_the_exact_visible_actor_or_aggressor": true,
+    "multiway_target_set_must_be_explicit_and_order_invariant": true,
+    "first_matching_roster_row_is_not_target_authority": true,
+    "unsupported_or_ambiguous_target_must_abstain": true,
+    "profile_adjustment_requires_measurable_policy_delta": true,
+    "fixed_heuristic_delta_is_not_a_qualified_exploit": true
+  },
+  "required_evaluation_panels": [
+    "future_known_player",
+    "unseen_player_cold_start",
+    "unseen_game",
+    "support_bucket",
+    "identity_ambiguity",
+    "multiway_target_alignment",
+    "final_private_lockbox"
+  ],
+  "promotion_default": "hold",
+  "self_sha256": "615299f2169872a665353ddf140c653ade727b45670927a06df8d831e958661b"
+}

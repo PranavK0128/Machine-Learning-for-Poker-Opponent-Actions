@@ -1,0 +1,1369 @@
+{
+  "schema": "paper_methods_evidence_v1",
+  "data": {
+    "source_decision_rows": 2334700,
+    "accepted_decision_rows": 2333461,
+    "quarantined_rows": 1239,
+    "quarantine_reasons": {
+      "dominated_zero_cost_fold": 893,
+      "observed_bet_below_exact_minimum": 1,
+      "observed_call_contribution_transition_mismatch": 214,
+      "observed_check_facing_positive_call": 6,
+      "observed_raise_below_exact_minimum": 125
+    },
+    "accepted_game_count": 447,
+    "accepted_hand_count": 202788,
+    "accepted_actor_count": 666,
+    "minimum_decision_utc": "2026-05-12T21:12:09.742Z",
+    "maximum_decision_utc": "2026-08-20T06:47:17.356Z",
+    "whole_hand_role_rows": {
+      "development_train": 1821293,
+      "development_validation": 398940,
+      "retrospective_calibration": 113228
+    },
+    "source_identities": {
+      "contracts/stage6_data_contract_v1.json": {
+        "bytes": 6127,
+        "relative_path": "contracts/stage6_data_contract_v1.json",
+        "sha256": "0781ce892f1b756b63d3d0386c3040e03975c859b38117f1aa8d4d42b57ad938"
+      },
+      "contracts/stage6_decision_feature_role_manifest_v1.json": {
+        "bytes": 4478,
+        "relative_path": "contracts/stage6_decision_feature_role_manifest_v1.json",
+        "sha256": "582ae39804ffc5ac9682d2b1103a298214bca9956eec43313eee7f3386910135"
+      },
+      "contracts/stage6_player_profile_contract_v1.json": {
+        "bytes": 3180,
+        "relative_path": "contracts/stage6_player_profile_contract_v1.json",
+        "sha256": "487f615ca804593a0c3ed3c95e7a8ee79d80811e45ecb603e7dace67adb2fac8"
+      },
+      "contracts/stage6_profile_metric_registry_hold_v1.json": {
+        "bytes": 12207,
+        "relative_path": "contracts/stage6_profile_metric_registry_hold_v1.json",
+        "sha256": "42b88b57d95c833311819e9f90b508a1fb5c247374bd9322023e927aec20ec18"
+      },
+      "contracts/stage6_source_quarantine_contract_r32.json": {
+        "bytes": 3576,
+        "relative_path": "contracts/stage6_source_quarantine_contract_r32.json",
+        "sha256": "bae1040e6e864850afbfa40a240e9283f9eec4123ce7c7051aa7074b6d5505be"
+      },
+      "contracts/stage6_split_contract_v1.json": {
+        "bytes": 5053,
+        "relative_path": "contracts/stage6_split_contract_v1.json",
+        "sha256": "3ad020f32b9c329ec75d4d9a4726807eb8a48c92ac47c9138c0d61f7c78acfce"
+      },
+      "contracts/stage6_worker_policy_v3.json": {
+        "bytes": 3707,
+        "relative_path": "contracts/stage6_worker_policy_v3.json",
+        "sha256": "3f42e0fbb3f4d3157b21a2de4197092e6f47562c34c96ed7fc8ba82ab79ba81a"
+      },
+      "data/exports/ml/action-state-decision-rows.csv": {
+        "bytes": 2393137787,
+        "relative_path": "data/exports/ml/action-state-decision-rows.csv",
+        "sha256": "2136ffb385c814bd12810a170c2243dff7ce0f9593800475fe81d3cf594d8d6d"
+      },
+      "data/exports/ml/stage6-action-decision-time-identity.csv": {
+        "bytes": 670159274,
+        "relative_path": "data/exports/ml/stage6-action-decision-time-identity.csv",
+        "sha256": "dd7f2d0c9cce2aafe56c64f77da38226e6a597d885d01a310d04cbc463a6cc22"
+      },
+      "data/exports/ml/stage6-hand-profile-observations.csv": {
+        "bytes": 431974239,
+        "relative_path": "data/exports/ml/stage6-hand-profile-observations.csv",
+        "sha256": "203a9988b929e94923919aadb53c54ccd58664f00f7e8b4dbedd5e7645d8ec31"
+      },
+      "evidence/stage6_notebook01_source_quarantine_scan_2026-08-24_r32.json": {
+        "bytes": 2487,
+        "relative_path": "evidence/stage6_notebook01_source_quarantine_scan_2026-08-24_r32.json",
+        "sha256": "33b60d4813d0a29a2c64cdcf30b5488b352c8c3d88d3d912d89071a3bda446ee"
+      }
+    },
+    "additional_materialization_counts": {
+      "accepted_exact_labels": 78465,
+      "completed_history_rows": 2333461,
+      "conflicting_identity_player_hands": 5,
+      "decision_context_rows": 2333461,
+      "exact_label_rows": 114605,
+      "full_revealed_player_hands": 107228,
+      "full_revealed_player_hands_without_exact_labels": 27889,
+      "normalized_preflop_raise_to_bet_decisions": 2088,
+      "partial_or_ineligible_player_hands": 15033,
+      "rejected_authenticated_notebook01_quarantine_labels": 626,
+      "rejected_or_unavailable_labels": 36140,
+      "rows_missing_exact_facing_size": 622334,
+      "rows_missing_exact_hand_completion": 0,
+      "rows_with_ambiguous_target": 864178,
+      "shown_card_rows": 122271,
+      "source_decision_rows": 2333461,
+      "unmapped_player_hands": 0
+    },
+    "interpretation": "Decision rows repeat players and hands. Canonical identity groups were resolved retrospectively. Historical feature values use earlier completed hands.",
+    "materialization_resource_observation": {
+      "available_disk_bytes": 129441247232,
+      "available_system_ram_bytes": 4767145984,
+      "disk_admitted": true,
+      "live_workers": 3,
+      "ram_admitted": true,
+      "required_available_disk_bytes": 12884901888,
+      "required_available_ram_bytes": 4563402752,
+      "rss_bytes": 53972992,
+      "worker_resolution": {
+        "accelerator_device_cores_used_as_process_workers": false,
+        "active_capacity_bounds": [
+          "requested_or_auto_host_cpu_capacity"
+        ],
+        "detected_usable_logical_cpus": 16,
+        "live_workers": 3,
+        "logical_lane_cap": 48,
+        "requested_workers": "3",
+        "requested_workers_mode": "explicit",
+        "resolution_rule": "min(requested_or_auto_host_cpu_capacity, unfinished_lane_count, detected_usable_logical_cpus, logical_lane_cap)",
+        "runtime_name_used_for_resolution": false,
+        "schema_version": "stage6_runtime_neutral_worker_resolution_v1",
+        "scientific_lane_count_changed": false,
+        "unfinished_lane_count": 48
+      }
+    }
+  },
+  "models": [
+    {
+      "layer": "joint_action_size_surprise",
+      "family": "lightgbm",
+      "candidate_id": "lightgbm-059-952c898b4f4a",
+      "parameters": {
+        "colsample_bytree": 0.9,
+        "learning_rate": 0.025,
+        "max_depth": -1,
+        "min_child_samples": 180,
+        "num_leaves": 23,
+        "reg_alpha": 0.1,
+        "reg_lambda": 1.0,
+        "subsample": 1.0
+      },
+      "best_iteration": 112,
+      "feature_count": 16,
+      "fit_roles": [
+        "development_train",
+        "development_validation"
+      ],
+      "fit_row_count": 2220233,
+      "calibration_role": "retrospective_calibration",
+      "calibration_row_count": 113228,
+      "class_counts_fit": {
+        "all_in": 24535,
+        "bet": 195249,
+        "call": 378389,
+        "check": 402864,
+        "fold": 986945,
+        "raise": 232251
+      },
+      "class_priors_laplace_one": {
+        "all_in": 0.01105106252074664,
+        "bet": 0.08794098293021607,
+        "call": 0.17042759810993321,
+        "check": 0.1814511861110448,
+        "fold": 0.44452241402839965,
+        "raise": 0.10460675629965963
+      },
+      "qualification_fold_temperature": 0.9,
+      "refit_temperature": 0.9,
+      "selection_fold": "outer-fold-04",
+      "selection_rule": "latest_chronological_completed_outer_fold_inner_selected_configuration_without_outer_test_reuse",
+      "feature_schema": {
+        "action_or_decision_timing_feature": false,
+        "categorical": [],
+        "feature_order_sha256": "a82b4bcf1e0f02da6874d90d4c9ed62d084532f4610ee7a70a7e96dcc1c99fa4",
+        "hidden_or_future_card_feature": false,
+        "missing_value_policy": "fit_partition_median_then_fail_closed_nonfinite",
+        "numeric": [
+          "joint_action_size_prior_completed_hand_count",
+          "joint_action_size_prior_decision_count",
+          "joint_action_size_prior_aggressive_size_count",
+          "joint_action_size_expected_aggressive_size",
+          "joint_action_size_aggressive_size_std",
+          "joint_action_size_observed_support_min",
+          "joint_action_size_observed_support_max",
+          "joint_action_size_supported",
+          "joint_action_size_confidence",
+          "joint_action_size_abstain",
+          "joint_action_size_prior_fold_rate",
+          "joint_action_size_prior_check_rate",
+          "joint_action_size_prior_call_rate",
+          "joint_action_size_prior_bet_rate",
+          "joint_action_size_prior_raise_rate",
+          "joint_action_size_prior_all_in_rate"
+        ],
+        "schema_version": "stage6_retrospective_nested_feature_schema_v1"
+      },
+      "support_contract": {
+        "below_support": "abstain",
+        "predicate": "joint_action_size_supported == true"
+      },
+      "calibration_artifact": {
+        "method": "temperature_scaling_grid_search",
+        "selection_partition": "retrospective_calibration_only",
+        "temperature": 0.9,
+        "temperature_grid": [
+          0.5,
+          0.67,
+          0.8,
+          0.9,
+          1.0,
+          1.1,
+          1.25,
+          1.5,
+          2.0
+        ]
+      },
+      "calibration_receipt_mode": "retrospective_calibration_grid",
+      "calibration_grid": [
+        0.5,
+        0.67,
+        0.8,
+        0.9,
+        1.0,
+        1.1,
+        1.25,
+        1.5,
+        2.0
+      ],
+      "receipt_temperature_matches_qualification": true,
+      "elapsed_seconds": 108.3571840999939,
+      "candidate_internal_threads": 1
+    },
+    {
+      "layer": "latent_player_archetype_shrinkage",
+      "family": "xgboost",
+      "candidate_id": "xgboost-004-3ddf9836e441",
+      "parameters": {
+        "colsample_bytree": 0.7,
+        "learning_rate": 0.035,
+        "max_bin": 256,
+        "max_depth": 3,
+        "min_child_weight": 10.0,
+        "reg_alpha": 0.0,
+        "reg_lambda": 16.0,
+        "subsample": 0.95
+      },
+      "best_iteration": 171,
+      "feature_count": 15,
+      "fit_roles": [
+        "development_train",
+        "development_validation"
+      ],
+      "fit_row_count": 2220233,
+      "calibration_role": "retrospective_calibration",
+      "calibration_row_count": 113228,
+      "class_counts_fit": {
+        "all_in": 24535,
+        "bet": 195249,
+        "call": 378389,
+        "check": 402864,
+        "fold": 986945,
+        "raise": 232251
+      },
+      "class_priors_laplace_one": {
+        "all_in": 0.01105106252074664,
+        "bet": 0.08794098293021607,
+        "call": 0.17042759810993321,
+        "check": 0.1814511861110448,
+        "fold": 0.44452241402839965,
+        "raise": 0.10460675629965963
+      },
+      "qualification_fold_temperature": 0.9,
+      "refit_temperature": 0.9,
+      "selection_fold": "outer-fold-04",
+      "selection_rule": "latest_chronological_completed_outer_fold_inner_selected_configuration_without_outer_test_reuse",
+      "feature_schema": {
+        "action_or_decision_timing_feature": false,
+        "categorical": [],
+        "feature_order_sha256": "99d0b2b5af8a7ac858fcf7d9d18b227d7cbc38c599994442aeeeae7744570c88",
+        "hidden_or_future_card_feature": false,
+        "missing_value_policy": "fit_partition_median_then_fail_closed_nonfinite",
+        "numeric": [
+          "latent_archetype_prior_completed_hand_count",
+          "latent_archetype_prior_decision_count",
+          "latent_archetype_player_weight",
+          "latent_archetype_posterior_aggression_rate",
+          "latent_archetype_posterior_facing_fold_rate",
+          "latent_archetype_posterior_aggressive_size_mean",
+          "latent_archetype_supported",
+          "latent_archetype_confidence",
+          "latent_archetype_abstain",
+          "latent_archetype_posterior_fold_rate",
+          "latent_archetype_posterior_check_rate",
+          "latent_archetype_posterior_call_rate",
+          "latent_archetype_posterior_bet_rate",
+          "latent_archetype_posterior_raise_rate",
+          "latent_archetype_posterior_all_in_rate"
+        ],
+        "schema_version": "stage6_retrospective_nested_feature_schema_v1"
+      },
+      "support_contract": {
+        "below_support": "abstain",
+        "predicate": "latent_archetype_supported == true",
+        "prior_decisions": 12.0
+      },
+      "calibration_artifact": {
+        "method": "temperature_scaling_grid_search",
+        "selection_partition": "retrospective_calibration_only",
+        "temperature": 0.9,
+        "temperature_grid": [
+          0.5,
+          0.67,
+          0.8,
+          0.9,
+          1.0,
+          1.1,
+          1.25,
+          1.5,
+          2.0
+        ]
+      },
+      "calibration_receipt_mode": "retrospective_calibration_grid",
+      "calibration_grid": [
+        0.5,
+        0.67,
+        0.8,
+        0.9,
+        1.0,
+        1.1,
+        1.25,
+        1.5,
+        2.0
+      ],
+      "receipt_temperature_matches_qualification": true,
+      "elapsed_seconds": 205.6405803000016,
+      "candidate_internal_threads": 1
+    },
+    {
+      "layer": "multiway_target_response",
+      "family": "catboost",
+      "candidate_id": "catboost-022-d53e0c902ef0",
+      "parameters": {
+        "bagging_temperature": 1.0,
+        "depth": 6,
+        "l2_leaf_reg": 13.0,
+        "learning_rate": 0.035,
+        "random_strength": 2.0
+      },
+      "best_iteration": 357,
+      "feature_count": 11,
+      "fit_roles": [
+        "development_train",
+        "development_validation"
+      ],
+      "fit_row_count": 2220233,
+      "calibration_role": "retrospective_calibration",
+      "calibration_row_count": 113228,
+      "class_counts_fit": {
+        "all_in": 24535,
+        "bet": 195249,
+        "call": 378389,
+        "check": 402864,
+        "fold": 986945,
+        "raise": 232251
+      },
+      "class_priors_laplace_one": {
+        "all_in": 0.01105106252074664,
+        "bet": 0.08794098293021607,
+        "call": 0.17042759810993321,
+        "check": 0.1814511861110448,
+        "fold": 0.44452241402839965,
+        "raise": 0.10460675629965963
+      },
+      "qualification_fold_temperature": 1.0,
+      "refit_temperature": 1.0,
+      "selection_fold": "outer-fold-04",
+      "selection_rule": "latest_chronological_completed_outer_fold_inner_selected_configuration_without_outer_test_reuse",
+      "feature_schema": {
+        "action_or_decision_timing_feature": false,
+        "categorical": [],
+        "feature_order_sha256": "501b46cb77c09fb348a213c281338e20500424db5c16fc6b4662ec58819c2494",
+        "hidden_or_future_card_feature": false,
+        "missing_value_policy": "fit_partition_median_then_fail_closed_nonfinite",
+        "numeric": [
+          "multiway_target_response_prior_completed_hand_count",
+          "multiway_target_response_prior_decision_count",
+          "multiway_target_response_supported",
+          "multiway_target_response_confidence",
+          "multiway_target_response_abstain",
+          "multiway_target_response_fold_rate",
+          "multiway_target_response_check_rate",
+          "multiway_target_response_call_rate",
+          "multiway_target_response_bet_rate",
+          "multiway_target_response_raise_rate",
+          "multiway_target_response_all_in_rate"
+        ],
+        "schema_version": "stage6_retrospective_nested_feature_schema_v1"
+      },
+      "support_contract": {
+        "below_support": "abstain",
+        "predicate": "multiway_target_response_supported == true"
+      },
+      "calibration_artifact": {
+        "method": "temperature_scaling_grid_search",
+        "selection_partition": "retrospective_calibration_only",
+        "temperature": 1.0,
+        "temperature_grid": [
+          0.5,
+          0.67,
+          0.8,
+          0.9,
+          1.0,
+          1.1,
+          1.25,
+          1.5,
+          2.0
+        ]
+      },
+      "calibration_receipt_mode": "retrospective_calibration_grid",
+      "calibration_grid": [
+        0.5,
+        0.67,
+        0.8,
+        0.9,
+        1.0,
+        1.1,
+        1.25,
+        1.5,
+        2.0
+      ],
+      "receipt_temperature_matches_qualification": true,
+      "elapsed_seconds": 488.16226910000114,
+      "candidate_internal_threads": 1
+    },
+    {
+      "layer": "opponent_bluff_likelihood",
+      "family": "xgboost",
+      "candidate_id": "xgboost-058-2b3071105630",
+      "parameters": {
+        "colsample_bytree": 0.9,
+        "learning_rate": 0.05,
+        "max_bin": 256,
+        "max_depth": 4,
+        "min_child_weight": 20.0,
+        "reg_alpha": 1.0,
+        "reg_lambda": 16.0,
+        "subsample": 0.75
+      },
+      "best_iteration": 133,
+      "feature_count": 21,
+      "fit_roles": [
+        "development_train",
+        "development_validation"
+      ],
+      "fit_row_count": 2220233,
+      "calibration_role": "retrospective_calibration",
+      "calibration_row_count": 113228,
+      "class_counts_fit": {
+        "all_in": 24535,
+        "bet": 195249,
+        "call": 378389,
+        "check": 402864,
+        "fold": 986945,
+        "raise": 232251
+      },
+      "class_priors_laplace_one": {
+        "all_in": 0.01105106252074664,
+        "bet": 0.08794098293021607,
+        "call": 0.17042759810993321,
+        "check": 0.1814511861110448,
+        "fold": 0.44452241402839965,
+        "raise": 0.10460675629965963
+      },
+      "qualification_fold_temperature": 1.0,
+      "refit_temperature": 1.0,
+      "selection_fold": "outer-fold-04",
+      "selection_rule": "latest_chronological_completed_outer_fold_inner_selected_configuration_without_outer_test_reuse",
+      "feature_schema": {
+        "action_or_decision_timing_feature": false,
+        "categorical": [],
+        "feature_order_sha256": "cda723340c2539f9126f853df56e364191a7c096806bdb9f4df33eb1ad11f8c2",
+        "hidden_or_future_card_feature": false,
+        "missing_value_policy": "fit_partition_median_then_fail_closed_nonfinite",
+        "numeric": [
+          "opponent_bluff_proxy_prediction",
+          "opponent_bluff_proxy_confidence",
+          "opponent_bluff_proxy_prior_completed_hand_count",
+          "opponent_bluff_proxy_prior_revealed_hand_count",
+          "opponent_bluff_proxy_selection_supported_label_count",
+          "opponent_bluff_proxy_selection_coverage",
+          "opponent_bluff_proxy_historical_reveal_rate",
+          "opponent_bluff_proxy_supported",
+          "opponent_bluff_proxy_abstain",
+          "opponent_bluff_missed_draw_prediction",
+          "opponent_bluff_missed_draw_confidence",
+          "opponent_bluff_missed_draw_selection_supported_label_count",
+          "opponent_bluff_missed_draw_selection_coverage",
+          "opponent_bluff_missed_draw_supported",
+          "opponent_bluff_missed_draw_abstain",
+          "opponent_bluff_bottom_pair_prediction",
+          "opponent_bluff_bottom_pair_confidence",
+          "opponent_bluff_bottom_pair_selection_supported_label_count",
+          "opponent_bluff_bottom_pair_selection_coverage",
+          "opponent_bluff_bottom_pair_supported",
+          "opponent_bluff_bottom_pair_abstain"
+        ],
+        "schema_version": "stage6_retrospective_nested_feature_schema_v1"
+      },
+      "support_contract": {
+        "authority": "bluffShownProxy_not_bluff_truth",
+        "below_support": "abstain",
+        "predicate": "one_or_more_selection_supported_flags == true"
+      },
+      "calibration_artifact": {
+        "method": "frozen_authenticated_inner_selected_temperature",
+        "retrospective_calibration_used_for_selection": false,
+        "selection_reperformed": false,
+        "selection_source": "outer-fold-04 prediction_report.selected_temperature",
+        "temperature": 1.0
+      },
+      "calibration_receipt_mode": "frozen_inner_temperature_diagnostic",
+      "calibration_grid": null,
+      "receipt_temperature_matches_qualification": true,
+      "elapsed_seconds": 189.42931059999682,
+      "candidate_internal_threads": 1
+    },
+    {
+      "layer": "player_strategy_drift",
+      "family": "catboost",
+      "candidate_id": "catboost-046-51ff86504734",
+      "parameters": {
+        "bagging_temperature": 0.5,
+        "depth": 5,
+        "l2_leaf_reg": 9.0,
+        "learning_rate": 0.07,
+        "random_strength": 0.5
+      },
+      "best_iteration": 252,
+      "feature_count": 24,
+      "fit_roles": [
+        "development_train",
+        "development_validation"
+      ],
+      "fit_row_count": 2220233,
+      "calibration_role": "retrospective_calibration",
+      "calibration_row_count": 113228,
+      "class_counts_fit": {
+        "all_in": 24535,
+        "bet": 195249,
+        "call": 378389,
+        "check": 402864,
+        "fold": 986945,
+        "raise": 232251
+      },
+      "class_priors_laplace_one": {
+        "all_in": 0.01105106252074664,
+        "bet": 0.08794098293021607,
+        "call": 0.17042759810993321,
+        "check": 0.1814511861110448,
+        "fold": 0.44452241402839965,
+        "raise": 0.10460675629965963
+      },
+      "qualification_fold_temperature": 1.0,
+      "refit_temperature": 1.0,
+      "selection_fold": "outer-fold-04",
+      "selection_rule": "latest_chronological_completed_outer_fold_inner_selected_configuration_without_outer_test_reuse",
+      "feature_schema": {
+        "action_or_decision_timing_feature": false,
+        "categorical": [],
+        "feature_order_sha256": "eca154afe8ec7554b3091f5d811f14055055dfea3ffdead8ad8204b225646050",
+        "hidden_or_future_card_feature": false,
+        "missing_value_policy": "fit_partition_median_then_fail_closed_nonfinite",
+        "numeric": [
+          "strategy_drift_recent_completed_hand_count",
+          "strategy_drift_reference_completed_hand_count",
+          "strategy_drift_l1",
+          "strategy_drift_supported",
+          "strategy_drift_confidence",
+          "strategy_drift_abstain",
+          "strategy_drift_recent_fold_rate",
+          "strategy_drift_reference_fold_rate",
+          "strategy_drift_fold_delta",
+          "strategy_drift_recent_check_rate",
+          "strategy_drift_reference_check_rate",
+          "strategy_drift_check_delta",
+          "strategy_drift_recent_call_rate",
+          "strategy_drift_reference_call_rate",
+          "strategy_drift_call_delta",
+          "strategy_drift_recent_bet_rate",
+          "strategy_drift_reference_bet_rate",
+          "strategy_drift_bet_delta",
+          "strategy_drift_recent_raise_rate",
+          "strategy_drift_reference_raise_rate",
+          "strategy_drift_raise_delta",
+          "strategy_drift_recent_all_in_rate",
+          "strategy_drift_reference_all_in_rate",
+          "strategy_drift_all_in_delta"
+        ],
+        "schema_version": "stage6_retrospective_nested_feature_schema_v1"
+      },
+      "support_contract": {
+        "below_support": "abstain",
+        "predicate": "strategy_drift_supported == true",
+        "recent_completed_hands": 8,
+        "reference_completed_hands": 64
+      },
+      "calibration_artifact": {
+        "method": "frozen_authenticated_inner_selected_temperature",
+        "retrospective_calibration_used_for_selection": false,
+        "selection_reperformed": false,
+        "selection_source": "outer-fold-04 prediction_report.selected_temperature",
+        "temperature": 1.0
+      },
+      "calibration_receipt_mode": "frozen_inner_temperature_diagnostic",
+      "calibration_grid": null,
+      "receipt_temperature_matches_qualification": true,
+      "elapsed_seconds": 432.559963599997,
+      "candidate_internal_threads": 1
+    },
+    {
+      "layer": "postflop_behavior",
+      "family": "lightgbm",
+      "candidate_id": "postflop_behavior--lightgbm-044-260330195a5f",
+      "parameters": {
+        "colsample_bytree": 0.7,
+        "learning_rate": 0.05,
+        "max_depth": 12,
+        "min_child_samples": 40,
+        "num_leaves": 23,
+        "reg_alpha": 1.0,
+        "reg_lambda": 6.0,
+        "subsample": 0.85
+      },
+      "best_iteration": 453,
+      "feature_count": 61,
+      "fit_roles": [
+        "development_train",
+        "development_validation"
+      ],
+      "fit_row_count": 886821,
+      "calibration_role": "retrospective_calibration",
+      "calibration_row_count": 47426,
+      "class_counts_fit": {
+        "all_in": 16138,
+        "bet": 190367,
+        "call": 121838,
+        "check": 390522,
+        "fold": 150993,
+        "raise": 16963
+      },
+      "class_priors_laplace_one": {
+        "all_in": 0.018198588901781294,
+        "bet": 0.2146619351914184,
+        "call": 0.1373875626249539,
+        "check": 0.4403598447047733,
+        "fold": 0.17026319676780252,
+        "raise": 0.01912887180927058
+      },
+      "qualification_fold_temperature": 1.0,
+      "refit_temperature": 1.0,
+      "selection_fold": "outer-fold-04",
+      "selection_rule": "latest_chronological_completed_outer_fold_inner_selected_configuration_without_outer_test_reuse",
+      "feature_schema": {
+        "action_or_decision_timing_feature": false,
+        "categorical": [],
+        "feature_order_sha256": "47af4daa5dbda645a567c1de8799c54c59dcdbff1b7140c2a906138459778466",
+        "hidden_or_future_card_feature": false,
+        "missing_value_policy": "fit_partition_median_then_fail_closed_nonfinite",
+        "numeric": [
+          "street==preflop",
+          "street==flop",
+          "street==turn",
+          "street==river",
+          "board_pair_level==__MISSING__",
+          "board_pair_level==unpaired",
+          "board_pair_level==one_pair",
+          "board_pair_level==two_pair",
+          "board_pair_level==trips",
+          "board_pair_level==quads",
+          "board_pair_level==full_house_possible",
+          "legal_fold",
+          "legal_check",
+          "legal_call",
+          "legal_bet",
+          "legal_raise",
+          "legal_all_in",
+          "short_all_in_call",
+          "board_is_paired",
+          "board_is_two_tone",
+          "board_is_monotone",
+          "street_last_aggressor_is_actor",
+          "facing_bet_or_raise",
+          "check_raise_opportunity",
+          "facing_cbet",
+          "facing_donk_lead",
+          "missed_cbet_probe_opportunity",
+          "delayed_cbet_opportunity",
+          "turn_barrel_opportunity",
+          "river_barrel_opportunity",
+          "preflop_facing_open_raise",
+          "preflop_facing_three_bet_or_more",
+          "preflop_squeeze_opportunity",
+          "preflop_limp_opportunity",
+          "preflop_actor_has_limped_before",
+          "preflop_actor_has_called_before",
+          "preflop_actor_has_raised_before",
+          "amount_to_call_bb",
+          "pot_before_bb",
+          "actor_committed_before_bb",
+          "actor_stack_before_bb",
+          "legal_min_bet_to_bb",
+          "legal_min_raise_to_bb",
+          "legal_max_bet_raise_to_bb",
+          "active_player_count_before",
+          "players_with_chips_before",
+          "effective_stack_before_bb",
+          "spr_before",
+          "board_card_count",
+          "board_connectedness_score",
+          "street_action_count_before",
+          "street_aggressive_action_count_before",
+          "street_call_count_before",
+          "street_check_count_before",
+          "street_fold_count_before",
+          "street_prior_actor_action_count",
+          "street_prior_actor_bet_raise_count",
+          "preflop_limper_count_before",
+          "preflop_caller_count_before",
+          "preflop_raise_count_before",
+          "preflop_prior_entry_count_before"
+        ],
+        "schema_version": "stage6_retrospective_nested_feature_schema_v1"
+      },
+      "support_contract": {
+        "below_support": "abstain",
+        "predicate": "street in [flop,turn,river]"
+      },
+      "calibration_artifact": {
+        "method": "temperature_scaling_grid_search",
+        "selection_partition": "retrospective_calibration_only",
+        "temperature": 1.0,
+        "temperature_grid": [
+          0.5,
+          0.67,
+          0.8,
+          0.9,
+          1.0,
+          1.1,
+          1.25,
+          1.5,
+          2.0
+        ]
+      },
+      "calibration_receipt_mode": "retrospective_calibration_grid",
+      "calibration_grid": [
+        0.5,
+        0.67,
+        0.8,
+        0.9,
+        1.0,
+        1.1,
+        1.25,
+        1.5,
+        2.0
+      ],
+      "receipt_temperature_matches_qualification": true,
+      "elapsed_seconds": 223.05671559999973,
+      "candidate_internal_threads": 1
+    },
+    {
+      "layer": "showdown_aware_range_calibration",
+      "family": "catboost",
+      "candidate_id": "catboost-018-a4850b7abfb7",
+      "parameters": {
+        "bagging_temperature": 0.5,
+        "depth": 7,
+        "l2_leaf_reg": 6.0,
+        "learning_rate": 0.025,
+        "random_strength": 2.0
+      },
+      "best_iteration": 480,
+      "feature_count": 9,
+      "fit_roles": [
+        "development_train",
+        "development_validation"
+      ],
+      "fit_row_count": 2220233,
+      "calibration_role": "retrospective_calibration",
+      "calibration_row_count": 113228,
+      "class_counts_fit": {
+        "all_in": 24535,
+        "bet": 195249,
+        "call": 378389,
+        "check": 402864,
+        "fold": 986945,
+        "raise": 232251
+      },
+      "class_priors_laplace_one": {
+        "all_in": 0.01105106252074664,
+        "bet": 0.08794098293021607,
+        "call": 0.17042759810993321,
+        "check": 0.1814511861110448,
+        "fold": 0.44452241402839965,
+        "raise": 0.10460675629965963
+      },
+      "qualification_fold_temperature": 1.0,
+      "refit_temperature": 1.0,
+      "selection_fold": "outer-fold-04",
+      "selection_rule": "latest_chronological_completed_outer_fold_inner_selected_configuration_without_outer_test_reuse",
+      "feature_schema": {
+        "action_or_decision_timing_feature": false,
+        "categorical": [],
+        "feature_order_sha256": "812e52d534182eb8de392ea50a9e7b9d1d5119acb41728d2f3ccb3ca9a330882",
+        "hidden_or_future_card_feature": false,
+        "missing_value_policy": "fit_partition_median_then_fail_closed_nonfinite",
+        "numeric": [
+          "range_calibration_strength_prediction",
+          "range_calibration_strength_confidence",
+          "range_calibration_strength_prior_completed_hand_count",
+          "range_calibration_strength_prior_revealed_hand_count",
+          "range_calibration_strength_selection_supported_label_count",
+          "range_calibration_strength_selection_coverage",
+          "range_calibration_strength_historical_reveal_rate",
+          "range_calibration_strength_supported",
+          "range_calibration_strength_abstain"
+        ],
+        "schema_version": "stage6_retrospective_nested_feature_schema_v1"
+      },
+      "support_contract": {
+        "below_support": "abstain",
+        "minimum_selection_coverage": 0.5,
+        "minimum_supported_labels": 3,
+        "predicate": "range_calibration_strength_supported == true"
+      },
+      "calibration_artifact": {
+        "method": "temperature_scaling_grid_search",
+        "selection_partition": "retrospective_calibration_only",
+        "temperature": 1.0,
+        "temperature_grid": [
+          0.5,
+          0.67,
+          0.8,
+          0.9,
+          1.0,
+          1.1,
+          1.25,
+          1.5,
+          2.0
+        ]
+      },
+      "calibration_receipt_mode": "retrospective_calibration_grid",
+      "calibration_grid": [
+        0.5,
+        0.67,
+        0.8,
+        0.9,
+        1.0,
+        1.1,
+        1.25,
+        1.5,
+        2.0
+      ],
+      "receipt_temperature_matches_qualification": true,
+      "elapsed_seconds": 1193.245487500004,
+      "candidate_internal_threads": 1
+    },
+    {
+      "layer": "supported_fold_response_bluff_opportunity",
+      "family": "extra_trees",
+      "candidate_id": "extra_trees-013-d0acf877bfb3",
+      "parameters": {
+        "class_weight": null,
+        "max_depth": 14,
+        "max_features": 1.0,
+        "min_samples_leaf": 32,
+        "n_estimators": 192
+      },
+      "best_iteration": 192,
+      "feature_count": 9,
+      "fit_roles": [
+        "development_train",
+        "development_validation"
+      ],
+      "fit_row_count": 2220233,
+      "calibration_role": "retrospective_calibration",
+      "calibration_row_count": 113228,
+      "class_counts_fit": {
+        "all_in": 24535,
+        "bet": 195249,
+        "call": 378389,
+        "check": 402864,
+        "fold": 986945,
+        "raise": 232251
+      },
+      "class_priors_laplace_one": {
+        "all_in": 0.01105106252074664,
+        "bet": 0.08794098293021607,
+        "call": 0.17042759810993321,
+        "check": 0.1814511861110448,
+        "fold": 0.44452241402839965,
+        "raise": 0.10460675629965963
+      },
+      "qualification_fold_temperature": 1.0,
+      "refit_temperature": 1.0,
+      "selection_fold": "outer-fold-04",
+      "selection_rule": "latest_chronological_completed_outer_fold_inner_selected_configuration_without_outer_test_reuse",
+      "feature_schema": {
+        "action_or_decision_timing_feature": false,
+        "categorical": [],
+        "feature_order_sha256": "4ddfeef623493e4bca53da65667ab1908b2e9fcaeea665c6b4e936667f9543e5",
+        "hidden_or_future_card_feature": false,
+        "missing_value_policy": "fit_partition_median_then_fail_closed_nonfinite",
+        "numeric": [
+          "supported_fold_prior_observation_count",
+          "supported_fold_local_observation_count",
+          "supported_fold_observed_support_min",
+          "supported_fold_observed_support_max",
+          "supported_fold_evaluated_size",
+          "supported_fold_observed_association_prediction",
+          "supported_fold_confidence",
+          "supported_fold_supported",
+          "supported_fold_abstain"
+        ],
+        "schema_version": "stage6_retrospective_nested_feature_schema_v1"
+      },
+      "support_contract": {
+        "below_support": "abstain",
+        "minimum_local_observations": 3,
+        "minimum_observations": 4,
+        "predicate": "supported_fold_supported == true"
+      },
+      "calibration_artifact": {
+        "method": "temperature_scaling_grid_search",
+        "selection_partition": "retrospective_calibration_only",
+        "temperature": 1.0,
+        "temperature_grid": [
+          0.5,
+          0.67,
+          0.8,
+          0.9,
+          1.0,
+          1.1,
+          1.25,
+          1.5,
+          2.0
+        ]
+      },
+      "calibration_receipt_mode": "retrospective_calibration_grid",
+      "calibration_grid": [
+        0.5,
+        0.67,
+        0.8,
+        0.9,
+        1.0,
+        1.1,
+        1.25,
+        1.5,
+        2.0
+      ],
+      "receipt_temperature_matches_qualification": true,
+      "elapsed_seconds": 389.1603394999984,
+      "candidate_internal_threads": 1
+    },
+    {
+      "layer": "within_hand_line_surprise",
+      "family": "catboost",
+      "candidate_id": "catboost-024-16406dfd7ce2",
+      "parameters": {
+        "bagging_temperature": 0.5,
+        "depth": 6,
+        "l2_leaf_reg": 18.0,
+        "learning_rate": 0.035,
+        "random_strength": 0.0
+      },
+      "best_iteration": 4181,
+      "feature_count": 124,
+      "fit_roles": [
+        "development_train",
+        "development_validation"
+      ],
+      "fit_row_count": 2220233,
+      "calibration_role": "retrospective_calibration",
+      "calibration_row_count": 113228,
+      "class_counts_fit": {
+        "all_in": 24535,
+        "bet": 195249,
+        "call": 378389,
+        "check": 402864,
+        "fold": 986945,
+        "raise": 232251
+      },
+      "class_priors_laplace_one": {
+        "all_in": 0.01105106252074664,
+        "bet": 0.08794098293021607,
+        "call": 0.17042759810993321,
+        "check": 0.1814511861110448,
+        "fold": 0.44452241402839965,
+        "raise": 0.10460675629965963
+      },
+      "qualification_fold_temperature": 1.0,
+      "refit_temperature": 1.0,
+      "selection_fold": "outer-fold-04",
+      "selection_rule": "latest_chronological_completed_outer_fold_inner_selected_configuration_without_outer_test_reuse",
+      "feature_schema": {
+        "action_or_decision_timing_feature": false,
+        "categorical": [],
+        "feature_order_sha256": "5506172e6702a95ee1bbf4bbaab57c381c958f8dff1069375c9e6b4f5cbd27c0",
+        "hidden_or_future_card_feature": false,
+        "missing_value_policy": "fit_partition_median_then_fail_closed_nonfinite",
+        "numeric": [
+          "base_street_preflop",
+          "base_street_flop",
+          "base_street_turn",
+          "base_street_river",
+          "base_board_pair_level_MISSING",
+          "base_board_pair_level_unpaired",
+          "base_board_pair_level_one_pair",
+          "base_board_pair_level_two_pair",
+          "base_board_pair_level_trips",
+          "base_board_pair_level_quads",
+          "base_board_pair_level_full_house_possible",
+          "base_legal_fold",
+          "base_legal_check",
+          "base_legal_call",
+          "base_legal_bet",
+          "base_legal_raise",
+          "base_legal_all_in",
+          "base_short_all_in_call",
+          "base_board_is_paired",
+          "base_board_is_two_tone",
+          "base_board_is_monotone",
+          "base_street_last_aggressor_is_actor",
+          "base_facing_bet_or_raise",
+          "base_check_raise_opportunity",
+          "base_facing_cbet",
+          "base_facing_donk_lead",
+          "base_missed_cbet_probe_opportunity",
+          "base_delayed_cbet_opportunity",
+          "base_turn_barrel_opportunity",
+          "base_river_barrel_opportunity",
+          "base_preflop_facing_open_raise",
+          "base_preflop_facing_three_bet_or_more",
+          "base_preflop_squeeze_opportunity",
+          "base_preflop_limp_opportunity",
+          "base_preflop_actor_has_limped_before",
+          "base_preflop_actor_has_called_before",
+          "base_preflop_actor_has_raised_before",
+          "base_amount_to_call_bb",
+          "base_pot_before_bb",
+          "base_actor_committed_before_bb",
+          "base_actor_stack_before_bb",
+          "base_legal_min_bet_to_bb",
+          "base_legal_min_raise_to_bb",
+          "base_legal_max_bet_raise_to_bb",
+          "base_active_player_count_before",
+          "base_players_with_chips_before",
+          "base_effective_stack_before_bb",
+          "base_spr_before",
+          "base_board_card_count",
+          "base_board_connectedness_score",
+          "base_street_action_count_before",
+          "base_street_aggressive_action_count_before",
+          "base_street_call_count_before",
+          "base_street_check_count_before",
+          "base_street_fold_count_before",
+          "base_street_prior_actor_action_count",
+          "base_street_prior_actor_bet_raise_count",
+          "base_preflop_limper_count_before",
+          "base_preflop_caller_count_before",
+          "base_preflop_raise_count_before",
+          "base_preflop_prior_entry_count_before",
+          "line_prefix_decision_count",
+          "line_prefix_aggressive_count",
+          "line_prefix_aggressive_rate",
+          "line_actor_prior_decision_count",
+          "line_actor_prior_aggressive_count",
+          "line_actor_prior_aggressive_rate",
+          "line_street_prefix_decision_count",
+          "line_street_transition_count",
+          "line_previous_action_run_length",
+          "line_prev_action_1_code__fold",
+          "line_prev_action_1_code__check",
+          "line_prev_action_1_code__call",
+          "line_prev_action_1_code__bet",
+          "line_prev_action_1_code__raise",
+          "line_prev_action_1_code__all_in",
+          "line_prev_action_1_code__missing",
+          "line_prev_action_1_same_actor",
+          "line_prev_action_1_same_street",
+          "line_prev_action_2_code__fold",
+          "line_prev_action_2_code__check",
+          "line_prev_action_2_code__call",
+          "line_prev_action_2_code__bet",
+          "line_prev_action_2_code__raise",
+          "line_prev_action_2_code__all_in",
+          "line_prev_action_2_code__missing",
+          "line_prev_action_2_same_actor",
+          "line_prev_action_2_same_street",
+          "line_prev_action_3_code__fold",
+          "line_prev_action_3_code__check",
+          "line_prev_action_3_code__call",
+          "line_prev_action_3_code__bet",
+          "line_prev_action_3_code__raise",
+          "line_prev_action_3_code__all_in",
+          "line_prev_action_3_code__missing",
+          "line_prev_action_3_same_actor",
+          "line_prev_action_3_same_street",
+          "line_prev_action_4_code__fold",
+          "line_prev_action_4_code__check",
+          "line_prev_action_4_code__call",
+          "line_prev_action_4_code__bet",
+          "line_prev_action_4_code__raise",
+          "line_prev_action_4_code__all_in",
+          "line_prev_action_4_code__missing",
+          "line_prev_action_4_same_actor",
+          "line_prev_action_4_same_street",
+          "line_prev_action_5_code__fold",
+          "line_prev_action_5_code__check",
+          "line_prev_action_5_code__call",
+          "line_prev_action_5_code__bet",
+          "line_prev_action_5_code__raise",
+          "line_prev_action_5_code__all_in",
+          "line_prev_action_5_code__missing",
+          "line_prev_action_5_same_actor",
+          "line_prev_action_5_same_street",
+          "line_prev_action_6_code__fold",
+          "line_prev_action_6_code__check",
+          "line_prev_action_6_code__call",
+          "line_prev_action_6_code__bet",
+          "line_prev_action_6_code__raise",
+          "line_prev_action_6_code__all_in",
+          "line_prev_action_6_code__missing",
+          "line_prev_action_6_same_actor",
+          "line_prev_action_6_same_street"
+        ],
+        "schema_version": "stage6_retrospective_nested_feature_schema_v1"
+      },
+      "support_contract": {
+        "below_support": "abstain_exact_matched_control_not_installed_as_policy",
+        "predicate": "line_prefix_decision_count >= 1"
+      },
+      "calibration_artifact": {
+        "method": "temperature_scaling_grid_search",
+        "selection_partition": "retrospective_calibration_only",
+        "temperature": 1.0,
+        "temperature_grid": [
+          0.5,
+          0.67,
+          0.8,
+          0.9,
+          1.0,
+          1.1,
+          1.25,
+          1.5,
+          2.0
+        ]
+      },
+      "calibration_receipt_mode": "retrospective_calibration_grid",
+      "calibration_grid": [
+        0.5,
+        0.67,
+        0.8,
+        0.9,
+        1.0,
+        1.1,
+        1.25,
+        1.5,
+        2.0
+      ],
+      "receipt_temperature_matches_qualification": true,
+      "elapsed_seconds": 17086.3992211,
+      "candidate_internal_threads": 1
+    }
+  ],
+  "calibration_provenance": {
+    "grid_receipts": 7,
+    "frozen_diagnostic_receipts": 2,
+    "all_installed_temperatures_match_qualification": true,
+    "interpretation": "Retained receipts take precedence over later source revisions when describing executed work."
+  },
+  "sources": [
+    {
+      "path": "Poker Assistant Model/Stage 6 - Qualified Layers Improvement/runtime_state/notebook01/materializations/cbb5f9ca2799df0e54f7925197f2816bd34f0b3b25a5a5912665ca382b436dba/stage6_notebook01_materialization_manifest.json",
+      "bytes": 104655,
+      "sha256": "27f5da1b4ecfd795f6c30368353ccd9322ccedb0656ce2dd83f8fe4b8d2deaa9"
+    },
+    {
+      "path": "Assistant Qualified/Assistant Code/runtime/ml/artifacts/stage6_retrospective_nested_v2/joint_action_size_surprise/refit_receipt.json",
+      "bytes": 6412,
+      "sha256": "5fd43b1fd1a78b33b4182a59f0af701e5c4f68f763630b2e96d7bbdb5dbce4f7"
+    },
+    {
+      "path": "Assistant Qualified/Assistant Code/runtime/ml/artifacts/stage6_retrospective_nested_v2/joint_action_size_surprise/feature_schema.json",
+      "bytes": 950,
+      "sha256": "edbf872216e9bc27b74cafdc2a998c258d092c02e97cdd234bbd3e77fbc46b75"
+    },
+    {
+      "path": "Assistant Qualified/Assistant Code/runtime/ml/artifacts/stage6_retrospective_nested_v2/joint_action_size_surprise/support_contract.json",
+      "bytes": 78,
+      "sha256": "1d6ba3f48957ce22e26d7ea43b67efa4e35f86132afd476cf4b9a66bbc3f6a5f"
+    },
+    {
+      "path": "Assistant Qualified/Assistant Code/runtime/ml/artifacts/stage6_retrospective_nested_v2/joint_action_size_surprise/calibration.json",
+      "bytes": 177,
+      "sha256": "a3de2049db4ca1903b9fecd527ac96b9faf43eab362d7ffeb390c5a3775df3ea"
+    },
+    {
+      "path": "Assistant Qualified/Assistant Code/runtime/ml/artifacts/stage6_retrospective_nested_v2/latent_player_archetype_shrinkage/refit_receipt.json",
+      "bytes": 6445,
+      "sha256": "6cb1804251a12a398c4f9d6de16ed41db7cad946b41e50501ead334ad70c38b9"
+    },
+    {
+      "path": "Assistant Qualified/Assistant Code/runtime/ml/artifacts/stage6_retrospective_nested_v2/latent_player_archetype_shrinkage/feature_schema.json",
+      "bytes": 922,
+      "sha256": "ae7c00f1d8375bb4055e1234d2d4b89100a50933585d4e1963c315322dc9b06d"
+    },
+    {
+      "path": "Assistant Qualified/Assistant Code/runtime/ml/artifacts/stage6_retrospective_nested_v2/latent_player_archetype_shrinkage/support_contract.json",
+      "bytes": 100,
+      "sha256": "95991be0f1a424ad9b58b099a4c32d1cb1973777be7895222a47e84d00b2c513"
+    },
+    {
+      "path": "Assistant Qualified/Assistant Code/runtime/ml/artifacts/stage6_retrospective_nested_v2/latent_player_archetype_shrinkage/calibration.json",
+      "bytes": 177,
+      "sha256": "a3de2049db4ca1903b9fecd527ac96b9faf43eab362d7ffeb390c5a3775df3ea"
+    },
+    {
+      "path": "Assistant Qualified/Assistant Code/runtime/ml/artifacts/stage6_retrospective_nested_v2/multiway_target_response/refit_receipt.json",
+      "bytes": 6290,
+      "sha256": "5f9f4673d2ad079521677f691fb887cbc2d8f3081f2da00025aa51c2e39fcf42"
+    },
+    {
+      "path": "Assistant Qualified/Assistant Code/runtime/ml/artifacts/stage6_retrospective_nested_v2/multiway_target_response/feature_schema.json",
+      "bytes": 776,
+      "sha256": "22d91390092146e3238f48f77b0d0d02b01db4ab3c80f62b62ac968352fceb7a"
+    },
+    {
+      "path": "Assistant Qualified/Assistant Code/runtime/ml/artifacts/stage6_retrospective_nested_v2/multiway_target_response/support_contract.json",
+      "bytes": 85,
+      "sha256": "8188478d0e095b7c4a8bcdd94bb4c0550194bba34545391f8c532008ce88e2b2"
+    },
+    {
+      "path": "Assistant Qualified/Assistant Code/runtime/ml/artifacts/stage6_retrospective_nested_v2/multiway_target_response/calibration.json",
+      "bytes": 177,
+      "sha256": "0c33cf5d2bf3ec5ca4ccf4c0638fdf254be081d6d2ed731e84746d1af9bbafd5"
+    },
+    {
+      "path": "Assistant Qualified/Assistant Code/runtime/ml/artifacts/stage6_retrospective_nested_v2/opponent_bluff_likelihood/refit_receipt.json",
+      "bytes": 5088,
+      "sha256": "1f16502ad03590f9fff5735e0f51169322a5c9e80804fe184442d91fb6c1f7f3"
+    },
+    {
+      "path": "Assistant Qualified/Assistant Code/runtime/ml/artifacts/stage6_retrospective_nested_v2/opponent_bluff_likelihood/feature_schema.json",
+      "bytes": 1243,
+      "sha256": "769177b863d4c1c80c99f6684e8d00a47dcd0f7a947dcac5f5cd0c89e4798949"
+    },
+    {
+      "path": "Assistant Qualified/Assistant Code/runtime/ml/artifacts/stage6_retrospective_nested_v2/opponent_bluff_likelihood/support_contract.json",
+      "bytes": 134,
+      "sha256": "7e0929910c5c0d4458f7de1823bf8bc34fdfc92f70df7d207a8381c6d26c6dc7"
+    },
+    {
+      "path": "Assistant Qualified/Assistant Code/runtime/ml/artifacts/stage6_retrospective_nested_v2/opponent_bluff_likelihood/calibration.json",
+      "bytes": 236,
+      "sha256": "33a70e8696aaeaeba96dd3f564bdc74e1a06ebaa460d6634d2f323486a7259b5"
+    },
+    {
+      "path": "Assistant Qualified/Assistant Code/runtime/ml/artifacts/stage6_retrospective_nested_v2/player_strategy_drift/refit_receipt.json",
+      "bytes": 5236,
+      "sha256": "a867634da5e58e567492874e7ca1feef6b4a36317aba4a7072d14b6027d62978"
+    },
+    {
+      "path": "Assistant Qualified/Assistant Code/runtime/ml/artifacts/stage6_retrospective_nested_v2/player_strategy_drift/feature_schema.json",
+      "bytes": 1135,
+      "sha256": "5f98a8c05dbdc4f7750049e2980a5a44dfc6441dd6dbae8540a590278b63d612"
+    },
+    {
+      "path": "Assistant Qualified/Assistant Code/runtime/ml/artifacts/stage6_retrospective_nested_v2/player_strategy_drift/support_contract.json",
+      "bytes": 133,
+      "sha256": "7ebc9426f64299cf4ca51eb8295b95c7f12418a624ddd6b5800ee411981c0045"
+    },
+    {
+      "path": "Assistant Qualified/Assistant Code/runtime/ml/artifacts/stage6_retrospective_nested_v2/player_strategy_drift/calibration.json",
+      "bytes": 236,
+      "sha256": "33a70e8696aaeaeba96dd3f564bdc74e1a06ebaa460d6634d2f323486a7259b5"
+    },
+    {
+      "path": "Assistant Qualified/Assistant Code/runtime/ml/artifacts/stage6_retrospective_nested_v2/postflop_behavior/refit_receipt.json",
+      "bytes": 5695,
+      "sha256": "7d99e2d3de67177cb4d8a7068d558c2a5dd85451328670253f27f05ee87e0803"
+    },
+    {
+      "path": "Assistant Qualified/Assistant Code/runtime/ml/artifacts/stage6_retrospective_nested_v2/postflop_behavior/feature_schema.json",
+      "bytes": 1874,
+      "sha256": "ad229e267e147e61d88d4f50817dd7bc79c26029c2a55c86307d646159fb48c6"
+    },
+    {
+      "path": "Assistant Qualified/Assistant Code/runtime/ml/artifacts/stage6_retrospective_nested_v2/postflop_behavior/support_contract.json",
+      "bytes": 70,
+      "sha256": "b89663040adc3f44c2e011f0ad4473f9b2b1e9d84bb8ec18c2125efc26d01e95"
+    },
+    {
+      "path": "Assistant Qualified/Assistant Code/runtime/ml/artifacts/stage6_retrospective_nested_v2/postflop_behavior/calibration.json",
+      "bytes": 177,
+      "sha256": "0c33cf5d2bf3ec5ca4ccf4c0638fdf254be081d6d2ed731e84746d1af9bbafd5"
+    },
+    {
+      "path": "Assistant Qualified/Assistant Code/runtime/ml/artifacts/stage6_retrospective_nested_v2/showdown_aware_range_calibration/refit_receipt.json",
+      "bytes": 6315,
+      "sha256": "88ee8b6d94ce8fa025ac0465a060c129dc9958945f3e69ec4d7f196f478cf741"
+    },
+    {
+      "path": "Assistant Qualified/Assistant Code/runtime/ml/artifacts/stage6_retrospective_nested_v2/showdown_aware_range_calibration/feature_schema.json",
+      "bytes": 767,
+      "sha256": "d870cdda21f2c5537a318a0ef0ac18e58829c83364efcf2a77195dd366ace2dd"
+    },
+    {
+      "path": "Assistant Qualified/Assistant Code/runtime/ml/artifacts/stage6_retrospective_nested_v2/showdown_aware_range_calibration/support_contract.json",
+      "bytes": 149,
+      "sha256": "cc316b92e2a92a9dd3ed294b186a82ab4795168ad4523d306300d42f0b24ac23"
+    },
+    {
+      "path": "Assistant Qualified/Assistant Code/runtime/ml/artifacts/stage6_retrospective_nested_v2/showdown_aware_range_calibration/calibration.json",
+      "bytes": 177,
+      "sha256": "0c33cf5d2bf3ec5ca4ccf4c0638fdf254be081d6d2ed731e84746d1af9bbafd5"
+    },
+    {
+      "path": "Assistant Qualified/Assistant Code/runtime/ml/artifacts/stage6_retrospective_nested_v2/supported_fold_response_bluff_opportunity/refit_receipt.json",
+      "bytes": 6315,
+      "sha256": "a6262c9f28d4fa2877044d9303514e5b45e7a386a292ce6bd2cc3ff84169c942"
+    },
+    {
+      "path": "Assistant Qualified/Assistant Code/runtime/ml/artifacts/stage6_retrospective_nested_v2/supported_fold_response_bluff_opportunity/feature_schema.json",
+      "bytes": 658,
+      "sha256": "6e3c0a5fe9ab46637506663418daa8a60d5954c8a7daa9f66e15bc9e7fc0210c"
+    },
+    {
+      "path": "Assistant Qualified/Assistant Code/runtime/ml/artifacts/stage6_retrospective_nested_v2/supported_fold_response_bluff_opportunity/support_contract.json",
+      "bytes": 131,
+      "sha256": "bf8cc041155632f4e287461ee09786922e82d274d1f2878231fc06be030c3f5f"
+    },
+    {
+      "path": "Assistant Qualified/Assistant Code/runtime/ml/artifacts/stage6_retrospective_nested_v2/supported_fold_response_bluff_opportunity/calibration.json",
+      "bytes": 177,
+      "sha256": "0c33cf5d2bf3ec5ca4ccf4c0638fdf254be081d6d2ed731e84746d1af9bbafd5"
+    },
+    {
+      "path": "Assistant Qualified/Assistant Code/runtime/ml/artifacts/stage6_retrospective_nested_v2/within_hand_line_surprise/refit_receipt.json",
+      "bytes": 5959,
+      "sha256": "af26c7aa2d2c1f0e35a973d132e3e126f329ec2609a4b948e5be08b428d3cd7d"
+    },
+    {
+      "path": "Assistant Qualified/Assistant Code/runtime/ml/artifacts/stage6_retrospective_nested_v2/within_hand_line_surprise/feature_schema.json",
+      "bytes": 4230,
+      "sha256": "492608fcc001b8ac55bfbf973ef87d485c3add179f8b726de48e4ae7184914e8"
+    },
+    {
+      "path": "Assistant Qualified/Assistant Code/runtime/ml/artifacts/stage6_retrospective_nested_v2/within_hand_line_surprise/support_contract.json",
+      "bytes": 120,
+      "sha256": "f6f060f7ba48c3d3ed28f8083baab6865d62bcd3df9016e363a887da2d50828a"
+    },
+    {
+      "path": "Assistant Qualified/Assistant Code/runtime/ml/artifacts/stage6_retrospective_nested_v2/within_hand_line_surprise/calibration.json",
+      "bytes": 177,
+      "sha256": "0c33cf5d2bf3ec5ca4ccf4c0638fdf254be081d6d2ed731e84746d1af9bbafd5"
+    }
+  ]
+}

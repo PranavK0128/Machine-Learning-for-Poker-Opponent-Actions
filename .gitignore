@@ -1,0 +1,42 @@
+**/node_modules/
+**/__pycache__/
+**/.pytest_cache/
+**/*.pyc
+**/.env
+**/.env.*
+!**/.env.example
+**/browser/
+**/runtime_state/
+**/*.sqlite*
+**/*.parquet
+**/*.jsonl
+**/*.joblib
+**/*.pkl
+**/main.aux
+**/main.bbl
+**/main.blg
+**/main.log
+**/main.out
+src/assistant/Assistant Qualified/Assistant Code/runtime/ml/artifacts/
+src/assistant/Assistant Qualified/Assistant Code/runtime_assets/stage6_assistant_testing_completed_history.parquet
+src/assistant/Assistant Qualified/Assistant Code/runtime_assets/stage6_assistant_testing_closure_manifest.json
+src/assistant/Assistant Qualified/Assistant Code/runtime_assets/stage6_empirical_learned_diagnostic_registry_v2.json
+src/assistant/Assistant Qualified/Assistant Code/runtime_assets/stage7_empirical_range_response_r2/
+src/assistant/Poker Assistant Model/
+src/assistant/data/exports/
+src/assistant/data/tmp/
+private_inputs/
+.venv/
+
+# Local publication and development material
+/research_organization/
+/reproducibility/
+/REPRODUCIBILITY.md
+/release_manifest.json
+/report/README.md
+/report/asset_provenance.json
+/report/Poker_Assistant_Overleaf.zip
+/report/figures/*.png
+/Archived/
+/archives/
+/backups/

@@ -1,0 +1,11 @@
+# Historical selected-model refit environment. Use a separate environment.
+catboost==1.2.10
+joblib==1.5.2
+lightgbm==4.6.0
+numpy==2.2.6
+pandas==2.3.3
+pyarrow==21.0.0
+scikit-learn==1.7.2
+threadpoolctl==3.6.0
+xgboost==3.3.0
+psutil

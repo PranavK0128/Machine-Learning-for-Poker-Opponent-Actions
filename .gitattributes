@@ -1,0 +1,5 @@
+# Preserve exact bytes for notebook package and model checks.
+* -text
+*.zip binary
+*.pdf binary
+*.png binary

@@ -1,0 +1,1759 @@
+{
+  "scope": "all retained primary live_chrome Assistant Testing comparison logs; immutable read-only snapshot",
+  "session_count": 26,
+  "total_records": 32082,
+  "parse_errors": 0,
+  "first_fusion_observed_utc": "2026-08-29T18:57:40.733Z",
+  "last_fusion_observed_utc": "2026-09-03T22:03:26.903Z",
+  "legacy_fusion": {
+    "source": "stage6_assistant_testing_qualified_base_shadow_fusion_v2",
+    "records": 249,
+    "distribution_difference_records": 229,
+    "primary_action_difference_records": 60,
+    "postflop_base_records": 249,
+    "supported_shadow_layer_records": {
+      "within_hand_line_surprise": 246,
+      "joint_action_size_surprise": 175,
+      "latent_player_archetype_shrinkage": 175,
+      "player_strategy_drift": 175,
+      "supported_fold_response_bluff_opportunity": 81,
+      "multiway_target_response": 14
+    },
+    "all_six_supported_shadow_records": 11,
+    "nominal_target_weights": {
+      "stage021_incumbent": 0.25,
+      "postflop_behavior": 0.25,
+      "supported_shadow_mean": 0.5
+    },
+    "maximum_logged_target_reconstruction_error_percentage_points": 1.4210854715202004e-14,
+    "excluded_layers": [
+      "opponent_bluff_likelihood",
+      "showdown_aware_range_calibration"
+    ]
+  },
+  "sessions": [
+    {
+      "session_start_utc_token": "20260829T034621Z",
+      "records": 4,
+      "sha256": "a6a67ee5c06afba9695162df38543c4b1c23089a2f19e5693329d3512ef12091",
+      "fusion_records": 0,
+      "distribution_difference_records": 0,
+      "primary_difference_records": 0,
+      "counts": {
+        "incumbent.source": {
+          "stage040_gate": 4
+        },
+        "incumbent.status": {
+          "abstain": 4
+        },
+        "testing.source": {
+          "stage040_gate": 4
+        },
+        "testing.status": {
+          "INCUMBENT_FALLBACK__SHADOW_PREDICTIVE_EVIDENCE_READY": 3,
+          "INCUMBENT_FALLBACK__EXPERIMENTAL_SHADOW_UNAVAILABLE": 1
+        },
+        "testing.recommendation_difference_reason": {
+          "no_qualified_action_changing_shadow_fusion_rule": 3,
+          "incumbent_recommendation_not_ready": 1
+        },
+        "premium_squeeze.applied": {
+          "None": 4
+        },
+        "fusion.status": {
+          "fallback": 1
+        },
+        "fusion.reason": {
+          "incumbent_recommendation_not_ready": 1
+        },
+        "fusion.shadow_weight": {
+          "0.5": 1
+        },
+        "fusion.recommendation_fusion_qualified": {
+          "False": 1
+        },
+        "inference.status": {
+          "SHADOW_INFERENCE_NOT_APPLICABLE": 1
+        },
+        "inference.reason": {
+          "visible_postflop_hero_decision_not_ready": 1
+        }
+      }
+    },
+    {
+      "session_start_utc_token": "20260829T175615Z",
+      "records": 623,
+      "sha256": "64cbf410460588ea0c974328782921af371407e79803d01eb372df5e0ab592cc",
+      "fusion_records": 0,
+      "distribution_difference_records": 0,
+      "primary_difference_records": 0,
+      "counts": {
+        "fusion.status": {
+          "fallback": 623
+        },
+        "fusion.reason": {
+          "incumbent_recommendation_not_ready": 125,
+          "visible_postflop_hero_decision_not_ready": 483,
+          "RuntimeError: closure file identity mismatch: Assistant Qualified/Assistant Code/runtime/ml/runtime/run_stage6_assistant_testing_worker.py": 15
+        },
+        "fusion.qualified_base_weight": {
+          "0.5": 623
+        },
+        "fusion.shadow_weight": {
+          "0.5": 623
+        },
+        "fusion.recommendation_fusion_qualified": {
+          "False": 623
+        },
+        "incumbent.source": {
+          "stage040_gate": 15,
+          "stage021_archive_primary": 608
+        },
+        "incumbent.status": {
+          "abstain": 125,
+          "planning_ready": 133,
+          "recommendation_ready": 33,
+          "review_ready": 323,
+          "holding_last_stable": 9
+        },
+        "testing.source": {
+          "stage040_gate": 15,
+          "stage021_archive_primary": 608
+        },
+        "testing.status": {
+          "INCUMBENT_FALLBACK__EXPERIMENTAL_SHADOW_UNAVAILABLE": 623
+        },
+        "testing.recommendation_difference_reason": {
+          "incumbent_recommendation_not_ready": 125,
+          "visible_postflop_hero_decision_not_ready": 483,
+          "RuntimeError: closure file identity mismatch: Assistant Qualified/Assistant Code/runtime/ml/runtime/run_stage6_assistant_testing_worker.py": 15
+        },
+        "inference.status": {
+          "SHADOW_INFERENCE_NOT_APPLICABLE": 608,
+          "SHADOW_INFERENCE_UNAVAILABLE": 15
+        },
+        "inference.reason": {
+          "visible_postflop_hero_decision_not_ready": 608,
+          "RuntimeError: closure file identity mismatch: Assistant Qualified/Assistant Code/runtime/ml/runtime/run_stage6_assistant_testing_worker.py": 15
+        },
+        "premium_squeeze.applied": {
+          "None": 623
+        }
+      }
+    },
+    {
+      "session_start_utc_token": "20260829T182317Z",
+      "records": 872,
+      "sha256": "f4fe3191987c4dc122c92f6db04db01b1f41444911692e8685dd2f6cb6eadbc7",
+      "fusion_records": 0,
+      "distribution_difference_records": 0,
+      "primary_difference_records": 0,
+      "counts": {
+        "fusion.status": {
+          "fallback": 820,
+          "pending": 52
+        },
+        "fusion.reason": {
+          "visible_postflop_hero_decision_not_ready": 643,
+          "starting": 2,
+          "shadow_inference_pending": 52,
+          "RuntimeError: identity_conflict:pokernow_id=9bc03927-7a18-41b6-8ac2-d2a8ffc54f14,seat=fc77d8f5-f864-4aa4-b750-0de6853df2f2": 2,
+          "incumbent_recommendation_not_ready": 143,
+          "RuntimeError: exact visible legal action mask is unavailable": 7,
+          "RuntimeError: identity_conflict:pokernow_id=af30c830-7e7d-4f43-998f-74cc3b1b339f,seat=ee3e0840-d6a5-4f47-a17c-1e825a9cfa57": 1,
+          "RuntimeError: identity_conflict:pokernow_id=ee3e0840-d6a5-4f47-a17c-1e825a9cfa57,seat=c313196b-deff-48be-bd9f-d4ffcbc7ab1c": 6,
+          "RuntimeError: identity_conflict:pokernow_id=c313196b-deff-48be-bd9f-d4ffcbc7ab1c,seat=f48cd804-93d6-4e96-b0ca-b65b29cb8e94": 5,
+          "RuntimeError: identity_conflict:pokernow_id=f48cd804-93d6-4e96-b0ca-b65b29cb8e94,seat=d5fdad8c-dcef-4a63-b807-5e41f9d002c4": 9,
+          "RuntimeError: identity_conflict:pokernow_id=d5fdad8c-dcef-4a63-b807-5e41f9d002c4,seat=af30c830-7e7d-4f43-998f-74cc3b1b339f": 2
+        },
+        "fusion.qualified_base_weight": {
+          "0.5": 872
+        },
+        "fusion.shadow_weight": {
+          "0.5": 872
+        },
+        "fusion.recommendation_fusion_qualified": {
+          "False": 872
+        },
+        "incumbent.source": {
+          "stage021_archive_primary": 848,
+          "stage040_gate": 24
+        },
+        "incumbent.status": {
+          "planning_ready": 250,
+          "recommendation_ready": 91,
+          "abstain": 143,
+          "holding_last_stable": 23,
+          "review_ready": 365
+        },
+        "testing.source": {
+          "stage021_archive_primary": 848,
+          "stage040_gate": 24
+        },
+        "testing.status": {
+          "INCUMBENT_FALLBACK__EXPERIMENTAL_SHADOW_UNAVAILABLE": 820,
+          "EXPERIMENTAL_SHADOW_RECOMMENDATION_PENDING": 52
+        },
+        "testing.recommendation_difference_reason": {
+          "visible_postflop_hero_decision_not_ready": 643,
+          "starting": 2,
+          "shadow_inference_pending": 52,
+          "RuntimeError: identity_conflict:pokernow_id=9bc03927-7a18-41b6-8ac2-d2a8ffc54f14,seat=fc77d8f5-f864-4aa4-b750-0de6853df2f2": 2,
+          "incumbent_recommendation_not_ready": 143,
+          "RuntimeError: exact visible legal action mask is unavailable": 7,
+          "RuntimeError: identity_conflict:pokernow_id=af30c830-7e7d-4f43-998f-74cc3b1b339f,seat=ee3e0840-d6a5-4f47-a17c-1e825a9cfa57": 1,
+          "RuntimeError: identity_conflict:pokernow_id=ee3e0840-d6a5-4f47-a17c-1e825a9cfa57,seat=c313196b-deff-48be-bd9f-d4ffcbc7ab1c": 6,
+          "RuntimeError: identity_conflict:pokernow_id=c313196b-deff-48be-bd9f-d4ffcbc7ab1c,seat=f48cd804-93d6-4e96-b0ca-b65b29cb8e94": 5,
+          "RuntimeError: identity_conflict:pokernow_id=f48cd804-93d6-4e96-b0ca-b65b29cb8e94,seat=d5fdad8c-dcef-4a63-b807-5e41f9d002c4": 9,
+          "RuntimeError: identity_conflict:pokernow_id=d5fdad8c-dcef-4a63-b807-5e41f9d002c4,seat=af30c830-7e7d-4f43-998f-74cc3b1b339f": 2
+        },
+        "inference.status": {
+          "SHADOW_INFERENCE_NOT_APPLICABLE": 786,
+          "SHADOW_INFERENCE_UNAVAILABLE": 2,
+          "SHADOW_INFERENCE_PENDING": 52,
+          "SHADOW_INFERENCE_ERROR": 32
+        },
+        "inference.reason": {
+          "visible_postflop_hero_decision_not_ready": 786,
+          "starting": 2
+        },
+        "premium_squeeze.applied": {
+          "None": 872
+        }
+      }
+    },
+    {
+      "session_start_utc_token": "20260829T185630Z",
+      "records": 3469,
+      "sha256": "fd3f0db3289d6480d457c95af507f82a379fc1d22e4318cdd8d63f302f27631a",
+      "fusion_records": 50,
+      "distribution_difference_records": 44,
+      "primary_difference_records": 18,
+      "counts": {
+        "fusion.status": {
+          "fallback": 3282,
+          "pending": 137,
+          "ready": 50
+        },
+        "fusion.reason": {
+          "visible_postflop_hero_decision_not_ready": 2682,
+          "incumbent_recommendation_not_ready": 586,
+          "shadow_inference_pending": 137,
+          "qualified_base_and_fixed_equal_shadow_fusion_ready": 50,
+          "RuntimeError: exact visible legal action mask is unavailable": 14
+        },
+        "fusion.qualified_base_weight": {
+          "0.5": 3469
+        },
+        "fusion.shadow_weight": {
+          "0.5": 3469
+        },
+        "fusion.recommendation_fusion_qualified": {
+          "False": 3469
+        },
+        "incumbent.source": {
+          "stage021_archive_primary": 3289,
+          "stage040_gate": 180
+        },
+        "incumbent.status": {
+          "review_ready": 1599,
+          "abstain": 586,
+          "planning_ready": 936,
+          "recommendation_ready": 275,
+          "holding_last_stable": 72,
+          "review_last_available": 1
+        },
+        "testing.source": {
+          "stage021_archive_primary": 3239,
+          "stage6_assistant_testing_qualified_base_shadow_fusion_v2": 50,
+          "stage040_gate": 180
+        },
+        "testing.status": {
+          "INCUMBENT_FALLBACK__EXPERIMENTAL_SHADOW_UNAVAILABLE": 3282,
+          "EXPERIMENTAL_SHADOW_RECOMMENDATION_PENDING": 137,
+          "EXPERIMENTAL_SHADOW_RECOMMENDATION_READY": 50
+        },
+        "testing.recommendation_difference_reason": {
+          "visible_postflop_hero_decision_not_ready": 2682,
+          "incumbent_recommendation_not_ready": 586,
+          "shadow_inference_pending": 137,
+          "experimental_action_mix_changed_by_eligible_shadow_fusion": 26,
+          "RuntimeError: exact visible legal action mask is unavailable": 14,
+          "experimental_primary_changed_by_eligible_shadow_fusion": 18,
+          "eligible_shadow_fusion_matched_incumbent_for_current_state": 6
+        },
+        "inference.status": {
+          "SHADOW_INFERENCE_NOT_APPLICABLE": 3268,
+          "SHADOW_INFERENCE_PENDING": 137,
+          "SHADOW_INFERENCE_READY": 50,
+          "SHADOW_INFERENCE_ERROR": 14
+        },
+        "inference.reason": {
+          "visible_postflop_hero_decision_not_ready": 3268
+        },
+        "premium_squeeze.applied": {
+          "None": 3469
+        }
+      }
+    },
+    {
+      "session_start_utc_token": "20260829T232351Z",
+      "records": 1168,
+      "sha256": "c3c8929785661a44e31138c7080c094717d248cfe0e9703039473253a64d2490",
+      "fusion_records": 22,
+      "distribution_difference_records": 22,
+      "primary_difference_records": 8,
+      "counts": {
+        "fusion.status": {
+          "fallback": 1080,
+          "pending": 66,
+          "ready": 22
+        },
+        "fusion.reason": {
+          "incumbent_recommendation_not_ready": 185,
+          "visible_postflop_hero_decision_not_ready": 888,
+          "shadow_inference_pending": 66,
+          "qualified_base_and_fixed_equal_shadow_fusion_ready": 22,
+          "RuntimeError: exact visible legal action mask is unavailable": 7
+        },
+        "fusion.qualified_base_weight": {
+          "0.5": 1168
+        },
+        "fusion.shadow_weight": {
+          "0.5": 1168
+        },
+        "fusion.recommendation_fusion_qualified": {
+          "False": 1168
+        },
+        "incumbent.source": {
+          "stage040_gate": 70,
+          "stage021_archive_primary": 1098
+        },
+        "incumbent.status": {
+          "abstain": 185,
+          "recommendation_ready": 109,
+          "review_ready": 510,
+          "planning_ready": 324,
+          "holding_last_stable": 40
+        },
+        "testing.source": {
+          "stage040_gate": 70,
+          "stage021_archive_primary": 1076,
+          "stage6_assistant_testing_qualified_base_shadow_fusion_v2": 22
+        },
+        "testing.status": {
+          "INCUMBENT_FALLBACK__EXPERIMENTAL_SHADOW_UNAVAILABLE": 1080,
+          "EXPERIMENTAL_SHADOW_RECOMMENDATION_PENDING": 66,
+          "EXPERIMENTAL_SHADOW_RECOMMENDATION_READY": 22
+        },
+        "testing.recommendation_difference_reason": {
+          "incumbent_recommendation_not_ready": 185,
+          "visible_postflop_hero_decision_not_ready": 888,
+          "shadow_inference_pending": 66,
+          "experimental_action_mix_changed_by_eligible_shadow_fusion": 14,
+          "experimental_primary_changed_by_eligible_shadow_fusion": 8,
+          "RuntimeError: exact visible legal action mask is unavailable": 7
+        },
+        "inference.status": {
+          "SHADOW_INFERENCE_NOT_APPLICABLE": 1073,
+          "SHADOW_INFERENCE_PENDING": 66,
+          "SHADOW_INFERENCE_READY": 22,
+          "SHADOW_INFERENCE_ERROR": 7
+        },
+        "inference.reason": {
+          "visible_postflop_hero_decision_not_ready": 1073
+        },
+        "premium_squeeze.applied": {
+          "None": 1168
+        }
+      }
+    },
+    {
+      "session_start_utc_token": "20260830T000800Z",
+      "records": 1055,
+      "sha256": "44adfe272ef20bf898ffe633ece02ad04f7ba144a40a45eca01d2a13b4dce28c",
+      "fusion_records": 27,
+      "distribution_difference_records": 25,
+      "primary_difference_records": 2,
+      "counts": {
+        "fusion.status": {
+          "fallback": 977,
+          "pending": 51,
+          "ready": 27
+        },
+        "fusion.reason": {
+          "visible_postflop_hero_decision_not_ready": 842,
+          "incumbent_recommendation_not_ready": 123,
+          "shadow_inference_pending": 51,
+          "qualified_base_and_fixed_equal_shadow_fusion_ready": 27,
+          "RuntimeError: exact visible legal action mask is unavailable": 12
+        },
+        "fusion.qualified_base_weight": {
+          "0.5": 1055
+        },
+        "fusion.shadow_weight": {
+          "0.5": 1055
+        },
+        "fusion.recommendation_fusion_qualified": {
+          "False": 1055
+        },
+        "incumbent.source": {
+          "stage021_archive_primary": 1029,
+          "stage040_gate": 26
+        },
+        "incumbent.status": {
+          "planning_ready": 287,
+          "recommendation_ready": 95,
+          "review_ready": 520,
+          "abstain": 123,
+          "holding_last_stable": 30
+        },
+        "testing.source": {
+          "stage021_archive_primary": 1002,
+          "stage040_gate": 26,
+          "stage6_assistant_testing_qualified_base_shadow_fusion_v2": 27
+        },
+        "testing.status": {
+          "INCUMBENT_FALLBACK__EXPERIMENTAL_SHADOW_UNAVAILABLE": 977,
+          "EXPERIMENTAL_SHADOW_RECOMMENDATION_PENDING": 51,
+          "EXPERIMENTAL_SHADOW_RECOMMENDATION_READY": 27
+        },
+        "testing.recommendation_difference_reason": {
+          "visible_postflop_hero_decision_not_ready": 842,
+          "incumbent_recommendation_not_ready": 123,
+          "shadow_inference_pending": 51,
+          "eligible_shadow_fusion_matched_incumbent_for_current_state": 2,
+          "experimental_action_mix_changed_by_eligible_shadow_fusion": 23,
+          "RuntimeError: exact visible legal action mask is unavailable": 12,
+          "experimental_primary_changed_by_eligible_shadow_fusion": 2
+        },
+        "inference.status": {
+          "SHADOW_INFERENCE_NOT_APPLICABLE": 965,
+          "SHADOW_INFERENCE_PENDING": 51,
+          "SHADOW_INFERENCE_READY": 27,
+          "SHADOW_INFERENCE_ERROR": 12
+        },
+        "inference.reason": {
+          "visible_postflop_hero_decision_not_ready": 965
+        },
+        "premium_squeeze.applied": {
+          "None": 1055
+        }
+      }
+    },
+    {
+      "session_start_utc_token": "20260830T004010Z",
+      "records": 479,
+      "sha256": "e41d74c6bc68939b80b6b915da8454beb2c10ead4411ab25a045007a42f43328",
+      "fusion_records": 6,
+      "distribution_difference_records": 6,
+      "primary_difference_records": 1,
+      "counts": {
+        "fusion.status": {
+          "fallback": 453,
+          "pending": 20,
+          "ready": 6
+        },
+        "fusion.reason": {
+          "visible_postflop_hero_decision_not_ready": 388,
+          "incumbent_recommendation_not_ready": 63,
+          "shadow_inference_pending": 20,
+          "qualified_base_and_fixed_equal_shadow_fusion_ready": 6,
+          "RuntimeError: exact visible legal action mask is unavailable": 2
+        },
+        "fusion.qualified_base_weight": {
+          "0.5": 479
+        },
+        "fusion.shadow_weight": {
+          "0.5": 479
+        },
+        "fusion.recommendation_fusion_qualified": {
+          "False": 479
+        },
+        "incumbent.source": {
+          "stage021_archive_primary": 457,
+          "stage040_gate": 22
+        },
+        "incumbent.status": {
+          "review_ready": 209,
+          "abstain": 63,
+          "planning_ready": 155,
+          "recommendation_ready": 42,
+          "holding_last_stable": 10
+        },
+        "testing.source": {
+          "stage021_archive_primary": 451,
+          "stage040_gate": 22,
+          "stage6_assistant_testing_qualified_base_shadow_fusion_v2": 6
+        },
+        "testing.status": {
+          "INCUMBENT_FALLBACK__EXPERIMENTAL_SHADOW_UNAVAILABLE": 453,
+          "EXPERIMENTAL_SHADOW_RECOMMENDATION_PENDING": 20,
+          "EXPERIMENTAL_SHADOW_RECOMMENDATION_READY": 6
+        },
+        "testing.recommendation_difference_reason": {
+          "visible_postflop_hero_decision_not_ready": 388,
+          "incumbent_recommendation_not_ready": 63,
+          "shadow_inference_pending": 20,
+          "experimental_action_mix_changed_by_eligible_shadow_fusion": 5,
+          "RuntimeError: exact visible legal action mask is unavailable": 2,
+          "experimental_primary_changed_by_eligible_shadow_fusion": 1
+        },
+        "inference.status": {
+          "SHADOW_INFERENCE_NOT_APPLICABLE": 451,
+          "SHADOW_INFERENCE_PENDING": 20,
+          "SHADOW_INFERENCE_READY": 6,
+          "SHADOW_INFERENCE_ERROR": 2
+        },
+        "inference.reason": {
+          "visible_postflop_hero_decision_not_ready": 451
+        },
+        "premium_squeeze.applied": {
+          "None": 479
+        }
+      }
+    },
+    {
+      "session_start_utc_token": "20260830T015413Z",
+      "records": 822,
+      "sha256": "9bf89baafd5b28315f049ade69b31065889d3ee67145375fd6c23c3fd146e682",
+      "fusion_records": 14,
+      "distribution_difference_records": 12,
+      "primary_difference_records": 2,
+      "counts": {
+        "fusion.status": {
+          "fallback": 763,
+          "pending": 45,
+          "ready": 14
+        },
+        "fusion.reason": {
+          "incumbent_recommendation_not_ready": 139,
+          "visible_postflop_hero_decision_not_ready": 620,
+          "shadow_inference_pending": 45,
+          "qualified_base_and_fixed_equal_shadow_fusion_ready": 14,
+          "RuntimeError: exact visible legal action mask is unavailable": 4
+        },
+        "fusion.qualified_base_weight": {
+          "0.5": 822
+        },
+        "fusion.shadow_weight": {
+          "0.5": 822
+        },
+        "fusion.recommendation_fusion_qualified": {
+          "False": 822
+        },
+        "incumbent.source": {
+          "stage040_gate": 91,
+          "stage021_archive_primary": 731
+        },
+        "incumbent.status": {
+          "abstain": 139,
+          "planning_ready": 244,
+          "recommendation_ready": 80,
+          "review_ready": 341,
+          "holding_last_stable": 18
+        },
+        "testing.source": {
+          "stage040_gate": 91,
+          "stage021_archive_primary": 717,
+          "stage6_assistant_testing_qualified_base_shadow_fusion_v2": 14
+        },
+        "testing.status": {
+          "INCUMBENT_FALLBACK__EXPERIMENTAL_SHADOW_UNAVAILABLE": 763,
+          "EXPERIMENTAL_SHADOW_RECOMMENDATION_PENDING": 45,
+          "EXPERIMENTAL_SHADOW_RECOMMENDATION_READY": 14
+        },
+        "testing.recommendation_difference_reason": {
+          "incumbent_recommendation_not_ready": 139,
+          "visible_postflop_hero_decision_not_ready": 620,
+          "shadow_inference_pending": 45,
+          "experimental_action_mix_changed_by_eligible_shadow_fusion": 10,
+          "RuntimeError: exact visible legal action mask is unavailable": 4,
+          "experimental_primary_changed_by_eligible_shadow_fusion": 2,
+          "eligible_shadow_fusion_matched_incumbent_for_current_state": 2
+        },
+        "inference.status": {
+          "SHADOW_INFERENCE_NOT_APPLICABLE": 759,
+          "SHADOW_INFERENCE_PENDING": 45,
+          "SHADOW_INFERENCE_READY": 14,
+          "SHADOW_INFERENCE_ERROR": 4
+        },
+        "inference.reason": {
+          "visible_postflop_hero_decision_not_ready": 759
+        },
+        "premium_squeeze.applied": {
+          "None": 822
+        }
+      }
+    },
+    {
+      "session_start_utc_token": "20260830T022516Z",
+      "records": 627,
+      "sha256": "bf732084aefd443dfb9a9a74eff1869afd42e045631a625c7925965225b0be51",
+      "fusion_records": 1,
+      "distribution_difference_records": 0,
+      "primary_difference_records": 0,
+      "counts": {
+        "fusion.status": {
+          "fallback": 622,
+          "pending": 4,
+          "ready": 1
+        },
+        "fusion.reason": {
+          "visible_postflop_hero_decision_not_ready": 359,
+          "incumbent_recommendation_not_ready": 263,
+          "shadow_inference_pending": 4,
+          "qualified_base_and_fixed_equal_shadow_fusion_ready": 1
+        },
+        "fusion.qualified_base_weight": {
+          "0.5": 627
+        },
+        "fusion.shadow_weight": {
+          "0.5": 627
+        },
+        "fusion.recommendation_fusion_qualified": {
+          "False": 627
+        },
+        "incumbent.source": {
+          "stage021_archive_primary": 605,
+          "stage040_gate": 22
+        },
+        "incumbent.status": {
+          "review_ready": 245,
+          "abstain": 263,
+          "planning_ready": 85,
+          "review_last_available": 1,
+          "recommendation_ready": 27,
+          "holding_last_stable": 6
+        },
+        "testing.source": {
+          "stage021_archive_primary": 604,
+          "stage040_gate": 22,
+          "stage6_assistant_testing_qualified_base_shadow_fusion_v2": 1
+        },
+        "testing.status": {
+          "INCUMBENT_FALLBACK__EXPERIMENTAL_SHADOW_UNAVAILABLE": 622,
+          "EXPERIMENTAL_SHADOW_RECOMMENDATION_PENDING": 4,
+          "EXPERIMENTAL_SHADOW_RECOMMENDATION_READY": 1
+        },
+        "testing.recommendation_difference_reason": {
+          "visible_postflop_hero_decision_not_ready": 359,
+          "incumbent_recommendation_not_ready": 263,
+          "shadow_inference_pending": 4,
+          "eligible_shadow_fusion_matched_incumbent_for_current_state": 1
+        },
+        "inference.status": {
+          "SHADOW_INFERENCE_NOT_APPLICABLE": 622,
+          "SHADOW_INFERENCE_PENDING": 4,
+          "SHADOW_INFERENCE_READY": 1
+        },
+        "inference.reason": {
+          "visible_postflop_hero_decision_not_ready": 622
+        },
+        "premium_squeeze.applied": {
+          "None": 627
+        }
+      }
+    },
+    {
+      "session_start_utc_token": "20260830T025623Z",
+      "records": 100,
+      "sha256": "45c7172be32cf3414b224ef63f8d435403a42408ac57ce2b290e8455debb225a",
+      "fusion_records": 0,
+      "distribution_difference_records": 0,
+      "primary_difference_records": 0,
+      "counts": {
+        "fusion.status": {
+          "fallback": 100
+        },
+        "fusion.reason": {
+          "visible_postflop_hero_decision_not_ready": 91,
+          "incumbent_recommendation_not_ready": 9
+        },
+        "fusion.qualified_base_weight": {
+          "0.5": 100
+        },
+        "fusion.shadow_weight": {
+          "0.5": 100
+        },
+        "fusion.recommendation_fusion_qualified": {
+          "False": 100
+        },
+        "incumbent.source": {
+          "stage021_archive_primary": 100
+        },
+        "incumbent.status": {
+          "review_ready": 75,
+          "abstain": 9,
+          "planning_ready": 14,
+          "recommendation_ready": 2
+        },
+        "testing.source": {
+          "stage021_archive_primary": 100
+        },
+        "testing.status": {
+          "INCUMBENT_FALLBACK__EXPERIMENTAL_SHADOW_UNAVAILABLE": 100
+        },
+        "testing.recommendation_difference_reason": {
+          "visible_postflop_hero_decision_not_ready": 91,
+          "incumbent_recommendation_not_ready": 9
+        },
+        "inference.status": {
+          "SHADOW_INFERENCE_NOT_APPLICABLE": 100
+        },
+        "inference.reason": {
+          "visible_postflop_hero_decision_not_ready": 100
+        },
+        "premium_squeeze.applied": {
+          "None": 100
+        }
+      }
+    },
+    {
+      "session_start_utc_token": "20260830T030115Z",
+      "records": 89,
+      "sha256": "69ae7d943133d5463ac776c47a6182feaed9fa3917a45cf4f245e98584573b9c",
+      "fusion_records": 2,
+      "distribution_difference_records": 2,
+      "primary_difference_records": 0,
+      "counts": {
+        "fusion.status": {
+          "fallback": 80,
+          "pending": 7,
+          "ready": 2
+        },
+        "fusion.reason": {
+          "visible_postflop_hero_decision_not_ready": 73,
+          "incumbent_recommendation_not_ready": 7,
+          "shadow_inference_pending": 7,
+          "qualified_base_and_fixed_equal_shadow_fusion_ready": 2
+        },
+        "fusion.qualified_base_weight": {
+          "0.5": 89
+        },
+        "fusion.shadow_weight": {
+          "0.5": 89
+        },
+        "fusion.recommendation_fusion_qualified": {
+          "False": 89
+        },
+        "incumbent.source": {
+          "stage021_archive_primary": 86,
+          "stage040_gate": 3
+        },
+        "incumbent.status": {
+          "planning_ready": 47,
+          "recommendation_ready": 12,
+          "holding_last_stable": 2,
+          "abstain": 7,
+          "review_ready": 21
+        },
+        "testing.source": {
+          "stage021_archive_primary": 84,
+          "stage040_gate": 3,
+          "stage6_assistant_testing_qualified_base_shadow_fusion_v2": 2
+        },
+        "testing.status": {
+          "INCUMBENT_FALLBACK__EXPERIMENTAL_SHADOW_UNAVAILABLE": 80,
+          "EXPERIMENTAL_SHADOW_RECOMMENDATION_PENDING": 7,
+          "EXPERIMENTAL_SHADOW_RECOMMENDATION_READY": 2
+        },
+        "testing.recommendation_difference_reason": {
+          "visible_postflop_hero_decision_not_ready": 73,
+          "incumbent_recommendation_not_ready": 7,
+          "shadow_inference_pending": 7,
+          "experimental_action_mix_changed_by_eligible_shadow_fusion": 2
+        },
+        "inference.status": {
+          "SHADOW_INFERENCE_NOT_APPLICABLE": 80,
+          "SHADOW_INFERENCE_PENDING": 7,
+          "SHADOW_INFERENCE_READY": 2
+        },
+        "inference.reason": {
+          "visible_postflop_hero_decision_not_ready": 80
+        },
+        "premium_squeeze.applied": {
+          "None": 89
+        }
+      }
+    },
+    {
+      "session_start_utc_token": "20260830T031633Z",
+      "records": 22,
+      "sha256": "8d390d2281376e61305b60a359f11dcb8f4cb85b37449ba6b38870c2f55a28b2",
+      "fusion_records": 5,
+      "distribution_difference_records": 5,
+      "primary_difference_records": 3,
+      "counts": {
+        "fusion.status": {
+          "fallback": 11,
+          "pending": 6,
+          "ready": 5
+        },
+        "fusion.reason": {
+          "incumbent_recommendation_not_ready": 3,
+          "shadow_inference_pending": 6,
+          "qualified_base_and_fixed_equal_shadow_fusion_ready": 5,
+          "visible_postflop_hero_decision_not_ready": 8
+        },
+        "fusion.qualified_base_weight": {
+          "0.5": 22
+        },
+        "fusion.shadow_weight": {
+          "0.5": 22
+        },
+        "fusion.recommendation_fusion_qualified": {
+          "False": 22
+        },
+        "incumbent.source": {
+          "stage040_gate": 3,
+          "stage021_archive_primary": 19
+        },
+        "incumbent.status": {
+          "abstain": 3,
+          "recommendation_ready": 11,
+          "holding_last_stable": 2,
+          "planning_ready": 5,
+          "review_last_available": 1
+        },
+        "testing.source": {
+          "stage040_gate": 3,
+          "stage021_archive_primary": 14,
+          "stage6_assistant_testing_qualified_base_shadow_fusion_v2": 5
+        },
+        "testing.status": {
+          "INCUMBENT_FALLBACK__EXPERIMENTAL_SHADOW_UNAVAILABLE": 11,
+          "EXPERIMENTAL_SHADOW_RECOMMENDATION_PENDING": 6,
+          "EXPERIMENTAL_SHADOW_RECOMMENDATION_READY": 5
+        },
+        "testing.recommendation_difference_reason": {
+          "incumbent_recommendation_not_ready": 3,
+          "shadow_inference_pending": 6,
+          "experimental_primary_changed_by_eligible_shadow_fusion": 3,
+          "visible_postflop_hero_decision_not_ready": 8,
+          "experimental_action_mix_changed_by_eligible_shadow_fusion": 2
+        },
+        "inference.status": {
+          "SHADOW_INFERENCE_NOT_APPLICABLE": 11,
+          "SHADOW_INFERENCE_PENDING": 6,
+          "SHADOW_INFERENCE_READY": 5
+        },
+        "inference.reason": {
+          "visible_postflop_hero_decision_not_ready": 11
+        },
+        "premium_squeeze.applied": {
+          "None": 22
+        }
+      }
+    },
+    {
+      "session_start_utc_token": "20260830T033040Z",
+      "records": 13,
+      "sha256": "ded7464535d3c2be4a3fdc947979c9582274d392388ea0f11072fad152ea0b88",
+      "fusion_records": 4,
+      "distribution_difference_records": 4,
+      "primary_difference_records": 0,
+      "counts": {
+        "fusion.status": {
+          "fallback": 4,
+          "pending": 5,
+          "ready": 4
+        },
+        "fusion.reason": {
+          "visible_postflop_hero_decision_not_ready": 3,
+          "shadow_inference_pending": 5,
+          "qualified_base_and_fixed_equal_shadow_fusion_ready": 4,
+          "starting": 1
+        },
+        "fusion.qualified_base_weight": {
+          "0.5": 13
+        },
+        "fusion.shadow_weight": {
+          "0.5": 13
+        },
+        "fusion.recommendation_fusion_qualified": {
+          "False": 13
+        },
+        "incumbent.source": {
+          "stage021_archive_primary": 13
+        },
+        "incumbent.status": {
+          "planning_ready": 3,
+          "recommendation_ready": 10
+        },
+        "testing.source": {
+          "stage021_archive_primary": 9,
+          "stage6_assistant_testing_qualified_base_shadow_fusion_v2": 4
+        },
+        "testing.status": {
+          "INCUMBENT_FALLBACK__EXPERIMENTAL_SHADOW_UNAVAILABLE": 4,
+          "EXPERIMENTAL_SHADOW_RECOMMENDATION_PENDING": 5,
+          "EXPERIMENTAL_SHADOW_RECOMMENDATION_READY": 4
+        },
+        "testing.recommendation_difference_reason": {
+          "visible_postflop_hero_decision_not_ready": 3,
+          "shadow_inference_pending": 5,
+          "experimental_action_mix_changed_by_eligible_shadow_fusion": 4,
+          "starting": 1
+        },
+        "inference.status": {
+          "SHADOW_INFERENCE_NOT_APPLICABLE": 3,
+          "SHADOW_INFERENCE_PENDING": 5,
+          "SHADOW_INFERENCE_READY": 4,
+          "SHADOW_INFERENCE_UNAVAILABLE": 1
+        },
+        "inference.reason": {
+          "visible_postflop_hero_decision_not_ready": 3,
+          "starting": 1
+        },
+        "premium_squeeze.applied": {
+          "None": 13
+        }
+      }
+    },
+    {
+      "session_start_utc_token": "20260830T033528Z",
+      "records": 16,
+      "sha256": "409244964e59d4ea743bda0479de4d2f5dbc2e75c38e1f39aab1b719e3c00f81",
+      "fusion_records": 7,
+      "distribution_difference_records": 7,
+      "primary_difference_records": 0,
+      "counts": {
+        "fusion.status": {
+          "pending": 6,
+          "ready": 7,
+          "fallback": 3
+        },
+        "fusion.reason": {
+          "shadow_inference_pending": 6,
+          "qualified_base_and_fixed_equal_shadow_fusion_ready": 7,
+          "incumbent_recommendation_not_ready": 3
+        },
+        "fusion.qualified_base_weight": {
+          "0.5": 16
+        },
+        "fusion.shadow_weight": {
+          "0.5": 16
+        },
+        "fusion.recommendation_fusion_qualified": {
+          "False": 16
+        },
+        "incumbent.source": {
+          "stage021_archive_primary": 16
+        },
+        "incumbent.status": {
+          "recommendation_ready": 13,
+          "abstain": 3
+        },
+        "testing.source": {
+          "stage021_archive_primary": 9,
+          "stage6_assistant_testing_qualified_base_shadow_fusion_v2": 7
+        },
+        "testing.status": {
+          "EXPERIMENTAL_SHADOW_RECOMMENDATION_PENDING": 6,
+          "EXPERIMENTAL_SHADOW_RECOMMENDATION_READY": 7,
+          "INCUMBENT_FALLBACK__EXPERIMENTAL_SHADOW_UNAVAILABLE": 3
+        },
+        "testing.recommendation_difference_reason": {
+          "shadow_inference_pending": 6,
+          "experimental_action_mix_changed_by_eligible_shadow_fusion": 7,
+          "incumbent_recommendation_not_ready": 3
+        },
+        "inference.status": {
+          "SHADOW_INFERENCE_PENDING": 6,
+          "SHADOW_INFERENCE_READY": 7,
+          "SHADOW_INFERENCE_NOT_APPLICABLE": 3
+        },
+        "premium_squeeze.applied": {
+          "None": 16
+        },
+        "inference.reason": {
+          "visible_postflop_hero_decision_not_ready": 3
+        }
+      }
+    },
+    {
+      "session_start_utc_token": "20260830T040851Z",
+      "records": 7,
+      "sha256": "a96ac3431fa31693bc9513aec22d6eda4d0bbc0f3f370e46de5c8db9ae42df0c",
+      "fusion_records": 0,
+      "distribution_difference_records": 0,
+      "primary_difference_records": 0,
+      "counts": {
+        "fusion.status": {
+          "fallback": 7
+        },
+        "fusion.reason": {
+          "incumbent_recommendation_not_ready": 4,
+          "visible_postflop_hero_decision_not_ready": 3
+        },
+        "fusion.qualified_base_weight": {
+          "0.5": 7
+        },
+        "fusion.shadow_weight": {
+          "0.5": 7
+        },
+        "fusion.recommendation_fusion_qualified": {
+          "False": 7
+        },
+        "incumbent.source": {
+          "stage040_gate": 4,
+          "stage021_archive_primary": 3
+        },
+        "incumbent.status": {
+          "abstain": 4,
+          "planning_ready": 1,
+          "recommendation_ready": 2
+        },
+        "testing.source": {
+          "stage040_gate": 4,
+          "stage021_archive_primary": 3
+        },
+        "testing.status": {
+          "INCUMBENT_FALLBACK__EXPERIMENTAL_SHADOW_UNAVAILABLE": 7
+        },
+        "testing.recommendation_difference_reason": {
+          "incumbent_recommendation_not_ready": 4,
+          "visible_postflop_hero_decision_not_ready": 3
+        },
+        "inference.status": {
+          "SHADOW_INFERENCE_NOT_APPLICABLE": 7
+        },
+        "inference.reason": {
+          "visible_postflop_hero_decision_not_ready": 7
+        },
+        "premium_squeeze.applied": {
+          "None": 7
+        }
+      }
+    },
+    {
+      "session_start_utc_token": "20260830T041153Z",
+      "records": 102,
+      "sha256": "7b728209cc9e4e0373ff71bcb7d00e0e253f6ab4be9cfa02237674d729b940c0",
+      "fusion_records": 10,
+      "distribution_difference_records": 10,
+      "primary_difference_records": 1,
+      "counts": {
+        "fusion.status": {
+          "fallback": 77,
+          "pending": 15,
+          "ready": 10
+        },
+        "fusion.reason": {
+          "visible_postflop_hero_decision_not_ready": 70,
+          "incumbent_recommendation_not_ready": 7,
+          "shadow_inference_pending": 15,
+          "qualified_base_and_fixed_equal_shadow_fusion_ready": 10
+        },
+        "fusion.qualified_base_weight": {
+          "0.5": 102
+        },
+        "fusion.shadow_weight": {
+          "0.5": 102
+        },
+        "fusion.recommendation_fusion_qualified": {
+          "False": 102
+        },
+        "incumbent.source": {
+          "stage021_archive_primary": 98,
+          "stage040_gate": 4
+        },
+        "incumbent.status": {
+          "recommendation_ready": 38,
+          "planning_ready": 38,
+          "abstain": 7,
+          "review_ready": 13,
+          "holding_last_stable": 6
+        },
+        "testing.source": {
+          "stage021_archive_primary": 88,
+          "stage040_gate": 4,
+          "stage6_assistant_testing_qualified_base_shadow_fusion_v2": 10
+        },
+        "testing.status": {
+          "INCUMBENT_FALLBACK__EXPERIMENTAL_SHADOW_UNAVAILABLE": 77,
+          "EXPERIMENTAL_SHADOW_RECOMMENDATION_PENDING": 15,
+          "EXPERIMENTAL_SHADOW_RECOMMENDATION_READY": 10
+        },
+        "testing.recommendation_difference_reason": {
+          "visible_postflop_hero_decision_not_ready": 70,
+          "incumbent_recommendation_not_ready": 7,
+          "shadow_inference_pending": 15,
+          "experimental_action_mix_changed_by_eligible_shadow_fusion": 9,
+          "experimental_primary_changed_by_eligible_shadow_fusion": 1
+        },
+        "inference.status": {
+          "SHADOW_INFERENCE_NOT_APPLICABLE": 77,
+          "SHADOW_INFERENCE_PENDING": 15,
+          "SHADOW_INFERENCE_READY": 10
+        },
+        "inference.reason": {
+          "visible_postflop_hero_decision_not_ready": 77
+        },
+        "premium_squeeze.applied": {
+          "None": 102
+        }
+      }
+    },
+    {
+      "session_start_utc_token": "20260831T005326Z",
+      "records": 443,
+      "sha256": "3e62d96ed056227dade1817718ff24521f3e3e6b6d822bd67e6fded3526c156d",
+      "fusion_records": 3,
+      "distribution_difference_records": 3,
+      "primary_difference_records": 0,
+      "counts": {
+        "fusion.status": {
+          "fallback": 436,
+          "pending": 4,
+          "ready": 3
+        },
+        "fusion.reason": {
+          "incumbent_recommendation_not_ready": 288,
+          "visible_postflop_hero_decision_not_ready": 148,
+          "shadow_inference_pending": 4,
+          "qualified_base_and_fixed_equal_shadow_fusion_ready": 3
+        },
+        "fusion.qualified_base_weight": {
+          "0.5": 443
+        },
+        "fusion.shadow_weight": {
+          "0.5": 443
+        },
+        "fusion.recommendation_fusion_qualified": {
+          "False": 443
+        },
+        "incumbent.source": {
+          "stage040_gate": 264,
+          "stage021_archive_primary": 179
+        },
+        "incumbent.status": {
+          "abstain": 288,
+          "planning_ready": 38,
+          "recommendation_ready": 10,
+          "holding_last_stable": 6,
+          "review_ready": 101
+        },
+        "testing.source": {
+          "stage040_gate": 264,
+          "stage021_archive_primary": 176,
+          "stage6_assistant_testing_qualified_base_shadow_fusion_v2": 3
+        },
+        "testing.status": {
+          "INCUMBENT_FALLBACK__EXPERIMENTAL_SHADOW_UNAVAILABLE": 436,
+          "EXPERIMENTAL_SHADOW_RECOMMENDATION_PENDING": 4,
+          "EXPERIMENTAL_SHADOW_RECOMMENDATION_READY": 3
+        },
+        "testing.recommendation_difference_reason": {
+          "incumbent_recommendation_not_ready": 288,
+          "visible_postflop_hero_decision_not_ready": 148,
+          "shadow_inference_pending": 4,
+          "experimental_action_mix_changed_by_eligible_shadow_fusion": 3
+        },
+        "inference.status": {
+          "SHADOW_INFERENCE_NOT_APPLICABLE": 436,
+          "SHADOW_INFERENCE_PENDING": 4,
+          "SHADOW_INFERENCE_READY": 3
+        },
+        "inference.reason": {
+          "visible_postflop_hero_decision_not_ready": 436
+        },
+        "premium_squeeze.applied": {
+          "None": 443
+        }
+      }
+    },
+    {
+      "session_start_utc_token": "20260831T024752Z",
+      "records": 939,
+      "sha256": "cff72e382a725f74eac6b942514949742abd5b5b0916890f3d9d03e9227d4c21",
+      "fusion_records": 10,
+      "distribution_difference_records": 10,
+      "primary_difference_records": 0,
+      "counts": {
+        "fusion.status": {
+          "fallback": 904,
+          "pending": 25,
+          "ready": 10
+        },
+        "fusion.reason": {
+          "visible_postflop_hero_decision_not_ready": 592,
+          "incumbent_recommendation_not_ready": 312,
+          "shadow_inference_pending": 25,
+          "qualified_base_and_fixed_equal_shadow_fusion_ready": 10
+        },
+        "fusion.qualified_base_weight": {
+          "0.5": 939
+        },
+        "fusion.shadow_weight": {
+          "0.5": 939
+        },
+        "fusion.recommendation_fusion_qualified": {
+          "False": 939
+        },
+        "incumbent.source": {
+          "stage021_archive_primary": 892,
+          "stage040_gate": 47
+        },
+        "incumbent.status": {
+          "review_ready": 311,
+          "abstain": 312,
+          "planning_ready": 200,
+          "recommendation_ready": 68,
+          "holding_last_stable": 18,
+          "review_last_available": 30
+        },
+        "testing.source": {
+          "stage021_archive_primary": 882,
+          "stage040_gate": 47,
+          "stage6_assistant_testing_qualified_base_shadow_fusion_v2": 10
+        },
+        "testing.status": {
+          "INCUMBENT_FALLBACK__EXPERIMENTAL_SHADOW_UNAVAILABLE": 904,
+          "EXPERIMENTAL_SHADOW_RECOMMENDATION_PENDING": 25,
+          "EXPERIMENTAL_SHADOW_RECOMMENDATION_READY": 10
+        },
+        "testing.recommendation_difference_reason": {
+          "visible_postflop_hero_decision_not_ready": 592,
+          "incumbent_recommendation_not_ready": 312,
+          "shadow_inference_pending": 25,
+          "experimental_action_mix_changed_by_eligible_shadow_fusion": 10
+        },
+        "inference.status": {
+          "SHADOW_INFERENCE_NOT_APPLICABLE": 904,
+          "SHADOW_INFERENCE_PENDING": 25,
+          "SHADOW_INFERENCE_READY": 10
+        },
+        "inference.reason": {
+          "visible_postflop_hero_decision_not_ready": 904
+        },
+        "premium_squeeze.applied": {
+          "None": 939
+        }
+      }
+    },
+    {
+      "session_start_utc_token": "20260901T204926Z",
+      "records": 4950,
+      "sha256": "50b689bd8195bc3b560845b54625a6e37cf70edee24f74f8e363036bc86d6a15",
+      "fusion_records": 14,
+      "distribution_difference_records": 13,
+      "primary_difference_records": 6,
+      "counts": {
+        "fusion.status": {
+          "fallback": 4900,
+          "pending": 36,
+          "ready": 14
+        },
+        "fusion.reason": {
+          "incumbent_recommendation_not_ready": 3753,
+          "visible_postflop_hero_decision_not_ready": 1147,
+          "shadow_inference_pending": 36,
+          "qualified_base_and_fixed_equal_shadow_fusion_ready": 14
+        },
+        "fusion.qualified_base_weight": {
+          "0.5": 4950
+        },
+        "fusion.shadow_weight": {
+          "0.5": 4950
+        },
+        "fusion.recommendation_fusion_qualified": {
+          "False": 4950
+        },
+        "incumbent.source": {
+          "stage040_gate": 3524,
+          "stage021_archive_primary": 1426
+        },
+        "incumbent.status": {
+          "abstain": 3753,
+          "planning_ready": 354,
+          "recommendation_ready": 91,
+          "review_ready": 736,
+          "holding_last_stable": 15,
+          "review_last_available": 1
+        },
+        "testing.source": {
+          "stage040_gate": 3524,
+          "stage021_archive_primary": 1412,
+          "stage6_assistant_testing_qualified_base_shadow_fusion_v2": 14
+        },
+        "testing.status": {
+          "INCUMBENT_FALLBACK__EXPERIMENTAL_SHADOW_UNAVAILABLE": 4900,
+          "EXPERIMENTAL_SHADOW_RECOMMENDATION_PENDING": 36,
+          "EXPERIMENTAL_SHADOW_RECOMMENDATION_READY": 14
+        },
+        "testing.recommendation_difference_reason": {
+          "incumbent_recommendation_not_ready": 3753,
+          "visible_postflop_hero_decision_not_ready": 1147,
+          "shadow_inference_pending": 36,
+          "experimental_primary_changed_by_eligible_shadow_fusion": 6,
+          "experimental_action_mix_changed_by_eligible_shadow_fusion": 7,
+          "eligible_shadow_fusion_matched_incumbent_for_current_state": 1
+        },
+        "inference.status": {
+          "SHADOW_INFERENCE_NOT_APPLICABLE": 4900,
+          "SHADOW_INFERENCE_PENDING": 36,
+          "SHADOW_INFERENCE_READY": 14
+        },
+        "inference.reason": {
+          "visible_postflop_hero_decision_not_ready": 4900
+        },
+        "premium_squeeze.applied": {
+          "None": 4950
+        }
+      }
+    },
+    {
+      "session_start_utc_token": "20260903T184317Z",
+      "records": 4225,
+      "sha256": "96fe7cec88d42ee074d8ad1ddcc3fc2a848682b7eb2a829d01c394b5c008b4f3",
+      "fusion_records": 74,
+      "distribution_difference_records": 66,
+      "primary_difference_records": 19,
+      "counts": {
+        "fusion.status": {
+          "fallback": 4002,
+          "pending": 149,
+          "ready": 74
+        },
+        "fusion.reason": {
+          "incumbent_recommendation_not_ready": 2587,
+          "visible_postflop_hero_decision_not_ready": 1415,
+          "shadow_inference_pending": 149,
+          "qualified_base_and_fixed_equal_shadow_fusion_ready": 74
+        },
+        "fusion.qualified_base_weight": {
+          "0.5": 4225
+        },
+        "fusion.shadow_weight": {
+          "0.5": 4225
+        },
+        "fusion.recommendation_fusion_qualified": {
+          "False": 4225
+        },
+        "incumbent.source": {
+          "stage040_gate": 2284,
+          "stage021_archive_primary": 1941
+        },
+        "incumbent.status": {
+          "abstain": 2587,
+          "planning_ready": 551,
+          "recommendation_ready": 301,
+          "review_ready": 707,
+          "review_last_available": 2,
+          "holding_last_stable": 77
+        },
+        "testing.source": {
+          "stage040_gate": 2284,
+          "stage021_archive_primary": 1867,
+          "stage6_assistant_testing_qualified_base_shadow_fusion_v2": 74
+        },
+        "testing.status": {
+          "INCUMBENT_FALLBACK__EXPERIMENTAL_SHADOW_UNAVAILABLE": 4002,
+          "EXPERIMENTAL_SHADOW_RECOMMENDATION_PENDING": 149,
+          "EXPERIMENTAL_SHADOW_RECOMMENDATION_READY": 74
+        },
+        "testing.recommendation_difference_reason": {
+          "incumbent_recommendation_not_ready": 2587,
+          "visible_postflop_hero_decision_not_ready": 1415,
+          "shadow_inference_pending": 149,
+          "experimental_action_mix_changed_by_eligible_shadow_fusion": 47,
+          "experimental_primary_changed_by_eligible_shadow_fusion": 19,
+          "eligible_shadow_fusion_matched_incumbent_for_current_state": 8
+        },
+        "inference.status": {
+          "SHADOW_INFERENCE_NOT_APPLICABLE": 4002,
+          "SHADOW_INFERENCE_PENDING": 149,
+          "SHADOW_INFERENCE_READY": 74
+        },
+        "inference.reason": {
+          "visible_postflop_hero_decision_not_ready": 4002
+        },
+        "premium_squeeze.applied": {
+          "None": 4225
+        }
+      }
+    },
+    {
+      "session_start_utc_token": "20260910T182629Z",
+      "records": 356,
+      "sha256": "e474ae7a7036f8d8f71632bebed49df89bf275420a3b0ac1aa51221532d8f2aa",
+      "fusion_records": 0,
+      "distribution_difference_records": 0,
+      "primary_difference_records": 0,
+      "counts": {
+        "fusion.status": {
+          "HELD_NO_CALIBRATED_STRATEGY_MODEL": 356
+        },
+        "fusion.predictive_action_weight": {
+          "0": 356
+        },
+        "fusion.range_strategy_weight": {
+          "0": 356
+        },
+        "fusion.recommendation_fusion_qualified": {
+          "False": 356
+        },
+        "incumbent.source": {
+          "stage040_gate": 14,
+          "stage021_archive_primary": 342
+        },
+        "incumbent.status": {
+          "abstain": 44,
+          "review_ready": 154,
+          "recommendation_ready": 40,
+          "holding_last_stable": 9,
+          "planning_ready": 109
+        },
+        "testing.source": {
+          "stage040_gate": 14,
+          "stage021_archive_primary": 342
+        },
+        "testing.status": {
+          "experimental_components_held": 356
+        },
+        "testing.recommendation_difference_reason": {
+          "Predictive action distributions are diagnostics; no calibrated strategy proposal is installed.": 356
+        },
+        "assessment.status": {
+          "ABSTAIN": 356
+        },
+        "assessment.reason": {
+          "postflop_range_assessment_only": 180,
+          "incumbent_or_complete_history_unavailable": 148,
+          "exact_stack_or_commitment_unavailable": 28
+        },
+        "inference.status": {
+          "SHADOW_INFERENCE_NOT_APPLICABLE": 328,
+          "SHADOW_INFERENCE_PENDING": 28
+        },
+        "inference.reason": {
+          "visible_postflop_hero_decision_not_ready": 328
+        },
+        "premium_squeeze.applied": {
+          "False": 356
+        }
+      }
+    },
+    {
+      "session_start_utc_token": "20260910T184513Z",
+      "records": 3800,
+      "sha256": "cf75fb48400ab40c027de801d8c4727915fd327081674c897585b8947b5926c8",
+      "fusion_records": 0,
+      "distribution_difference_records": 0,
+      "primary_difference_records": 0,
+      "counts": {
+        "fusion.status": {
+          "HELD_NO_CALIBRATED_STRATEGY_MODEL": 3800
+        },
+        "fusion.predictive_action_weight": {
+          "0": 3800
+        },
+        "fusion.range_strategy_weight": {
+          "0": 3800
+        },
+        "fusion.recommendation_fusion_qualified": {
+          "False": 3800
+        },
+        "incumbent.source": {
+          "stage021_archive_primary": 3611,
+          "stage040_gate": 189
+        },
+        "incumbent.status": {
+          "planning_ready": 984,
+          "review_ready": 1711,
+          "abstain": 841,
+          "recommendation_ready": 209,
+          "holding_last_stable": 55
+        },
+        "testing.source": {
+          "stage021_archive_primary": 3611,
+          "stage040_gate": 189
+        },
+        "testing.status": {
+          "experimental_components_held": 3800
+        },
+        "testing.recommendation_difference_reason": {
+          "Predictive action distributions are diagnostics; no calibrated strategy proposal is installed.": 3800
+        },
+        "assessment.status": {
+          "ABSTAIN": 3799,
+          "PENDING": 1
+        },
+        "assessment.reason": {
+          "postflop_range_assessment_only": 2315,
+          "incumbent_or_complete_history_unavailable": 1400,
+          "exact_stack_or_commitment_unavailable": 84,
+          "bounded_range_worker_pending": 1
+        },
+        "inference.status": {
+          "SHADOW_INFERENCE_NOT_APPLICABLE": 3711,
+          "SHADOW_INFERENCE_PENDING": 89
+        },
+        "inference.reason": {
+          "visible_postflop_hero_decision_not_ready": 3711
+        },
+        "premium_squeeze.applied": {
+          "False": 3800
+        }
+      }
+    },
+    {
+      "session_start_utc_token": "20260924T005527Z",
+      "records": 1062,
+      "sha256": "beeb4c298e65451fdc4ecc366710b3acb8d32228a0ab454d07c0bebdb06853d0",
+      "fusion_records": 0,
+      "distribution_difference_records": 0,
+      "primary_difference_records": 0,
+      "counts": {
+        "fusion.status": {
+          "HELD_NO_CALIBRATED_STRATEGY_MODEL": 1062
+        },
+        "fusion.predictive_action_weight": {
+          "0": 1062
+        },
+        "fusion.range_strategy_weight": {
+          "0": 1062
+        },
+        "fusion.recommendation_fusion_qualified": {
+          "False": 1062
+        },
+        "incumbent.source": {
+          "stage040_gate": 51,
+          "stage021_archive_primary": 1011
+        },
+        "incumbent.status": {
+          "abstain": 168,
+          "review_ready": 441,
+          "planning_ready": 305,
+          "recommendation_ready": 101,
+          "holding_last_stable": 47
+        },
+        "testing.source": {
+          "stage040_gate": 51,
+          "stage021_archive_primary": 1011
+        },
+        "testing.status": {
+          "experimental_components_held": 1062
+        },
+        "testing.recommendation_difference_reason": {
+          "Predictive action distributions are diagnostics; no calibrated strategy proposal is installed.": 1062
+        },
+        "assessment.status": {
+          "ABSTAIN": 1060,
+          "PENDING": 2
+        },
+        "assessment.reason": {
+          "postflop_range_assessment_only": 583,
+          "incumbent_or_complete_history_unavailable": 424,
+          "exact_stack_or_commitment_unavailable": 53,
+          "bounded_range_worker_pending": 2
+        },
+        "inference.status": {
+          "SHADOW_INFERENCE_NOT_APPLICABLE": 1007,
+          "SHADOW_INFERENCE_PENDING": 54,
+          "SHADOW_INFERENCE_READY": 1
+        },
+        "inference.reason": {
+          "visible_postflop_hero_decision_not_ready": 1007
+        },
+        "premium_squeeze.applied": {
+          "False": 1062
+        }
+      }
+    },
+    {
+      "session_start_utc_token": "20260927T020055Z",
+      "records": 1853,
+      "sha256": "9c214a330721f55f5a124c7e19c40d8e4d0eea8c44aef375f2fc49f2883d86d4",
+      "fusion_records": 0,
+      "distribution_difference_records": 0,
+      "primary_difference_records": 0,
+      "counts": {
+        "fusion.status": {
+          "HELD_NO_CALIBRATED_STRATEGY_MODEL": 1853
+        },
+        "fusion.predictive_action_weight": {
+          "0": 1853
+        },
+        "fusion.range_strategy_weight": {
+          "0": 1853
+        },
+        "fusion.recommendation_fusion_qualified": {
+          "False": 1853
+        },
+        "incumbent.source": {
+          "stage040_gate": 96,
+          "stage021_archive_primary": 1757
+        },
+        "incumbent.status": {
+          "abstain": 305,
+          "review_ready": 915,
+          "planning_ready": 511,
+          "recommendation_ready": 95,
+          "holding_last_stable": 27
+        },
+        "testing.source": {
+          "stage040_gate": 96,
+          "stage021_archive_primary": 1757
+        },
+        "testing.status": {
+          "experimental_components_held": 1853
+        },
+        "testing.recommendation_difference_reason": {
+          "Predictive action distributions are diagnostics; no calibrated strategy proposal is installed.": 1853
+        },
+        "assessment.status": {
+          "ABSTAIN": 1853
+        },
+        "assessment.reason": {
+          "postflop_range_assessment_only": 1145,
+          "incumbent_or_complete_history_unavailable": 680,
+          "exact_stack_or_commitment_unavailable": 28
+        },
+        "inference.status": {
+          "SHADOW_INFERENCE_NOT_APPLICABLE": 1825,
+          "SHADOW_INFERENCE_PENDING": 27,
+          "SHADOW_INFERENCE_READY": 1
+        },
+        "inference.reason": {
+          "visible_postflop_hero_decision_not_ready": 1825
+        },
+        "premium_squeeze.applied": {
+          "False": 1853
+        }
+      }
+    },
+    {
+      "session_start_utc_token": "20261008T022615Z",
+      "records": 2267,
+      "sha256": "3d634bfeacd81075defbcb3bf7edee846d56fc951294ba22ca90ba6a9f0fe30d",
+      "fusion_records": 0,
+      "distribution_difference_records": 0,
+      "primary_difference_records": 0,
+      "counts": {
+        "fusion.status": {
+          "HELD_NO_CALIBRATED_STRATEGY_MODEL": 2267
+        },
+        "fusion.predictive_action_weight": {
+          "0": 2267
+        },
+        "fusion.range_strategy_weight": {
+          "0": 2267
+        },
+        "fusion.recommendation_fusion_qualified": {
+          "False": 2267
+        },
+        "incumbent.source": {
+          "stage021_archive_primary": 2179,
+          "stage040_gate": 88
+        },
+        "incumbent.status": {
+          "planning_ready": 702,
+          "abstain": 431,
+          "recommendation_ready": 170,
+          "review_ready": 921,
+          "holding_last_stable": 42,
+          "review_last_available": 1
+        },
+        "testing.source": {
+          "stage021_archive_primary": 2179,
+          "stage040_gate": 88
+        },
+        "testing.status": {
+          "experimental_components_held": 2267
+        },
+        "testing.recommendation_difference_reason": {
+          "Predictive action distributions are diagnostics; no calibrated strategy proposal is installed.": 2267
+        },
+        "assessment.status": {
+          "ABSTAIN": 2267
+        },
+        "assessment.reason": {
+          "postflop_range_assessment_only": 1264,
+          "incumbent_or_complete_history_unavailable": 907,
+          "exact_stack_or_commitment_unavailable": 96
+        },
+        "inference.status": {
+          "SHADOW_INFERENCE_NOT_APPLICABLE": 2168,
+          "SHADOW_INFERENCE_PENDING": 98,
+          "SHADOW_INFERENCE_READY": 1
+        },
+        "inference.reason": {
+          "visible_postflop_hero_decision_not_ready": 2168
+        },
+        "premium_squeeze.applied": {
+          "False": 2267
+        }
+      }
+    },
+    {
+      "session_start_utc_token": "20261010T021128Z",
+      "records": 2719,
+      "sha256": "5c04884104e9b63aa84430df12e76f274776a616a219f3ed29091877445485b9",
+      "fusion_records": 0,
+      "distribution_difference_records": 1,
+      "primary_difference_records": 1,
+      "counts": {
+        "fusion.status": {
+          "HELD_NO_CALIBRATED_STRATEGY_MODEL": 2718,
+          "PREMIUM_SQUEEZE_CANDIDATE_ONLY": 1
+        },
+        "fusion.predictive_action_weight": {
+          "0": 2719
+        },
+        "fusion.range_strategy_weight": {
+          "0": 2719
+        },
+        "fusion.recommendation_fusion_qualified": {
+          "False": 2719
+        },
+        "incumbent.source": {
+          "stage040_gate": 140,
+          "stage021_archive_primary": 2579
+        },
+        "incumbent.status": {
+          "abstain": 485,
+          "recommendation_ready": 207,
+          "review_ready": 1147,
+          "planning_ready": 816,
+          "holding_last_stable": 64
+        },
+        "testing.source": {
+          "stage040_gate": 140,
+          "stage021_archive_primary": 2578,
+          "stage6_empirical_v1_premium_squeeze_extension_not_reviewed_chart": 1
+        },
+        "testing.status": {
+          "experimental_components_held": 2718,
+          "EXPERIMENTAL_EMPIRICAL_RECOMMENDATION_READY": 1
+        },
+        "testing.recommendation_difference_reason": {
+          "Predictive action distributions are diagnostics; no calibrated strategy proposal is installed.": 2718,
+          "operator_guide_top_of_range_candidate_extension": 1
+        },
+        "assessment.status": {
+          "ABSTAIN": 2719
+        },
+        "assessment.reason": {
+          "postflop_range_assessment_only": 1550,
+          "incumbent_or_complete_history_unavailable": 1059,
+          "exact_stack_or_commitment_unavailable": 110
+        },
+        "inference.status": {
+          "SHADOW_INFERENCE_NOT_APPLICABLE": 2609,
+          "SHADOW_INFERENCE_PENDING": 110
+        },
+        "inference.reason": {
+          "visible_postflop_hero_decision_not_ready": 2609
+        },
+        "premium_squeeze.applied": {
+          "False": 2718,
+          "True": 1
+        }
+      }
+    }
+  ],
+  "interpretation": "Telemetry records can repeat decisions. Changes in displayed experimental advice do not establish adherence, better actions, or winnings. One legacy record lacks a hand identifier; no hand count is asserted."
+}

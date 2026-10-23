@@ -1,0 +1,20 @@
+\begin{table}[htbp]
+\centering\small
+\caption{Selected models on confirmation support. Accuracy and loss are predictive measures, not win rates. All comparisons use 23 game clusters.}
+\label{tab:layers}
+\begin{tabular}{llrrrr}
+\toprule
+Layer & Model & Rows & Accuracy & Log loss & $\Delta$ prior \\
+\midrule
+Joint action/size & LightGBM & 105,924 & 62.81\% & 0.8695 & 0.0284 \\
+Player archetype & XGBoost & 106,175 & 62.83\% & 0.8698 & 0.0282 \\
+Multiway response & CatBoost & 36,358 & 65.73\% & 0.8584 & 0.0277 \\
+Bluff likelihood & XGBoost & 53,794 & 59.40\% & 0.8986 & 0.0214 \\
+Strategy drift & CatBoost & 105,227 & 62.81\% & 0.8692 & 0.0285 \\
+Postflop behavior & LightGBM & 42,451 & 67.37\% & 0.6507 & 0.1448 \\
+Showdown calibration & CatBoost & 53,794 & 59.40\% & 0.9001 & 0.0199 \\
+Fold response & Extra Trees & 61,241 & 59.41\% & 0.8706 & 0.0452 \\
+Within-hand line & CatBoost & 97,808 & 66.75\% & 0.7508 & 0.1442 \\
+\bottomrule
+\end{tabular}
+\end{table}

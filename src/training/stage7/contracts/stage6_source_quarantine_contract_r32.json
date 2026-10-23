@@ -1,0 +1,57 @@
+{
+  "schema_version": "stage6_source_quarantine_contract_v1",
+  "status": "FROZEN_EXACT_SOURCE_CONSERVATION_AND_STRICT_MASK_QUARANTINE",
+  "source_relative_path": "data/exports/ml/action-state-decision-rows.csv",
+  "source_bytes": 2393137787,
+  "source_sha256": "2136ffb385c814bd12810a170c2243dff7ce0f9593800475fe81d3cf594d8d6d",
+  "source_row_count": 2334700,
+  "classifier_function": "classify_source_quarantine_reason",
+  "classifier_relative_path": "src/stage6_decision_row_builder.py",
+  "classifier_sha256": "da0f9371915957e5a55aac2c7d31312d69f63ac095c721b4c8d66a8e5f7d2514",
+  "classifier_scan_evidence_relative_path": "evidence/stage6_notebook01_source_quarantine_scan_2026-08-24_r32.json",
+  "classifier_scan_evidence_self_sha256": "de851c42d0d66829bb40a68b4a59f21433ba1812ca0561f6b6a32e0fd68870d8",
+  "accepted_decision_row_count": 2333461,
+  "quarantined_decision_row_count": 1239,
+  "quarantine_reason_counts": {
+    "dominated_zero_cost_fold": 893,
+    "observed_bet_below_exact_minimum": 1,
+    "observed_call_contribution_transition_mismatch": 214,
+    "observed_check_facing_positive_call": 6,
+    "observed_raise_below_exact_minimum": 125
+  },
+  "row_id_field": "hand_action_id",
+  "accepted_row_identity_root_algorithm": "sha256_uint64_source_ordinal_uint32_utf8_row_id_v1",
+  "accepted_row_identity_root": "3b25896c094531061d1c3431a70b0941c0c3d58293c29b5d1931dae258e9ea99",
+  "quarantine_row_identity_root_algorithm": "sha256_uint64_source_ordinal_uint16_utf8_reason_uint32_utf8_row_id_v1",
+  "quarantine_row_identity_root": "497f7bb08da6e974b589252a0c674a9d7342bf2ce3c6e795ee53e8bfcb623fdf",
+  "quarantine_reason_row_identity_roots": {
+    "dominated_zero_cost_fold": "71d6ff8c1524e840cb2444043c27ce0de8a59b30daed0b54fa925ef30bb4dda5",
+    "observed_bet_below_exact_minimum": "6a80a83024b286ac3d544c65533810966349b7710c81d0a797c2867835a193b9",
+    "observed_call_contribution_transition_mismatch": "a9e579c8d420f1df01b118c84167bd1f6d7133ac3ca65bd49d578fed6643f7e6",
+    "observed_check_facing_positive_call": "8e13eb2b5bf6bec1ae902991d68a16b2e5142de8beec9891cde2647b7119e031",
+    "observed_raise_below_exact_minimum": "c71946107168bac3233d725392869f20ba8089b7fb93b0c8929b013fe96e0cf6"
+  },
+  "source_work_unit_conservation_verified": true,
+  "reason_counts_sum_to_quarantine_count": true,
+  "classifier_scan_evidence_parity_verified": true,
+  "reason_semantics": {
+    "dominated_zero_cost_fold": "observed fold with zero amount to call while the strict decision mask exposes check and excludes fold",
+    "observed_bet_below_exact_minimum": "non-all-in observed bet-to amount below the exact visible legal minimum",
+    "observed_call_contribution_transition_mismatch": "observed call contribution does not equal prior street contribution plus the exact stack-capped amount to call",
+    "observed_check_facing_positive_call": "observed check while the exact visible state has a positive amount to call",
+    "observed_raise_below_exact_minimum": "non-all-in observed raise-to amount below the exact visible legal minimum"
+  },
+  "every_source_row_must_be_in_exactly_one_of": [
+    "accepted_decision_rows",
+    "quarantine_ledger"
+  ],
+  "silent_row_drop_forbidden": true,
+  "quarantined_rows_eligible_for_model_fitting": false,
+  "quarantined_rows_eligible_for_calibration": false,
+  "quarantined_rows_eligible_for_test_scoring": false,
+  "runtime_authority": false,
+  "scientific_authority": false,
+  "promotion_authority": false,
+  "live_action_authority": false,
+  "self_sha256": "bad1a7e42298e6f55c0fb89b51a2effe14bfdb32cb500332cbbde9e2c2abf177"
+}

@@ -1,0 +1,104 @@
+{
+  "schema_version": "stage6_notebook_dag_v2",
+  "status": "NOTEBOOK_01_R12_RUNTIME_NEUTRAL_BOUNDED_PASS__INDEPENDENT_AUDIT_PENDING__FULL_COLAB_HELD",
+  "supersedes_for_new_stage6_notebooks": "stage6_notebook_dag_v1",
+  "flat_numbered_notebooks": true,
+  "worker_policy_contract_for_all_new_notebooks": "stage6_worker_policy_v3.json",
+  "accepted_runtime_types_for_all_new_notebooks": [
+    "cpu",
+    "gpu",
+    "tpu"
+  ],
+  "runtime_type_restriction": null,
+  "accelerator_required": false,
+  "high_ram_runtime_class_required": false,
+  "logical_lane_count_for_eligible_independent_work": 48,
+  "requested_workers_default": "auto",
+  "live_worker_resolution_rule": "min(requested_or_auto_host_cpu_capacity, unfinished_independent_lane_count, detected_usable_logical_cpus, 48)",
+  "runtime_type_worker_count_and_completion_order_scientifically_invariant": true,
+  "notebooks": [
+    {
+      "token": "01",
+      "name": "Stage6_Frozen_Input_Data_Quality_And_Leakage_Lock",
+      "depends_on": [],
+      "role": "freeze decision and refreshed profile bytes, validate both schemas, assign preregistered panels, and build fold-local causal features"
+    },
+    {
+      "token": "02",
+      "name": "Stage6_Preflop_Behavior_Head_Rebuild",
+      "depends_on": ["01"],
+      "role": "rebuild the preflop behavior head on locked panels"
+    },
+    {
+      "token": "03",
+      "name": "Stage6_Action_State_Head_Rebuild",
+      "depends_on": ["01"],
+      "role": "rebuild the action-state behavior head on locked panels"
+    },
+    {
+      "token": "04",
+      "name": "Stage6_Bet_Size_Head_Rebuild",
+      "depends_on": ["01"],
+      "role": "rebuild conditional bet sizing with exact visible bounds"
+    },
+    {
+      "token": "05",
+      "name": "Stage6_Profile_Support_Targeting_And_Heuristic_Baseline_Audit",
+      "depends_on": ["01"],
+      "role": "validate metric-specific opportunities and uncertainty, repair exact opponent targeting, and audit fixed historical profile adjustments against no-profile controls"
+    },
+    {
+      "token": "06",
+      "name": "Stage6_Review_Concept_Group_Time_Rebuild",
+      "depends_on": ["01"],
+      "role": "parallel independent screens for the six old review-only concepts"
+    },
+    {
+      "token": "07",
+      "name": "Stage6_State_Routed_Reference_And_River_Parity",
+      "depends_on": ["01"],
+      "role": "restore reference rows, test exact policy parity, and build support-scored solver-state routing"
+    },
+    {
+      "token": "08",
+      "name": "Stage6_Calibration_Selective_Abstention_And_Legal_Replay",
+      "depends_on": ["02", "03", "04", "05", "06", "07"],
+      "role": "validation-only calibration, risk-coverage gates, fail-closed legal projection, and runtime replay"
+    },
+    {
+      "token": "09",
+      "name": "Stage6_Locked_Aggregate_Promotion_And_Closeout",
+      "depends_on": ["08"],
+      "role": "one-time test adjudication, candidate manifest, and no-promotion-by-default closeout"
+    }
+  ],
+  "parallel_groups": [
+    ["02", "03", "04", "05", "06", "07"]
+  ],
+  "notebook_01_current_revision": {
+    "revision": "RUNTIME_NEUTRAL_CAUSAL_MATERIALIZATION_AND_SPLIT_LOCK_R12",
+    "source_path": "notebooks/01_Stage6_Frozen_Input_Data_Quality_And_Leakage_Lock.ipynb",
+    "source_bytes": 21864,
+    "source_sha256": "b64ac51557066cd267889e4c08eae08f6863fb04cd8dc25565ef19e049b70b90",
+    "bounded_executed_path": "runtime_state/notebook01/controller/01_Stage6_Frozen_Input_Data_Quality_And_Leakage_Lock.R12.bounded.executed.ipynb",
+    "bounded_executed_bytes": 27790,
+    "bounded_executed_sha256": "27cd77d60a77f4d9f834fcc119261774b1758b9cc12b4914664ada21ffb293a4",
+    "bounded_receipt_path": "runtime_state/notebook01/controller/stage6_notebook01_r12_bounded_reference_receipt.json",
+    "bounded_receipt_file_sha256": "a061e3e9211fa6f4621eccf2aa7b6f0ca63e7f6c1f22afb058b7c249d807b94c",
+    "bounded_receipt_self_sha256": "81312cfe26baf8dfbdcd14ecba4112fba0de1fb30b1970c51f48e51838007cc7",
+    "bounded_run_identity": "596035d9a3b06c3371aa2d3cd36903a4a078836f09fd796a8d8d77d2afb34778",
+    "bounded_result_self_sha256": "85a0de6b8519ded5863ba1b86350b019b343fcd94b6925aa16d35865a8eba7ac",
+    "bounded_parallel_root": "aad0ad376744696eec9b3cb7cf9de6468b2b2c6d9fb158d8e014c3ecac28cd1a",
+    "bounded_requested_workers": "4",
+    "bounded_resolved_live_workers": 4,
+    "bounded_execution": "PASS_4_OF_4_CODE_CELLS_ZERO_ERRORS",
+    "bounded_terminal_status": "PASS_BOUNDED_CAUSAL_REFERENCE__FULL_COLAB_MATERIALIZATION_HELD",
+    "full_materialization_status": "HELD_PENDING_EXACT_R12_INDEPENDENT_PASS",
+    "downstream_notebook_release": false,
+    "scientific_authority": false,
+    "promotion_authority": false,
+    "drive_publication_authority": false,
+    "live_action_authority": false
+  },
+  "self_sha256": "7ae9a89a4843437d987348e0719cfc2eb19a4993e8888487452468767492b997"
+}

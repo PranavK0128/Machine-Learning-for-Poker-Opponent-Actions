@@ -1,0 +1,275 @@
+{
+  "note": "Anonymous captured-hand groups; selected subset, not full-session results or treatment comparisons.",
+  "groups": [
+    {
+      "session_group": "G01",
+      "candidate_hands": 109,
+      "reconciled_hands": 105,
+      "net_bb_subset": 7.580000000000001,
+      "positive_hands": 14,
+      "negative_hands": 47,
+      "zero_hands": 44
+    },
+    {
+      "session_group": "G02",
+      "candidate_hands": 84,
+      "reconciled_hands": 72,
+      "net_bb_subset": 146.88,
+      "positive_hands": 16,
+      "negative_hands": 16,
+      "zero_hands": 40
+    },
+    {
+      "session_group": "G03",
+      "candidate_hands": 444,
+      "reconciled_hands": 397,
+      "net_bb_subset": 28.075000000000017,
+      "positive_hands": 56,
+      "negative_hands": 125,
+      "zero_hands": 216
+    },
+    {
+      "session_group": "G04",
+      "candidate_hands": 166,
+      "reconciled_hands": 153,
+      "net_bb_subset": 300.63,
+      "positive_hands": 15,
+      "negative_hands": 138,
+      "zero_hands": 0
+    },
+    {
+      "session_group": "G05",
+      "candidate_hands": 170,
+      "reconciled_hands": 138,
+      "net_bb_subset": -7.719999999999997,
+      "positive_hands": 11,
+      "negative_hands": 47,
+      "zero_hands": 80
+    },
+    {
+      "session_group": "G06",
+      "candidate_hands": 383,
+      "reconciled_hands": 344,
+      "net_bb_subset": 317.0,
+      "positive_hands": 49,
+      "negative_hands": 99,
+      "zero_hands": 196
+    },
+    {
+      "session_group": "G07",
+      "candidate_hands": 73,
+      "reconciled_hands": 68,
+      "net_bb_subset": 340.74,
+      "positive_hands": 9,
+      "negative_hands": 26,
+      "zero_hands": 33
+    },
+    {
+      "session_group": "G08",
+      "candidate_hands": 259,
+      "reconciled_hands": 238,
+      "net_bb_subset": 81.80000000000003,
+      "positive_hands": 23,
+      "negative_hands": 80,
+      "zero_hands": 135
+    },
+    {
+      "session_group": "G09",
+      "candidate_hands": 135,
+      "reconciled_hands": 124,
+      "net_bb_subset": 427.18,
+      "positive_hands": 10,
+      "negative_hands": 36,
+      "zero_hands": 78
+    },
+    {
+      "session_group": "G10",
+      "candidate_hands": 56,
+      "reconciled_hands": 52,
+      "net_bb_subset": 22.5,
+      "positive_hands": 3,
+      "negative_hands": 20,
+      "zero_hands": 29
+    },
+    {
+      "session_group": "G11",
+      "candidate_hands": 107,
+      "reconciled_hands": 98,
+      "net_bb_subset": 151.59,
+      "positive_hands": 6,
+      "negative_hands": 31,
+      "zero_hands": 61
+    },
+    {
+      "session_group": "G12",
+      "candidate_hands": 120,
+      "reconciled_hands": 109,
+      "net_bb_subset": 4.0,
+      "positive_hands": 13,
+      "negative_hands": 39,
+      "zero_hands": 57
+    },
+    {
+      "session_group": "G13",
+      "candidate_hands": 81,
+      "reconciled_hands": 68,
+      "net_bb_subset": 24.5,
+      "positive_hands": 6,
+      "negative_hands": 18,
+      "zero_hands": 44
+    },
+    {
+      "session_group": "G14",
+      "candidate_hands": 53,
+      "reconciled_hands": 47,
+      "net_bb_subset": -24.25,
+      "positive_hands": 2,
+      "negative_hands": 36,
+      "zero_hands": 9
+    },
+    {
+      "session_group": "G15",
+      "candidate_hands": 220,
+      "reconciled_hands": 204,
+      "net_bb_subset": 68.36,
+      "positive_hands": 27,
+      "negative_hands": 155,
+      "zero_hands": 22
+    },
+    {
+      "session_group": "G16",
+      "candidate_hands": 50,
+      "reconciled_hands": 41,
+      "net_bb_subset": 58.93,
+      "positive_hands": 4,
+      "negative_hands": 37,
+      "zero_hands": 0
+    },
+    {
+      "session_group": "G17",
+      "candidate_hands": 101,
+      "reconciled_hands": 92,
+      "net_bb_subset": 164.86,
+      "positive_hands": 14,
+      "negative_hands": 34,
+      "zero_hands": 44
+    },
+    {
+      "session_group": "G18",
+      "candidate_hands": 105,
+      "reconciled_hands": 83,
+      "net_bb_subset": 16.069999999999997,
+      "positive_hands": 6,
+      "negative_hands": 40,
+      "zero_hands": 37
+    },
+    {
+      "session_group": "G19",
+      "candidate_hands": 146,
+      "reconciled_hands": 137,
+      "net_bb_subset": 209.54,
+      "positive_hands": 7,
+      "negative_hands": 46,
+      "zero_hands": 84
+    },
+    {
+      "session_group": "G20",
+      "candidate_hands": 251,
+      "reconciled_hands": 229,
+      "net_bb_subset": 142.21,
+      "positive_hands": 22,
+      "negative_hands": 207,
+      "zero_hands": 0
+    },
+    {
+      "session_group": "G21",
+      "candidate_hands": 211,
+      "reconciled_hands": 191,
+      "net_bb_subset": -174.41,
+      "positive_hands": 24,
+      "negative_hands": 60,
+      "zero_hands": 107
+    },
+    {
+      "session_group": "G22",
+      "candidate_hands": 104,
+      "reconciled_hands": 96,
+      "net_bb_subset": -56.505,
+      "positive_hands": 11,
+      "negative_hands": 85,
+      "zero_hands": 0
+    },
+    {
+      "session_group": "G23",
+      "candidate_hands": 43,
+      "reconciled_hands": 40,
+      "net_bb_subset": 180.10000000000002,
+      "positive_hands": 5,
+      "negative_hands": 35,
+      "zero_hands": 0
+    },
+    {
+      "session_group": "G24",
+      "candidate_hands": 69,
+      "reconciled_hands": 25,
+      "net_bb_subset": 49.76,
+      "positive_hands": 3,
+      "negative_hands": 22,
+      "zero_hands": 0
+    },
+    {
+      "session_group": "G25",
+      "candidate_hands": 109,
+      "reconciled_hands": 60,
+      "net_bb_subset": -12.0,
+      "positive_hands": 9,
+      "negative_hands": 32,
+      "zero_hands": 19
+    },
+    {
+      "session_group": "G26",
+      "candidate_hands": 184,
+      "reconciled_hands": 96,
+      "net_bb_subset": -7.555,
+      "positive_hands": 10,
+      "negative_hands": 38,
+      "zero_hands": 48
+    },
+    {
+      "session_group": "G27",
+      "candidate_hands": 48,
+      "reconciled_hands": 20,
+      "net_bb_subset": 89.98,
+      "positive_hands": 6,
+      "negative_hands": 6,
+      "zero_hands": 8
+    },
+    {
+      "session_group": "G28",
+      "candidate_hands": 75,
+      "reconciled_hands": 35,
+      "net_bb_subset": 3.8,
+      "positive_hands": 2,
+      "negative_hands": 33,
+      "zero_hands": 0
+    },
+    {
+      "session_group": "G29",
+      "candidate_hands": 102,
+      "reconciled_hands": 49,
+      "net_bb_subset": 50.5,
+      "positive_hands": 4,
+      "negative_hands": 22,
+      "zero_hands": 23
+    },
+    {
+      "session_group": "G30",
+      "candidate_hands": 140,
+      "reconciled_hands": 61,
+      "net_bb_subset": 63.019999999999996,
+      "positive_hands": 11,
+      "negative_hands": 50,
+      "zero_hands": 0
+    }
+  ]
+}

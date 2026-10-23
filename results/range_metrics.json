@@ -1,0 +1,152 @@
+{
+  "roles": {
+    "observed_next_action_size": {
+      "accuracy": 0.657570261071596,
+      "brier": 0.49050664234382824,
+      "brier_improvement": 0.0472588759644457,
+      "expected_calibration_error_10_bins": 0.09564995864545281,
+      "games": 23,
+      "interval_scope": "whole-game bootstrap; two-role Bonferroni; revealed-subset condition where applicable",
+      "log_loss": 0.9969272915748567,
+      "log_loss_improvement": 0.01923312292673517,
+      "population_range_qualified": false,
+      "predictive_support_floor_met": true,
+      "rows": 98134,
+      "strategy_qualified": false,
+      "lower_bounds": {
+        "brier": 0.04437955385989949,
+        "log_loss": -0.0034378649781273717
+      },
+      "training_rows": 1577090,
+      "training_games": 351
+    },
+    "physical_combo_action_likelihood": {
+      "accuracy": 0.7694360640519842,
+      "brier": 0.32529997394122023,
+      "brier_improvement": 0.1696333998402609,
+      "expected_calibration_error_10_bins": 0.009256129546379898,
+      "games": 23,
+      "interval_scope": "whole-game bootstrap; two-role Bonferroni; revealed-subset condition where applicable",
+      "log_loss": 0.5441648623822947,
+      "log_loss_improvement": 0.2839830017401577,
+      "population_range_qualified": false,
+      "predictive_support_floor_met": true,
+      "rows": 17236,
+      "strategy_qualified": false,
+      "lower_bounds": {
+        "brier": 0.15657685774663485,
+        "log_loss": 0.2666730116898772
+      },
+      "training_rows": 272238,
+      "training_games": 351
+    }
+  },
+  "range_ablation": {
+    "current_hand_likelihood_off": {
+      "brier": 0.9985208595844826,
+      "held_rows": 0,
+      "hold_reasons": {},
+      "log_loss": 6.7395712086917,
+      "matched_full_minus_control": {
+        "brier": -0.0006685827960411548,
+        "log_loss": -0.1531029645306649
+      },
+      "metrics_denominator": "scored_rows_only; held rows retained in full fixed sample",
+      "sampled_rows": 184,
+      "scored_rows": 184
+    },
+    "player_and_action_assumption": {
+      "brier": 0.9978522767884412,
+      "held_rows": 0,
+      "hold_reasons": {},
+      "log_loss": 6.586468244161036,
+      "matched_full_minus_control": {
+        "brier": 0.0,
+        "log_loss": 0.0
+      },
+      "metrics_denominator": "scored_rows_only; held rows retained in full fixed sample",
+      "sampled_rows": 184,
+      "scored_rows": 184
+    },
+    "population_only": {
+      "brier": 0.9984865298145252,
+      "held_rows": 0,
+      "hold_reasons": {},
+      "log_loss": 6.727368499217825,
+      "matched_full_minus_control": {
+        "brier": -0.0006342530260838706,
+        "log_loss": -0.14090025505678908
+      },
+      "metrics_denominator": "scored_rows_only; held rows retained in full fixed sample",
+      "sampled_rows": 184,
+      "scored_rows": 184
+    },
+    "shuffled_player_profile_and_action": {
+      "brier": 0.9990385369478972,
+      "held_rows": 115,
+      "hold_reasons": {
+        "no_matched_target_and_donor_profile_in_context": 73,
+        "target_has_no_training_profile": 42
+      },
+      "log_loss": 6.656311518993784,
+      "matched_full_minus_control": {
+        "brier": -0.0006162788066704204,
+        "log_loss": -0.030753189074842008
+      },
+      "metrics_denominator": "scored_rows_only; held rows retained in full fixed sample",
+      "sampled_rows": 184,
+      "scored_rows": 69
+    },
+    "stale_profile_and_action": {
+      "brier": 0.9976405344208348,
+      "held_rows": 0,
+      "hold_reasons": {},
+      "log_loss": 6.574082250127103,
+      "matched_full_minus_control": {
+        "brier": 0.00021174236760661147,
+        "log_loss": 0.012385994033932549
+      },
+      "metrics_denominator": "scored_rows_only; held rows retained in full fixed sample",
+      "sampled_rows": 184,
+      "scored_rows": 184
+    },
+    "uniform_no_profile": {
+      "brier": 0.9991669000445711,
+      "held_rows": 0,
+      "hold_reasons": {},
+      "log_loss": 7.09347268644593,
+      "matched_full_minus_control": {
+        "brier": -0.0013146232561297168,
+        "log_loss": -0.5070044422848938
+      },
+      "metrics_denominator": "scored_rows_only; held rows retained in full fixed sample",
+      "sampled_rows": 184,
+      "scored_rows": 184
+    },
+    "wrong_player_profile_and_action": {
+      "brier": 0.9986240359422154,
+      "held_rows": 118,
+      "hold_reasons": {
+        "no_matched_target_and_donor_profile_in_context": 76,
+        "target_has_no_training_profile": 42
+      },
+      "log_loss": 6.572002303246341,
+      "matched_full_minus_control": {
+        "brier": -0.000504155648555685,
+        "log_loss": -0.03223903589591744
+      },
+      "metrics_denominator": "scored_rows_only; held rows retained in full fixed sample",
+      "sampled_rows": 184,
+      "scored_rows": 66
+    }
+  },
+  "sampled_rows": 184,
+  "sampled_games": 23,
+  "source_support": {
+    "disposition": "REVEAL_SELECTED_EXPERIMENT_ONLY",
+    "games": 508,
+    "latent_rows": 1929330,
+    "revealed_label_rows": 405796,
+    "rows": 2335126
+  }
+}

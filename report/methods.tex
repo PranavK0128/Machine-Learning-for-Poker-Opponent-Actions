@@ -1,0 +1,43 @@
+\section{Additional Methods}\label{app:methods}
+\subsection{Feature construction and support}
+The nine layers predict observed actions with different feature sets. Support checks decide when their outputs may be interpreted; training-time imputation does not create missing historical evidence. The postflop layer uses 61 public-state features. Within-hand surprise adds 63 action-prefix features and requires at least one preceding action. Joint action/size surprise summarizes prior frequencies and aggressive-size moments, requiring at least two completed hands, four decisions, and two aggressive sizes.
+
+Player archetype uses prior action, aggression, fold-response, and sizing rates. For player \(p\), an action rate is shrunk toward the prior population rate:
+\begin{equation}
+\widetilde p_p(a)=\frac{n_{p,a}+12p_{\rm pop}(a)}{N_p+12}.
+\end{equation}
+Population statistics also use only earlier completed hands; absent population history gives a uniform action prior. Player support requires two prior hands. Multiway response requires an unambiguously identified target, two prior multiway hands, and four decisions. Ambiguous targets do not become an average over arbitrary opponents.
+
+Strategy drift compares the latest eight completed hands with the preceding 64, using action-rate differences and total variation \(\tfrac12\sum_a|p_{\rm recent}(a)-p_{\rm reference}(a)|\). At least four recent and eight reference hands are required. Fold-response features require a known target and at least four historical facing-size events. A candidate size \(s\), expressed as a pot fraction, must lie inside observed size support; a local fold rate uses at least three events within bandwidth \(\max(0.15,0.25s)\). This is an observational association, not a response to an experimentally assigned size.
+
+Bluff and showdown features use revealed-card evidence stratified by terminal street and aggression. A stratum requires at least two opportunities and one reveal/label; supported strata are opportunity-weighted, with at least three labels and 50\% coverage overall. Bluff labels include losing river aggression, missed draws, and bottom-pair proxies; they do not identify the player's hidden intent. Of 114,605 exact-label rows, 78,465 are accepted. There are also 107,228 fully revealed player-hands; this is a different denominator. Hidden, mucked, or otherwise unavailable holdings are not invented. Reveal selection and conflicting/incomplete evidence limit these layers.
+
+The separate range-likelihood model combines public-state features with enumerated candidate-holding features. A later reveal may supply a training label, but is not exposed as a live feature at the earlier decision. In the hierarchical-history experiment, population, player, and session distributions use
+\begin{equation}
+p_{\ell}(a\mid x)=\frac{n_{\ell,a}(x)+100p_{\ell-1}(a\mid x)}{N_{\ell}(x)+100}.
+\end{equation}
+Contexts include stack-depth bands below 150, 150--200, 200--250, and above 250 BB, heads-up versus multiway status, and action family for conditional sizing. The global legal-action prior starts uniformly, with total prior mass equal to the number of legal actions.
+
+\subsection{Fitting, calibration, and evaluation}
+Table~\ref{tab:training} gives the installed refit settings. Eight layers fit 2,220,233 rows and calibrate on 113,228; postflop uses its 886,821/47,426-row subset. Feature count and support differ even where fit-row totals coincide.
+
+\input{tables/training.tex}
+
+For temperature \(T\), legal-action probabilities are proportional to \(p(a\mid x)^{1/T}\), with illegal actions masked and the remainder renormalized. The seven grid-search receipts use \(T\in\{0.5,0.67,0.8,0.9,1,1.1,1.25,1.5,2\}\); the two diagnostic-only receipts retain their inner-fold value. No outer-test loss selects a temperature. For a paired model comparison, bootstrap draw weights \(w_g\) count resampled games, giving
+\begin{equation}
+\Delta^*=\frac{\sum_g w_g\sum_{j\in g}(\ell_{\rm comparator,j}-\ell_{\rm model,j})}{\sum_g w_g n_g}.
+\end{equation}
+Thus games are the resampling unit while supported decisions determine the loss average. The winnings point estimate divides total game BB returns by the corrected aggregate hours; no corrected per-game exposure is available for an hourly-rate bootstrap.
+
+\subsection{Solver ranges, evaluation, and compute evidence}
+For a legal two-card combination \(c\) and public root state \(x\), range weights combine the declared family, public hand class, action-history/position multipliers, and any declared target-class bias. A strength proxy combines 70\% normalized made-hand category with 30\% normalized preflop class score. Linear and value-heavy families favor stronger holdings; bluff-heavy favors weak holdings and draws; capped favors middle strength; uncapped preserves strong/draw weight; polarized favors extremes; merged combines strong and middle weight. Equilibrium-like has a neutral family multiplier of one, not a claim of Nash calibration. Positive weights have a floor of \(10^{-15}\) before normalization. Joint sampling respects both players' blockers:
+\begin{equation}
+P(c_0,c_1\mid x)\propto w_0(c_0\mid x)w_1(c_1\mid x)
+\mathbf1\{c_0\cap c_1=\varnothing\}.
+\end{equation}
+Board conflicts are removed before sampling. Conditioning on compatibility can change the marginal distributions; it is not independent sampling followed by ignoring collisions. Strategy keys expose own cards and public state, not the opponent's private cards.
+
+The selected corrected roots comprise uncapped (10), capped (13), linear (6), merged (7), polarized (11), value-heavy (8), bluff-heavy (5), and equilibrium-like (7) families. Their stack anchors contain 17, 18, 14, and 18 roots at 20, 60, 100, and 150 BB, respectively. Restricted-exact lanes use 256 terminal iterations and four private combinations per player. Approximate budgets permit tiers 16 through 128 in increments of 16; qualification may stop a lane before its requested budget.
+
+The 14 behavioral evaluation families are balanced control, uniform legal, tight/loose passive, tight/loose aggressive, overfold, underfold, overcall, underbluff, overbluff, small-size-heavy, large-size-heavy, and jam-heavy. Safe controls are uniform legal, fold/call control, and low-variance control. Four panels, both seat assignments, and 15 candidate-member pairings test a different dimension from private-card range coverage. Exact best-response checks apply only to the restricted exact trees; approximate-root checks do not establish unrestricted exploitability.
+

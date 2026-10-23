@@ -1,0 +1,29 @@
+{
+  "schema_version": "stage6_decision_feature_role_manifest_v1",
+  "decision_columns": [
+    "row_id", "game_id", "hand_id", "decision_id", "decision_utc", "decision_order", "actor_id", "street",
+    "board_texture_present", "board_card_count", "board_high_card_value", "board_pair_level", "board_is_paired", "board_is_two_tone", "board_is_monotone", "board_connectedness_score",
+    "active_opponent_canonical_player_ids_before", "active_opponent_count_before", "sequence_context_quality",
+    "street_action_count_before", "street_aggressive_action_count_before", "street_call_count_before", "street_check_count_before", "street_fold_count_before", "street_prior_actor_action_count", "street_prior_actor_bet_raise_count", "street_last_aggressor_is_actor",
+    "facing_bet_or_raise", "check_raise_opportunity", "facing_cbet", "facing_donk_lead", "missed_cbet_probe_opportunity", "delayed_cbet_opportunity", "turn_barrel_opportunity", "river_barrel_opportunity",
+    "preflop_limper_count_before", "preflop_caller_count_before", "preflop_raise_count_before", "preflop_prior_entry_count_before", "preflop_facing_open_raise", "preflop_facing_three_bet_or_more", "preflop_squeeze_opportunity", "preflop_limp_opportunity", "preflop_actor_has_limped_before", "preflop_actor_has_called_before", "preflop_actor_has_raised_before",
+    "seat", "effective_stack_before_bb", "spr_before", "active_player_count_before", "players_with_chips_before",
+    "action_label", "legal_fold", "legal_check", "legal_call", "legal_bet", "legal_raise", "legal_all_in", "amount_to_call_bb", "pot_before_bb", "actor_committed_before_bb", "actor_committed_after_bb", "actor_stack_before_bb", "legal_min_bet_to_bb", "legal_min_raise_to_bb", "legal_max_bet_raise_to_bb", "action_to_bb", "short_all_in_call",
+    "feature_cutoff_utc", "profile_snapshot_id", "profile_snapshot_cutoff_utc", "profile_source_max_event_utc", "actor_profile_status", "future_reveal_used", "post_decision_outcome_used", "private_card_features_used", "private_card_visibility_utc", "private_card_source"
+  ],
+  "model_feature_columns": [
+    "street", "board_texture_present", "board_card_count", "board_high_card_value", "board_pair_level", "board_is_paired", "board_is_two_tone", "board_is_monotone", "board_connectedness_score", "active_opponent_count_before", "sequence_context_quality",
+    "street_action_count_before", "street_aggressive_action_count_before", "street_call_count_before", "street_check_count_before", "street_fold_count_before", "street_prior_actor_action_count", "street_prior_actor_bet_raise_count", "street_last_aggressor_is_actor",
+    "facing_bet_or_raise", "check_raise_opportunity", "facing_cbet", "facing_donk_lead", "missed_cbet_probe_opportunity", "delayed_cbet_opportunity", "turn_barrel_opportunity", "river_barrel_opportunity",
+    "preflop_limper_count_before", "preflop_caller_count_before", "preflop_raise_count_before", "preflop_prior_entry_count_before", "preflop_facing_open_raise", "preflop_facing_three_bet_or_more", "preflop_squeeze_opportunity", "preflop_limp_opportunity", "preflop_actor_has_limped_before", "preflop_actor_has_called_before", "preflop_actor_has_raised_before",
+    "seat", "effective_stack_before_bb", "spr_before", "active_player_count_before", "players_with_chips_before",
+    "legal_fold", "legal_check", "legal_call", "legal_bet", "legal_raise", "legal_all_in", "amount_to_call_bb", "pot_before_bb", "actor_committed_before_bb", "actor_stack_before_bb", "legal_min_bet_to_bb", "legal_min_raise_to_bb", "legal_max_bet_raise_to_bb", "short_all_in_call"
+  ],
+  "target_columns": ["action_label", "action_to_bb"],
+  "identity_columns": ["row_id", "game_id", "hand_id", "decision_id", "decision_order", "actor_id"],
+  "profile_join_columns": ["actor_id", "profile_snapshot_id", "profile_snapshot_cutoff_utc", "profile_source_max_event_utc", "actor_profile_status"],
+  "prohibited_model_feature_columns": [
+    "action_label", "action_to_bb", "row_id", "game_id", "hand_id", "decision_id", "decision_order", "actor_id", "decision_utc", "feature_cutoff_utc", "profile_snapshot_id", "profile_snapshot_cutoff_utc", "profile_source_max_event_utc", "actor_profile_status", "active_opponent_canonical_player_ids_before", "actor_committed_after_bb", "future_reveal_used", "post_decision_outcome_used", "private_card_features_used", "private_card_visibility_utc", "private_card_source"
+  ],
+  "self_sha256": "232d962b6977d7302fbca3fe730eab0711a343e58670e09c607ee05bbeb422c7"
+}

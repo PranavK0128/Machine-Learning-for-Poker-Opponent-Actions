@@ -1,0 +1,36 @@
+{
+  "members": [
+    {
+      "path": "Assistant Qualified/Assistant Code/runtime_assets/stage6_assistant_testing_closure_manifest.json",
+      "bytes": 15569,
+      "sha256": "9fa2e2503c58057031263e0d6e7cfff6594466a8a85b6b2853cd92505996030d",
+      "reason": "private completed history / identity-bearing diagnostics / sealed closure"
+    },
+    {
+      "path": "Assistant Qualified/Assistant Code/runtime_assets/stage6_assistant_testing_completed_history.parquet",
+      "bytes": 29446944,
+      "sha256": "17e08954671a5b04348adc6fc0b555a697dcafd0d902e32ec043d0d61371400a",
+      "reason": "private completed history / identity-bearing diagnostics / sealed closure"
+    },
+    {
+      "path": "Assistant Qualified/Assistant Code/runtime_assets/stage6_empirical_learned_diagnostic_registry_v2.json",
+      "bytes": 902,
+      "sha256": "a0565a07e1fcf6d39889b01228a4bf7146a207b57e723a2203d6329fb7801e44",
+      "reason": "private completed history / identity-bearing diagnostics / sealed closure"
+    },
+    {
+      "path": "Assistant Qualified/Assistant Code/runtime_assets/stage7_empirical_range_response_r2/identity_mapping.json",
+      "bytes": 109521,
+      "sha256": "1f620414eb9749540b80e36f7da243d57154d5b462d72afd3d2ba5a8cc670bf5",
+      "reason": "private completed history / identity-bearing diagnostics / sealed closure"
+    },
+    {
+      "path": "Assistant Qualified/Assistant Code/runtime_assets/stage7_empirical_range_response_r2/range_response_artifact.json",
+      "bytes": 93849422,
+      "sha256": "1f80f49dada39ecc827757b3f654b7950b2e00ef51882da54fd3109400c5b73e",
+      "reason": "private completed history / identity-bearing diagnostics / sealed closure"
+    }
+  ],
+  "public_distribution": false,
+  "required_for": "exact historical Testing worker and learned range diagnostics; main compiled policy is separate"
+}
