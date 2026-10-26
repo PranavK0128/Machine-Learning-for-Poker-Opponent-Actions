@@ -98,6 +98,6 @@ Compile `report/main.tex` with pdfLaTeX/BibTeX or Tectonic, or upload the conten
 
 ## Results in context
 
-The selected postflop predictor reaches 67.37% observed-action accuracy. Earlier Testing logs confirm that learned fusion changed some recommendations; later versions use those predictions diagnostically with zero strategy weight. The River policy incorporates 67 corrected roots with two CFR+ and two DCFR lanes each, plus 13 unmatched prior roots.
+The selected postflop predictor reaches 67.37% observed-action accuracy. Earlier Testing logs confirm that learned fusion changed some recommendations; later versions use those predictions diagnostically with zero strategy weight.
 
-The gameplay point estimate is +486.37 BB / 66.49 corrected hours = +7.31 BB/hour across 32 eligible games. The duration was supplied by the project author and is not independently verified; corrected game-level hours are unavailable, so no revised hourly-rate confidence interval is reported. This is not a causal estimate of the Assistant's benefit. Details and limitations are in the paper and numerical results.
+The gameplay point estimate is +486.37 BB / 66.49 corrected hours = +7.31 BB/hour across 32 eligible games.
