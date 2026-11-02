@@ -40,3 +40,9 @@ private_inputs/
 /Archived/
 /archives/
 /backups/
+
+# Keep the public repository limited to research methods and results
+/models/
+/src/assistant/
+/scripts/materialize_runtime.py
+/notebooks/packages/stage7_terminal_replay_v2_code_r7.zip

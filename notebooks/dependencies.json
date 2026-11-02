@@ -1291,10 +1291,10 @@
       "notebook": "notebooks/stage7/04_Stage7_Terminal_Value_Retrospective_V2_r7.ipynb",
       "archive_name": "stage7_terminal_replay_v2_code_r7.zip",
       "local_candidate_count": 3,
-      "distribution": "included_code_bundle",
-      "path": "notebooks/packages/stage7_terminal_replay_v2_code_r7.zip",
+      "distribution": "private_runtime_package_not_distributed",
       "sha256": "84c613dcaf6987aee968d6b2adfeedc5527ef5c2166d8f46c7a189a5e2cccb52",
-      "bytes": 68665
+      "bytes": 68665,
+      "note": "Contains private Assistant runtime modules; kept outside the public methodology repository."
     },
     {
       "notebook": "notebooks/stage7/05_Stage7_Hierarchical_Response_R1.ipynb",
