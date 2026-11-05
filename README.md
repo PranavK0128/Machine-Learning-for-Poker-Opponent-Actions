@@ -1,4 +1,4 @@
-# PokerNow Research Methods
+# Poker Research Methods
 
 Research on poker decision support using CFR+/DCFR policies, player statistics, and empirical opponent models. This repository contains the paper, training and evaluation methodology, notebooks, and aggregate results. Trained model weights and the live Assistant application are not distributed.
 
